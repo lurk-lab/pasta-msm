@@ -17,7 +17,8 @@ macro_rules! multi_scalar_mult {
     (
         $pasta:ident,
         $mult:ident,
-        $cuda_mult:ident
+        $cuda_mult:ident,
+        $msm_context:ident
     ) => {
         use pasta_curves::$pasta;
 
@@ -29,6 +30,111 @@ macro_rules! multi_scalar_mult {
                 scalars: *const $pasta::Scalar,
                 is_mont: bool,
             );
+        }
+
+        paste::paste! {
+            #[cfg(feature = "cuda")]
+            #[repr(C)]
+            #[derive(Debug, Clone)]
+            pub struct $msm_context {
+                context: *const std::ffi::c_void,
+            }
+
+            #[cfg(feature = "cuda")]
+            unsafe impl Send for $msm_context {}
+
+            #[cfg(feature = "cuda")]
+            unsafe impl Sync for $msm_context {}
+
+            #[cfg(feature = "cuda")]
+            impl Default for $msm_context {
+                fn default() -> Self {
+                    Self { context: std::ptr::null() }
+                }
+            }
+
+            #[cfg(feature = "cuda")]
+            // TODO: check for device-side memory leaks
+            impl Drop for $msm_context {
+                fn drop(&mut self) {
+                    extern "C" {
+                        fn [<drop_msm_context_ $pasta>](by_ref: &$msm_context);
+                    }
+                    unsafe { [<drop_msm_context_ $pasta>](std::mem::transmute::<&_, &_>(self)) };
+                    self.context = core::ptr::null();
+                }
+            }
+
+            #[cfg(feature = "cuda")]
+            pub fn [<$pasta _init>](
+                points: &[$pasta::Affine],
+                npoints: usize,
+            ) -> $msm_context {
+                unsafe { assert!(!CUDA_OFF && cuda_available(), "feature = \"cuda\" must be enabled") };
+                if npoints != points.len() && npoints < 1 << 16 {
+                    panic!("length mismatch or less than 10**16")
+                }
+                extern "C" {
+                    fn [<cuda_pippenger_ $pasta _init>](
+                        points: *const pallas::Affine,
+                        npoints: usize,
+                        d_points: &mut $msm_context,
+                        is_mont: bool,
+                    ) -> cuda::Error;
+
+                }
+
+                let mut ret = $msm_context::default();
+                let err = unsafe {
+                    [<cuda_pippenger_ $pasta _init>](
+                        points.as_ptr() as *const _,
+                        npoints,
+                        &mut ret,
+                        true,
+                    )
+                };
+                if err.code != 0 {
+                    panic!("{}", String::from(err));
+                }
+                ret
+            }
+
+            #[cfg(feature = "cuda")]
+            pub fn [<$pasta _with>](
+                context: &$msm_context,
+                npoints: usize,
+                scalars: &[$pasta::Scalar],
+            ) -> $pasta::Point {
+                unsafe { assert!(!CUDA_OFF && cuda_available(), "feature = \"cuda\" must be enabled") };
+                if npoints != scalars.len() && npoints < 1 << 16 {
+                    panic!("length mismatch or less than 10**16")
+                }
+                extern "C" {
+                    fn [<cuda_pippenger_ $pasta _with>](
+                        out: *mut $pasta::Point,
+                        context: &$msm_context,
+                        npoints: usize,
+                        scalars: *const $pasta::Scalar,
+                        is_mont: bool,
+                    ) -> cuda::Error;
+
+                }
+
+                let mut ret = $pasta::Point::default();
+                let err = unsafe {
+                    [<cuda_pippenger_ $pasta _with>](
+                        &mut ret,
+                        context,
+                        npoints,
+                        &scalars[0],
+                        true,
+                    )
+                };
+                if err.code != 0 {
+                    panic!("{}", String::from(err));
+                }
+                ret
+            }
         }
 
         pub fn $pasta(
@@ -67,7 +173,7 @@ macro_rules! multi_scalar_mult {
     };
 }
 
-multi_scalar_mult!(pallas, mult_pippenger_pallas, cuda_pippenger_pallas);
-multi_scalar_mult!(vesta, mult_pippenger_vesta, cuda_pippenger_vesta);
+multi_scalar_mult!(pallas, mult_pippenger_pallas, cuda_pippenger_pallas, MSMContextPallas);
+multi_scalar_mult!(vesta, mult_pippenger_vesta, cuda_pippenger_vesta, MSMContextVesta);
 
 include!("tests.rs");

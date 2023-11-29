@@ -66,6 +66,17 @@ fn criterion_benchmark(c: &mut Criterion) {
             })
         });
 
+        let context = pasta_msm::pallas_init(&points, npoints);
+
+        group.bench_function(
+            format!("preallocated 2**{} points", bench_npow),
+            |b| {
+                b.iter(|| {
+                    let _ = pasta_msm::pallas_with(&context, npoints, &scalars);
+                })
+            },
+        );
+
         group.finish();
     }
 }
