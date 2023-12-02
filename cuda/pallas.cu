@@ -16,12 +16,30 @@ typedef vesta_t scalar_t;
 
 #include <msm/pippenger.cuh>
 #include <spmvm/spmvm.cuh>
+#include <spmvm/double.cuh>
 
 #ifndef __CUDA_ARCH__
 
-extern "C" RustError spmvm_pallas(scalar_t *scalars, size_t nscalars)
+extern "C" RustError cuda_double_pallas(double_host_t<scalar_t> *csr, scalar_t *scalars, scalar_t *out)
 {
-    return double_scalars<scalar_t>(scalars, nscalars);
+    return double_scalars<scalar_t>(csr, scalars, out);
+}
+
+extern "C" RustError cuda_sparse_matrix_mul_pallas(spmvm_host_t<scalar_t> *csr, const scalar_t *scalars, scalar_t *out, size_t nthreads)
+{
+    return sparse_matrix_mul<scalar_t>(csr, scalars, out, nthreads);
+}
+
+extern "C" RustError cuda_sparse_matrix_witness_pallas(
+    spmvm_host_t<scalar_t> *csr, const witness_t<scalar_t> *witness, scalar_t *out, size_t nthreads)
+{
+    return sparse_matrix_witness<scalar_t>(csr, witness, out, nthreads);
+}
+
+extern "C" RustError cuda_sparse_matrix_witness_pallas_cpu(
+    spmvm_host_t<scalar_t> *csr, const witness_t<scalar_t> *witness, scalar_t *out)
+{
+    return sparse_matrix_witness_cpu<scalar_t>(csr, witness, out);
 }
 
 extern "C" void drop_msm_context_pallas(msm_context_t<affine_t::mem_t> &ref)
