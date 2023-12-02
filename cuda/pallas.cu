@@ -15,10 +15,17 @@ typedef bucket_t::affine_t affine_t;
 typedef vesta_t scalar_t;
 
 #include <msm/pippenger.cuh>
+#include <spmvm/spmvm.cuh>
 
 #ifndef __CUDA_ARCH__
 
-extern "C" void drop_msm_context_pallas(msm_context_t<affine_t::mem_t> &ref) {
+extern "C" RustError spmvm_pallas(scalar_t *scalars, size_t nscalars)
+{
+    return double_scalars<scalar_t>(scalars, nscalars);
+}
+
+extern "C" void drop_msm_context_pallas(msm_context_t<affine_t::mem_t> &ref)
+{
     CUDA_OK(cudaFree(ref.d_points));
 }
 
@@ -35,7 +42,7 @@ extern "C" RustError cuda_pippenger_pallas(point_t *out, const affine_t points[]
 }
 
 extern "C" RustError cuda_pippenger_pallas_with(point_t *out, msm_context_t<affine_t::mem_t> *msm_context, size_t npoints,
-                                                       const scalar_t scalars[])
+                                                const scalar_t scalars[])
 {
     return mult_pippenger_with<bucket_t, point_t, affine_t, scalar_t>(out, msm_context, npoints, scalars);
 }
