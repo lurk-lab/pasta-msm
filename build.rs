@@ -71,7 +71,7 @@ fn main() {
         let mut nvcc = cc::Build::new();
         nvcc.cuda(true);
         nvcc.flag("-arch=sm_80");
-        nvcc.flag("-gencode").flag("arch=compute_70,code=sm_70");
+        nvcc.flag("-gencode").flag("arch=compute_86,code=sm_86");
         nvcc.flag("-t0");
         #[cfg(not(target_env = "msvc"))]
         nvcc.flag("-Xcompiler").flag("-Wno-unused-function");
@@ -90,9 +90,9 @@ fn main() {
         nvcc.clone()
             .file("cuda/pallas.cu")
             .compile("pallas_msm_cuda");
-        nvcc.define("__MSM_SORT_DONT_IMPLEMENT__", None)
-            .file("cuda/vesta.cu")
-            .compile("vesta_msm_cuda");
+        // nvcc.define("__MSM_SORT_DONT_IMPLEMENT__", None)
+        //     .file("cuda/vesta.cu")
+        //     .compile("vesta_msm_cuda");
 
         println!("cargo:rerun-if-changed=cuda");
         println!("cargo:rerun-if-env-changed=CXXFLAGS");

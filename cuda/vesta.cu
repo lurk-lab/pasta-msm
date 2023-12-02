@@ -15,10 +15,22 @@ typedef bucket_t::affine_t affine_t;
 typedef pallas_t scalar_t;
 
 #include <msm/pippenger.cuh>
+#include <spmvm/spmvm.cuh>
 
 #ifndef __CUDA_ARCH__
-extern "C"
-RustError cuda_pippenger_vesta(point_t *out, const affine_t points[], size_t npoints,
-                                              const scalar_t scalars[])
-{   return mult_pippenger<bucket_t>(out, points, npoints, scalars);   }
+extern "C" RustError cuda_pippenger_vesta(point_t *out, const affine_t points[], size_t npoints,
+                                          const scalar_t scalars[])
+{
+    return mult_pippenger<bucket_t>(out, points, npoints, scalars);
+}
+
+extern "C" RustError spmvm_vesta(scalar_t out[], const csr_t_host<scalar_t> *csr, const scalar_t scalars[])
+{
+    return spmvm<scalar_t>(out, csr, scalars);
+}
+
+extern "C" RustError spmvm_cpu_vesta(scalar_t out[], const csr_t_host<scalar_t> *csr, const scalar_t scalars[])
+{
+    return spmvm_cpu<scalar_t>(out, csr, scalars);
+}
 #endif
