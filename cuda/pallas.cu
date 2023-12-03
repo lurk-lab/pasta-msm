@@ -25,15 +25,32 @@ extern "C" RustError cuda_double_pallas(double_host_t<scalar_t> *csr, scalar_t *
     return double_scalars<scalar_t>(csr, scalars, out);
 }
 
+extern "C" void drop_spmvm_context_pallas(spmvm_context_t<scalar_t> &ref)
+{
+    drop_spmvm_context<scalar_t>(ref);
+}
+
 extern "C" RustError cuda_sparse_matrix_mul_pallas(spmvm_host_t<scalar_t> *csr, const scalar_t *scalars, scalar_t *out, size_t nthreads)
 {
     return sparse_matrix_mul<scalar_t>(csr, scalars, out, nthreads);
+}
+
+extern "C" RustError cuda_sparse_matrix_witness_init_pallas(
+    spmvm_host_t<scalar_t> *csr, spmvm_context_t<scalar_t> *context)
+{
+    return sparse_matrix_witness_init<scalar_t>(csr, context);
 }
 
 extern "C" RustError cuda_sparse_matrix_witness_pallas(
     spmvm_host_t<scalar_t> *csr, const witness_t<scalar_t> *witness, scalar_t *out, size_t nthreads)
 {
     return sparse_matrix_witness<scalar_t>(csr, witness, out, nthreads);
+}
+
+extern "C" RustError cuda_sparse_matrix_witness_with_pallas(
+    spmvm_context_t<scalar_t> *context, const witness_t<scalar_t> *witness, scalar_t *out, size_t nthreads)
+{
+    return sparse_matrix_witness_with<scalar_t>(context, witness, out, nthreads);
 }
 
 extern "C" RustError cuda_sparse_matrix_witness_pallas_cpu(

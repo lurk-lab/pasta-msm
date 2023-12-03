@@ -7,7 +7,7 @@ use std::time::Instant;
 
 use pasta_curves::{group::ff::{PrimeField, Field}, pallas};
 use pasta_msm::{
-    spmvm::{sparse_matrix_mul_pallas, CudaSparseMatrix, CudaWitness, sparse_matrix_witness_pallas},
+    spmvm::{CudaSparseMatrix, CudaWitness, pallas::{sparse_matrix_witness_with_pallas, sparse_matrix_witness_init_pallas}},
     utils::SparseMatrix,
 };
 use rand::Rng;
@@ -53,12 +53,12 @@ pub fn generate_scalars<F: PrimeField>(len: usize) -> Vec<F> {
 /// cargo run --release --example spmvm
 fn main() {
     let npow: usize = std::env::var("NPOW")
-        .unwrap_or("17".to_string())
+        .unwrap_or("20".to_string())
         .parse()
         .unwrap();
     let n = 1usize << npow;
     let nthreads: usize = std::env::var("NTHREADS")
-        .unwrap_or("128".to_string())
+        .unwrap_or("256".to_string())
         .parse()
         .unwrap();
 
@@ -73,10 +73,11 @@ fn main() {
     let res = csr.multiply_vec(&scalars);
     println!("cpu took: {:?}", start.elapsed());
 
+    let spmvm_context = sparse_matrix_witness_init_pallas(&cuda_csr);
     let witness = CudaWitness::new(&W, &pallas::Scalar::ONE, &U);
     let mut cuda_res = vec![pallas::Scalar::ONE; cuda_csr.num_rows];
     let start = Instant::now();
-    sparse_matrix_witness_pallas(&cuda_csr, &witness, &mut cuda_res, nthreads);
+    sparse_matrix_witness_with_pallas(&spmvm_context, &witness, &mut cuda_res, nthreads);
     println!("gpu took: {:?}", start.elapsed());
 
     assert_eq!(res, cuda_res);

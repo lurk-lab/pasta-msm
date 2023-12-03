@@ -33,6 +33,13 @@ sppark = { git = "https://github.com/lurk-lab/sppark.git", branch = "pushing-the
 pasta_curves = { git = "https://github.com/lurk-lab/pasta_curves", branch = "dev", version = ">=0.3.1, <=0.5", features = ["repr-c"] }
 paste = "1.0.14"
 rayon = "1.5"
+abomonation = "0.7.3"
+abomonation_derive = { version = "0.1.0", package = "abomonation_derive_ng" }
+home = "0.5.5"
+num = "0.4.1"
+rand = "^0"
+rand_chacha = "^0"
+plotters = "0.3.5"
 
 [build-dependencies]
 cc = "^1.0.70"
@@ -40,9 +47,6 @@ which = "^4.0"
 
 [dev-dependencies]
 criterion = { version = "0.3", features = [ "html_reports" ] }
-rand = "^0"
-rand_chacha = "^0"
-rayon = "1.5"
 
 [[bench]]
 name = "msm"

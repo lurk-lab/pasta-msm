@@ -4,15 +4,23 @@
 //! Specifically, we implement sparse matrix / dense vector multiplication
 //! to compute the `A z`, `B z`, and `C z` in Nova.
 
-use pasta_curves::group::ff::PrimeField;
+use std::{sync::atomic::{AtomicUsize, Ordering}, mem::transmute, cell::UnsafeCell};
+
+use abomonation_derive::Abomonation;
+use abomonation::Abomonation;
+use pasta_curves::{group::{ff::{PrimeField, Field}, Curve}, arithmetic::{CurveAffine, CurveExt}, pallas};
+use rand::{SeedableRng, RngCore};
+use rand_chacha::ChaCha20Rng;
 use rayon::prelude::*;
 
 
 /// CSR format sparse matrix, We follow the names used by scipy.
 /// Detailed explanation here: <https://stackoverflow.com/questions/52299420/scipy-csr-matrix-understand-indptr>
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq, Abomonation)]
+#[abomonation_bounds(where <F as PrimeField>::Repr: Abomonation)]
 pub struct SparseMatrix<F: PrimeField> {
   /// all non-zero values in the matrix
+  #[abomonate_with(Vec<F::Repr>)]
   pub data: Vec<F>,
   /// column indices
   pub indices: Vec<usize>,
@@ -171,4 +179,88 @@ impl<'a, F: PrimeField> Iterator for Iter<'a, F> {
 
     Some(curr_item)
   }
+}
+
+/// A type that holds commitment generators
+#[derive(Clone, Debug, PartialEq, Eq, Abomonation)]
+#[abomonation_omit_bounds]
+pub struct CommitmentKey<C: CurveAffine>
+{
+  #[abomonate_with(Vec<[u64; 8]>)] // this is a hack; we just assume the size of the element.
+  pub ck: Vec<C>,
+}
+
+pub fn gen_points(npoints: usize) -> Vec<pallas::Affine> {
+  let mut ret: Vec<pallas::Affine> = Vec::with_capacity(npoints);
+  unsafe { ret.set_len(npoints) };
+
+  let mut rnd: Vec<u8> = Vec::with_capacity(32 * npoints);
+  unsafe { rnd.set_len(32 * npoints) };
+  ChaCha20Rng::from_entropy().fill_bytes(&mut rnd);
+
+  let n_workers = rayon::current_num_threads();
+  let work = AtomicUsize::new(0);
+  rayon::scope(|s| {
+      for _ in 0..n_workers {
+          s.spawn(|_| {
+          let hash = pallas::Point::hash_to_curve("foobar");
+
+          let mut stride = 1024;
+          let mut tmp: Vec<pallas::Point> = Vec::with_capacity(stride);
+          unsafe { tmp.set_len(stride) };
+
+          loop {
+              let work = work.fetch_add(stride, Ordering::Relaxed);
+              if work >= npoints {
+                  break;
+              }
+              if work + stride > npoints {
+                  stride = npoints - work;
+                  unsafe { tmp.set_len(stride) };
+              }
+              for i in 0..stride {
+                  let off = (work + i) * 32;
+                  tmp[i] = hash(&rnd[off..off + 32]);
+              }
+              #[allow(mutable_transmutes)]
+              pallas::Point::batch_normalize(&tmp, unsafe {
+                  transmute::<&[pallas::Affine], &mut [pallas::Affine]>(
+                      &ret[work..work + stride],
+                  )
+              });
+          }
+      })
+      }
+  });
+
+  ret
+}
+
+fn as_mut<T>(x: &T) -> &mut T {
+  unsafe { &mut *UnsafeCell::raw_get(x as *const _ as *const _) }
+}
+
+pub fn gen_scalars(npoints: usize) -> Vec<pallas::Scalar> {
+  let mut ret: Vec<pallas::Scalar> = Vec::with_capacity(npoints);
+  unsafe { ret.set_len(npoints) };
+
+  let n_workers = rayon::current_num_threads();
+  let work = AtomicUsize::new(0);
+
+  rayon::scope(|s| {
+      for _ in 0..n_workers {
+          s.spawn(|_| {
+              let mut rng = ChaCha20Rng::from_entropy();
+              loop {
+                  let work = work.fetch_add(1, Ordering::Relaxed);
+                  if work >= npoints {
+                      break;
+                  }
+                  *as_mut(&ret[work]) = pallas::Scalar::random(&mut rng);
+              }
+          })
+      }
+  });
+
+  ret
 }

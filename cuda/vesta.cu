@@ -19,13 +19,20 @@ typedef pallas_t scalar_t;
 
 #ifndef __CUDA_ARCH__
 
-extern "C" void drop_msm_context_vesta(msm_context_t<affine_t::mem_t> &ref) {
-    CUDA_OK(cudaFree(ref.d_points));
+extern "C" void drop_spmvm_context_vesta(spmvm_context_t<scalar_t> &ref)
+{
+    drop_spmvm_context<scalar_t>(ref);
 }
 
 extern "C" RustError cuda_sparse_matrix_mul_vesta(spmvm_host_t<scalar_t> *csr, const scalar_t *scalars, scalar_t *out, size_t nthreads)
 {
     return sparse_matrix_mul<scalar_t>(csr, scalars, out, nthreads);
+}
+
+extern "C" RustError cuda_sparse_matrix_witness_init_vesta(
+    spmvm_host_t<scalar_t> *csr, spmvm_context_t<scalar_t> *context)
+{
+    return sparse_matrix_witness_init<scalar_t>(csr, context);
 }
 
 extern "C" RustError cuda_sparse_matrix_witness_vesta(
@@ -34,10 +41,21 @@ extern "C" RustError cuda_sparse_matrix_witness_vesta(
     return sparse_matrix_witness<scalar_t>(csr, witness, out, nthreads);
 }
 
+extern "C" RustError cuda_sparse_matrix_witness_with_vesta(
+    spmvm_context_t<scalar_t> *context, const witness_t<scalar_t> *witness, scalar_t *out, size_t nthreads)
+{
+    return sparse_matrix_witness_with<scalar_t>(context, witness, out, nthreads);
+}
+
 extern "C" RustError cuda_sparse_matrix_witness_vesta_cpu(
     spmvm_host_t<scalar_t> *csr, const witness_t<scalar_t> *witness, scalar_t *out)
 {
     return sparse_matrix_witness_cpu<scalar_t>(csr, witness, out);
+}
+
+extern "C" void drop_msm_context_vesta(msm_context_t<affine_t::mem_t> &ref)
+{
+    CUDA_OK(cudaFree(ref.d_points));
 }
 
 extern "C" RustError

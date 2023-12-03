@@ -11,8 +11,10 @@ use pasta_curves::{
 };
 use pasta_msm::{
     spmvm::{
-        sparse_matrix_mul_vesta, sparse_matrix_witness_vesta, CudaSparseMatrix,
-        CudaWitness, sparse_matrix_witness_vesta_cpu,
+        vesta::{
+            sparse_matrix_witness_init_vesta, sparse_matrix_witness_with_vesta, sparse_matrix_witness_vesta,
+        },
+        CudaSparseMatrix, CudaWitness,
     },
     utils::SparseMatrix,
 };
@@ -59,43 +61,42 @@ pub fn generate_scalars<F: PrimeField>(len: usize) -> Vec<F> {
 /// cargo run --release --example spmvm
 fn main() {
     let npow: usize = std::env::var("NPOW")
-        .unwrap_or("3".to_string())
+        .unwrap_or("20".to_string())
         .parse()
         .unwrap();
-    let n = 1usize << npow;
+    let n = 1usize << (npow + 1);
     let nthreads: usize = std::env::var("NTHREADS")
-        .unwrap_or("1".to_string())
+        .unwrap_or("128".to_string())
         .parse()
         .unwrap();
 
-    let csr_A = generate_csr(n, n);
-    let cuda_csr_A =
-        CudaSparseMatrix::new(&csr_A.data, &csr_A.indices, &csr_A.indptr, n, n);
-    let csr_B = generate_csr(n, n);
-    let cuda_csr_B =
-        CudaSparseMatrix::new(&csr_B.data, &csr_B.indices, &csr_B.indptr, n, n);
-
-    // let W = generate_scalars(n - 10);
-    // let U = generate_scalars(9);
-    // let scalars = [W.clone(), vec![vesta::Scalar::ONE], U.clone()].concat();
-    let W = vec![vesta::Scalar::ZERO; n - 3];
-    let U = vec![vesta::Scalar::ZERO; 2];
-    let scalars = vec![vesta::Scalar::ZERO; n];
+    let csr = generate_csr(n, n);
+    let cuda_csr =
+        CudaSparseMatrix::new(&csr.data, &csr.indices, &csr.indptr, n, n);
+    let W = generate_scalars(n - 10);
+    let U = generate_scalars(9);
+    let scalars = [W.clone(), vec![vesta::Scalar::ONE], U.clone()].concat();
 
     let start = Instant::now();
-    let res_A = csr_A.multiply_vec(&scalars);
-    let res_B = csr_B.multiply_vec(&scalars);
-    println!("native took: {:?}", start.elapsed());
+    let res = csr.multiply_vec(&scalars);
+    println!("cpu took: {:?}", start.elapsed());
 
-    let witness = CudaWitness::new(&W, &vesta::Scalar::ZERO, &U);
-    let mut cuda_res_A = vec![vesta::Scalar::ZERO; cuda_csr_A.num_rows];
-    let mut cuda_res_B = vec![vesta::Scalar::ZERO; cuda_csr_B.num_rows];
+    let witness = CudaWitness::new(&W, &vesta::Scalar::ONE, &U);
+    let mut cuda_res = vec![vesta::Scalar::ONE; cuda_csr.num_rows];
     let start = Instant::now();
-    sparse_matrix_witness_vesta(&cuda_csr_A, &witness, &mut cuda_res_A, nthreads);
-    sparse_matrix_witness_vesta(&cuda_csr_B, &witness, &mut cuda_res_B, nthreads);
-    println!("ffi took: {:?}", start.elapsed());
+    sparse_matrix_witness_vesta(&cuda_csr, &witness, &mut cuda_res, nthreads);
+    println!("gpu took: {:?}", start.elapsed());
 
-    assert_eq!(res_A, cuda_res_A);
-    assert!(res_B == cuda_res_B);
+    let spmvm_context = sparse_matrix_witness_init_vesta(&cuda_csr);
+    let start = Instant::now();
+    sparse_matrix_witness_with_vesta(
+        &spmvm_context,
+        &witness,
+        &mut cuda_res,
+        nthreads,
+    );
+    println!("preallocated gpu took: {:?}", start.elapsed());
+
+    assert_eq!(res, cuda_res);
     println!("success!");
 }

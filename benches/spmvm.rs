@@ -59,13 +59,14 @@ fn criterion_benchmark(c: &mut Criterion) {
         .unwrap_or("17".to_string())
         .parse()
         .unwrap();
-    let n: usize = 1 << bench_npow;
+    let n = 1usize << (bench_npow + 1);
+    let m = 1usize << bench_npow;
 
     println!("generating random matrix and scalars, just hang on...");
-    let csr = generate_csr(n, n);
+    let csr = generate_csr(n, m);
     let cuda_csr =
-        CudaSparseMatrix::new(&csr.data, &csr.indices, &csr.indptr, n, n);
-    let W = crate::tests::gen_scalars(n - 10);
+        CudaSparseMatrix::new(&csr.data, &csr.indices, &csr.indptr, n, m);
+    let W = crate::tests::gen_scalars(m - 10);
     let U = crate::tests::gen_scalars(9);
     let witness = CudaWitness::new(&W, &pallas::Scalar::ONE, &U);
     let scalars = [W.clone(), vec![pallas::Scalar::ONE], U.clone()].concat();
