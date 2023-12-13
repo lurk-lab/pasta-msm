@@ -16,14 +16,8 @@ typedef vesta_t scalar_t;
 
 #include <msm/pippenger.cuh>
 #include <spmvm/spmvm.cuh>
-#include <spmvm/double.cuh>
 
 #ifndef __CUDA_ARCH__
-
-extern "C" RustError cuda_double_pallas(double_host_t<scalar_t> *csr, scalar_t *scalars, scalar_t *out)
-{
-    return double_scalars<scalar_t>(csr, scalars, out);
-}
 
 extern "C" void drop_spmvm_context_pallas(spmvm_context_t<scalar_t> &ref)
 {
