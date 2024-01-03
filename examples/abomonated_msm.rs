@@ -110,8 +110,6 @@ fn main() {
     //     }
     // }
 
-    let scalars = gen_scalars(npoints);
-
     let mut total = BigInt::zero();
     let mut dist: HashMap<BigInt, usize> = HashMap::new();
     // let mut small_count = vec![0; 10];
@@ -139,6 +137,9 @@ fn main() {
 
     plot_scalars(&witness_primary, "plots/witness_primary.png").unwrap();
 
+    // let scalars = gen_scalars(npoints);
+    let scalars = vec![pallas::Scalar::ZERO; npoints];
+
     let mut total = BigInt::zero();
     for i in 0..npoints {
         let wi = format!("{:?}", scalars[i]);
@@ -148,8 +149,10 @@ fn main() {
     let average = total / npoints;
     println!("avg: {:?}", average);
 
+    let context = pasta_msm::pallas_init(&ck_primary.ck[..npoints], npoints);
+
     let start = Instant::now();
-    let res = pasta_msm::pallas(&ck_primary.ck[..npoints], &scalars);
+    let res = pasta_msm::pallas_with(&context, npoints, &scalars);
     println!("time: {:?}", start.elapsed());
     println!("res: {:?}", res);
 

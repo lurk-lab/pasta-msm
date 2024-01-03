@@ -11,7 +11,7 @@ extern crate semolina;
 sppark::cuda_error!();
 #[cfg(feature = "cuda")]
 extern "C" {
-    fn cuda_available() -> bool;
+    pub fn cuda_available() -> bool;
 }
 #[cfg(feature = "cuda")]
 pub static mut CUDA_OFF: bool = false;
@@ -106,6 +106,7 @@ macro_rules! multi_scalar_mult {
             pub fn [<$pasta _with>](
                 context: &$msm_context,
                 npoints: usize,
+                nnz: usize,
                 scalars: &[$pasta::Scalar],
             ) -> $pasta::Point {
                 unsafe { assert!(!CUDA_OFF && cuda_available(), "feature = \"cuda\" must be enabled") };
@@ -117,6 +118,7 @@ macro_rules! multi_scalar_mult {
                         out: *mut $pasta::Point,
                         context: &$msm_context,
                         npoints: usize,
+                        nnz: usize,
                         scalars: *const $pasta::Scalar,
                         is_mont: bool,
                     ) -> cuda::Error;
@@ -129,6 +131,7 @@ macro_rules! multi_scalar_mult {
                         &mut ret,
                         context,
                         npoints,
+                        nnz,
                         &scalars[0],
                         true,
                     )
@@ -143,6 +146,7 @@ macro_rules! multi_scalar_mult {
         pub fn $pasta(
             points: &[$pasta::Affine],
             scalars: &[$pasta::Scalar],
+            nnz: usize,
         ) -> $pasta::Point {
             let npoints = points.len();
             if npoints != scalars.len() {
@@ -156,13 +160,14 @@ macro_rules! multi_scalar_mult {
                         out: *mut $pasta::Point,
                         points: *const $pasta::Affine,
                         npoints: usize,
+                        nnz: usize,
                         scalars: *const $pasta::Scalar,
                         is_mont: bool,
                     ) -> cuda::Error;
                 }
                 let mut ret = $pasta::Point::default();
                 let err = unsafe {
-                    $cuda_mult(&mut ret, &points[0], npoints, &scalars[0], true)
+                    $cuda_mult(&mut ret, &points[0], npoints, nnz, &scalars[0], true)
                 };
                 if err.code != 0 {
                     panic!("{}", String::from(err));
