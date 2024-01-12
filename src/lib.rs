@@ -184,4 +184,28 @@ macro_rules! multi_scalar_mult {
 multi_scalar_mult!(pallas, mult_pippenger_pallas, cuda_pippenger_pallas, MSMContextPallas);
 multi_scalar_mult!(vesta, mult_pippenger_vesta, cuda_pippenger_vesta, MSMContextVesta);
 
-include!("tests.rs");
+#[cfg(test)]
+mod tests {
+    use pasta_curves::group::Curve;
+
+    use crate::utils::{gen_points, gen_scalars, naive_multiscalar_mul};
+
+    #[test]
+    fn it_works() {
+        #[cfg(not(debug_assertions))]
+        const NPOINTS: usize = 128 * 1024;
+        #[cfg(debug_assertions)]
+        const NPOINTS: usize = 8 * 1024;
+
+        let points = gen_points(NPOINTS);
+        let scalars = gen_scalars(NPOINTS);
+
+        let naive = naive_multiscalar_mul(&points, &scalars);
+        println!("{:?}", naive);
+
+        let ret = crate::pallas(&points, &scalars, NPOINTS).to_affine();
+        println!("{:?}", ret);
+
+        assert_eq!(ret, naive);
+    }
+}

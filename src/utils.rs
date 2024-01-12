@@ -4,12 +4,12 @@
 //! Specifically, we implement sparse matrix / dense vector multiplication
 //! to compute the `A z`, `B z`, and `C z` in Nova.
 
-use std::{sync::atomic::{AtomicUsize, Ordering}, mem::transmute, cell::UnsafeCell};
+use std::{sync::{atomic::{AtomicUsize, Ordering}, Arc, Mutex}, mem::transmute};
 
 use abomonation_derive::Abomonation;
 use abomonation::Abomonation;
 use pasta_curves::{group::{ff::{PrimeField, Field}, Curve}, arithmetic::{CurveAffine, CurveExt}, pallas};
-use rand::{SeedableRng, RngCore};
+use rand::{SeedableRng, RngCore, Rng, seq::SliceRandom};
 use rand_chacha::ChaCha20Rng;
 use rayon::prelude::*;
 
@@ -191,11 +191,9 @@ pub struct CommitmentKey<C: CurveAffine>
 }
 
 pub fn gen_points(npoints: usize) -> Vec<pallas::Affine> {
-  let mut ret: Vec<pallas::Affine> = Vec::with_capacity(npoints);
-  unsafe { ret.set_len(npoints) };
+  let ret = vec![pallas::Affine::default(); npoints];
 
-  let mut rnd: Vec<u8> = Vec::with_capacity(32 * npoints);
-  unsafe { rnd.set_len(32 * npoints) };
+  let mut rnd = vec![0u8; 32 * npoints];
   ChaCha20Rng::from_entropy().fill_bytes(&mut rnd);
 
   let n_workers = rayon::current_num_threads();
@@ -203,64 +201,139 @@ pub fn gen_points(npoints: usize) -> Vec<pallas::Affine> {
   rayon::scope(|s| {
       for _ in 0..n_workers {
           s.spawn(|_| {
-          let hash = pallas::Point::hash_to_curve("foobar");
+              let hash = pallas::Point::hash_to_curve("foobar");
 
-          let mut stride = 1024;
-          let mut tmp: Vec<pallas::Point> = Vec::with_capacity(stride);
-          unsafe { tmp.set_len(stride) };
+              let mut stride = 1024;
+              let mut tmp = vec![pallas::Point::default(); stride];
 
-          loop {
-              let work = work.fetch_add(stride, Ordering::Relaxed);
-              if work >= npoints {
-                  break;
-              }
-              if work + stride > npoints {
-                  stride = npoints - work;
-                  unsafe { tmp.set_len(stride) };
-              }
-              for i in 0..stride {
-                  let off = (work + i) * 32;
-                  tmp[i] = hash(&rnd[off..off + 32]);
-              }
-              #[allow(mutable_transmutes)]
-              pallas::Point::batch_normalize(&tmp, unsafe {
-                  transmute::<&[pallas::Affine], &mut [pallas::Affine]>(
-                      &ret[work..work + stride],
-                  )
-              });
-          }
-      })
-      }
-  });
-
-  ret
-}
-
-fn as_mut<T>(x: &T) -> &mut T {
-  unsafe { &mut *UnsafeCell::raw_get(x as *const _ as *const _) }
-}
-
-pub fn gen_scalars(npoints: usize) -> Vec<pallas::Scalar> {
-  let mut ret: Vec<pallas::Scalar> = Vec::with_capacity(npoints);
-  unsafe { ret.set_len(npoints) };
-
-  let n_workers = rayon::current_num_threads();
-  let work = AtomicUsize::new(0);
-
-  rayon::scope(|s| {
-      for _ in 0..n_workers {
-          s.spawn(|_| {
-              let mut rng = ChaCha20Rng::from_entropy();
               loop {
-                  let work = work.fetch_add(1, Ordering::Relaxed);
+                  let work = work.fetch_add(stride, Ordering::Relaxed);
                   if work >= npoints {
                       break;
                   }
-                  *as_mut(&ret[work]) = pallas::Scalar::random(&mut rng);
+                  if work + stride > npoints {
+                      stride = npoints - work;
+                      unsafe { tmp.set_len(stride) };
+                  }
+                  for (i, point) in
+                      tmp.iter_mut().enumerate().take(stride)
+                  {
+                      let off = (work + i) * 32;
+                      *point = hash(&rnd[off..off + 32]);
+                  }
+                  #[allow(mutable_transmutes)]
+                  pallas::Point::batch_normalize(&tmp, unsafe {
+                      transmute::<
+                          &[pallas::Affine],
+                          &mut [pallas::Affine],
+                      >(
+                          &ret[work..work + stride]
+                      )
+                  });
               }
           })
       }
   });
 
   ret
+}
+
+pub fn gen_scalars(npoints: usize) -> Vec<pallas::Scalar> {
+  let ret =
+      Arc::new(Mutex::new(vec![pallas::Scalar::default(); npoints]));
+
+  let n_workers = rayon::current_num_threads();
+  let work = Arc::new(AtomicUsize::new(0));
+
+  rayon::scope(|s| {
+      for _ in 0..n_workers {
+          let ret_clone = Arc::clone(&ret);
+          let work_clone = Arc::clone(&work);
+
+          s.spawn(move |_| {
+              let mut rng = ChaCha20Rng::from_entropy();
+              loop {
+                  let work = work_clone.fetch_add(1, Ordering::Relaxed);
+                  if work >= npoints {
+                      break;
+                  }
+                  let mut ret = ret_clone.lock().unwrap();
+                  ret[work] = pallas::Scalar::random(&mut rng);
+              }
+          });
+      }
+  });
+
+  Arc::try_unwrap(ret).unwrap().into_inner().unwrap()
+}
+
+/// which has ~20k over-represented values that occur ~300 times on average,
+/// but can go up to ~1000s.
+///
+/// Hence we do:
+/// - A few (<10) small values that occur at very high frequency,
+///   mostly to represent special values like 0,1
+/// - ~1k values that occur between 100-200 times
+/// - fill remaining length with random values
+pub fn generate_nonuniform_scalars(len: usize) -> Vec<pallas::Scalar> {
+
+  let mut rng = ChaCha20Rng::from_entropy();
+  let mut scalars = Vec::with_capacity(len);
+
+  // special values 200_000
+  for _ in 0..2_000_000 {
+      scalars.push(pallas::Scalar::zero());
+  }
+  for _ in 0..500_000 {
+      scalars.push(pallas::Scalar::one());
+  }
+
+  // high freq: 250 * 6000 = 1_500_000
+  let n_high_freq = 50;
+  let high_freq = (0..n_high_freq)
+      .map(|_| pallas::Scalar::random(&mut rng))
+      .collect::<Vec<_>>();
+
+  for val in high_freq {
+      let freq = 10000;
+      for _ in 0..freq {
+          scalars.push(val);
+      }
+  }
+
+  // low freq: 200 * 200 = 400_000
+  let n_low_freq = 1000;
+  let low_freq = (0..n_low_freq)
+      .map(|_| pallas::Scalar::random(&mut rng))
+      .collect::<Vec<_>>();
+
+  for val in low_freq {
+      let freq = 1000;
+      for _ in 0..freq {
+          scalars.push(val);
+      }
+  }
+
+  let n_rest = len - scalars.len();
+  for _ in 0..n_rest {
+      scalars.push(pallas::Scalar::random(&mut rng));
+  }
+
+  scalars.shuffle(&mut rng);
+
+  assert_eq!(scalars.len(), len);
+  scalars
+}
+
+pub fn naive_multiscalar_mul(
+  points: &[pallas::Affine],
+  scalars: &[pallas::Scalar],
+) -> pallas::Affine {
+  let ret: pallas::Point = points
+      .par_iter()
+      .zip_eq(scalars.par_iter())
+      .map(|(p, s)| p * s)
+      .sum();
+
+  ret.to_affine()
 }

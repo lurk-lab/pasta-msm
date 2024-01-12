@@ -64,7 +64,7 @@ fn read_abomonated<T: Abomonation + Clone>(name: String) -> std::io::Result<T> {
     use std::fs::OpenOptions;
     use std::io::BufReader;
 
-    let arecibo = home::home_dir().unwrap().join(".arecibo");
+    let arecibo = home::home_dir().unwrap().join(".arecibo_witness");
 
     let data = OpenOptions::new()
         .read(true)
@@ -87,74 +87,42 @@ fn main() {
         unsafe { pasta_msm::CUDA_OFF = false };
     }
 
-    let ck_primary =
-        read_abomonated::<CommitmentKey<pallas::Affine>>("ck_primary".into())
-            .unwrap();
-    let witness_primary = read_abomonated::<
-        Vec<<pallas::Scalar as PrimeField>::Repr>,
-    >("witness_primary".into())
-    .unwrap();
-    let mut witness_primary = unsafe {
-        std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_primary)
-    };
+    for i in 0..32 {
+        
+        let witness_i = read_abomonated::<
+            Vec<<pallas::Scalar as PrimeField>::Repr>,
+        >(i.to_string())
+        .unwrap();
+        let witness_i = unsafe {
+            std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_i)
+        };
 
-    let npoints = witness_primary.len();
-    println!("npoints: {}", npoints);
+        let witness_n = witness_i.len();
 
-    // println!("randomize");
-    // let mut rng = rand::thread_rng();
-    // for i in 0..npoints {
-    //     if rng.next_u32() % 3 != 0 || witness_primary[i].is_zero_vartime()
-    //     {
-    //         witness_primary[i] = pallas::Scalar::random(&mut rng);
-    //     }
-    // }
+        if witness_n < 1_000_000 {
+            continue;
+        }
 
-    let mut total = BigInt::zero();
-    let mut dist: HashMap<BigInt, usize> = HashMap::new();
-    // let mut small_count = vec![0; 10];
-    for i in 0..npoints {
-        let wi = format!("{:?}", witness_primary[i]);
-        let num = BigInt::from_str_radix(&wi[2..], 16).unwrap();
-        total += &num;
-        *dist.entry(num).or_insert(0) += 1;
-        // for j in 0..10 {
-        //     if witness_primary[i] == pallas::Scalar::from(j) {
-        //         small_count[j as usize] += 1;
-        //     }
+        // println!("witness_n: {}", witness_n);
+
+        // let mut total = BigInt::zero();
+        // let mut dist: HashMap<BigInt, usize> = HashMap::new();
+        // // let mut small_count = vec![0; 10];
+        // for j in 0..witness_n {
+        //     let wj = format!("{:?}", witness_i[j]);
+        //     let num = BigInt::from_str_radix(&wj[2..], 16).unwrap();
+        //     total += &num;
+        //     *dist.entry(num).or_insert(0) += 1;
         // }
+    
+        // let average = total / witness_n;
+        // println!("avg: {:?}", average);
+        // println!("dist len: {:?}", dist.len());
+        // // println!("smalls: {:?}", small_count);
+        
+        let out_file = format!("plots/lurkrs_{i}.png");
+        plot_scalars(&witness_i, &out_file).unwrap();
+
+        println!("done {i}\n");
     }
-
-    let average = total / npoints;
-    println!("avg: {:?}", average);
-    println!("dist len: {:?}", dist.len());
-    // println!("smalls: {:?}", small_count);
-
-    let start = Instant::now();
-    let res = pasta_msm::pallas(&ck_primary.ck[..npoints], &witness_primary);
-    println!("time: {:?}", start.elapsed());
-    println!("res: {:?}", res);
-
-    plot_scalars(&witness_primary, "plots/witness_primary.png").unwrap();
-
-    // let scalars = gen_scalars(npoints);
-    let scalars = vec![pallas::Scalar::ZERO; npoints];
-
-    let mut total = BigInt::zero();
-    for i in 0..npoints {
-        let wi = format!("{:?}", scalars[i]);
-        total += BigInt::from_str_radix(&wi[2..], 16).unwrap();
-    }
-
-    let average = total / npoints;
-    println!("avg: {:?}", average);
-
-    let context = pasta_msm::pallas_init(&ck_primary.ck[..npoints], npoints);
-
-    let start = Instant::now();
-    let res = pasta_msm::pallas_with(&context, npoints, &scalars);
-    println!("time: {:?}", start.elapsed());
-    println!("res: {:?}", res);
-
-    plot_scalars(&scalars, "plots/scalars.png").unwrap();
 }
