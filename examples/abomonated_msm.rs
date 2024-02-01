@@ -104,6 +104,7 @@ fn write_stats(scalars: &[pallas::Scalar], out_file: &str) -> std::io::Result<()
     let mut entries: Vec<_> = hist.par_iter().collect();
     entries.par_sort_by(|a, b| b.1.cmp(a.1));
 
+    let mut stats_20 = Stats { count: 0, total: 0};
     let mut stats_100 = Stats { count: 0, total: 0};
     let mut stats_500 = Stats { count: 0, total: 0};
     let mut stats_1000 = Stats { count: 0, total: 0};
@@ -120,15 +121,21 @@ fn write_stats(scalars: &[pallas::Scalar], out_file: &str) -> std::io::Result<()
             stats_100.count += 1;
             stats_100.total += *value;
         } 
+        if **value > 20 {
+            stats_20.count += 1;
+            stats_20.total += *value;
+        } 
     }
 
     writeln!(&mut writer, "scalars length: {}", scalars.len())?;
     let p1000 = 100.0 * (stats_1000.total as f64 / scalars.len() as f64);
     let p500 = 100.0 * (stats_500.total as f64 / scalars.len() as f64);
     let p100 = 100.0 * (stats_100.total as f64 / scalars.len() as f64);
+    let p50 = 100.0 * (stats_20.total as f64 / scalars.len() as f64);
     writeln!(&mut writer, "freq>1000 (count, total, %): {:>10}, {:>10}, {:>10.2}%", stats_1000.count, stats_1000.total, p1000)?;
     writeln!(&mut writer, "freq>500  (count, total, %): {:>10}, {:>10}, {:>10.2}%", stats_500.count, stats_500.total, p500)?;
     writeln!(&mut writer, "freq>100  (count, total, %): {:>10}, {:>10}, {:>10.2}%", stats_100.count, stats_100.total, p100)?;
+    writeln!(&mut writer, "freq>20   (count, total, %): {:>10}, {:>10}, {:>10.2}%", stats_20.count, stats_20.total, p50)?;
     writeln!(&mut writer, "")?;
     writeln!(&mut writer, "top 100 values:")?;
 
