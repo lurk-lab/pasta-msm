@@ -15,7 +15,7 @@ use pasta_curves::{
     group::ff::{Field, PrimeField},
     pallas,
 };
-use pasta_msm::{self, utils::{collect, compress, CommitmentKey}};
+use pasta_msm::{self, utils::{collect, compress, new_compress, CommitmentKey}};
 use rand::thread_rng;
 
 #[cfg(feature = "cuda")]
@@ -100,8 +100,8 @@ fn criterion_benchmark(c: &mut Criterion) {
         // }
 
         for i in 0..32 {
-let witness_i = read_abomonated::<Vec<<pallas::Scalar as PrimeField>::Repr>>(i.to_string()).unwrap();
-let mut witness_i = unsafe { std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_i) };
+            let witness_i = read_abomonated::<Vec<<pallas::Scalar as PrimeField>::Repr>>(i.to_string()).unwrap();
+            let mut witness_i = unsafe { std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_i) };
 
             let witness_n = witness_i.len();
 
@@ -168,6 +168,31 @@ let mut witness_i = unsafe { std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(
                             &com_points,
                             &com_i,
                             com_n,
+                        );
+                    })
+                },
+            );
+
+            group.bench_function(
+                BenchmarkId::new("lurkrs new_compress", &name),
+                |b| {
+                    b.iter(|| {
+                        let n = witness_i.len();
+                        let _ = new_compress(&points[..n], &witness_i);
+                    })
+                },
+            );
+
+            group.bench_function(
+                BenchmarkId::new("lurkrs with new_compressed", &name),
+                |b| {
+                    b.iter(|| {
+                        let n = witness_i.len();
+                        let (com_i, com_points) = new_compress(&points[..n], &witness_i);
+                        let _ = pasta_msm::pallas(
+                            &com_points,
+                            &com_i,
+                            com_i.len(),
                         );
                     })
                 },

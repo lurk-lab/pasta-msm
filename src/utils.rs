@@ -368,6 +368,19 @@ pub fn naive_multiscalar_mul(
 //     new_data.into_iter().unzip()
 // }
 
+#[inline]
+pub fn new_compress(
+      points: &[pallas::Affine],
+      scalars: &[pallas::Scalar],
+  ) -> (Vec<pallas::Scalar>, Vec<pallas::Affine>) {
+    let map = DashMap::<pallas::Scalar, pallas::Affine, RandomState>::default();
+    scalars.par_iter().zip(points.par_iter()).for_each(|(s, p)| {
+      map.entry(*s).and_modify(|pt| *pt = Curve::to_affine(&(*pt + *p))).or_insert(*p);
+    });
+    map.into_par_iter().unzip()
+  }
+
+
 pub fn collect(
     scalars: &[pallas::Scalar],
 ) -> DashMap<pallas::Scalar, Vec<usize>, RandomState> {
