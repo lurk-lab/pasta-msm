@@ -376,7 +376,17 @@ pub fn collect(
     scalars.par_iter().enumerate().for_each(|(i, x)| {
         map.entry(*x).or_insert(vec![]).push(i);
     });
+    map.par_iter_mut().for_each(|mut x| x.value_mut().sort());
     map
+}
+
+pub fn collect_into(
+    scalars: &[pallas::Scalar],
+    map: &DashMap<pallas::Scalar, Vec<usize>, RandomState>,
+) {
+    scalars.par_iter().enumerate().for_each(|(i, x)| {
+        map.entry(*x).or_insert(vec![]).push(i);
+    });
 }
 
 pub fn compress(
@@ -394,4 +404,21 @@ pub fn compress(
         })
         .unzip();
     (scalars, points)
+}
+
+#[inline]
+pub fn new_compress(
+    points: &[pallas::Affine],
+    scalars: &[pallas::Scalar],
+) -> (Vec<pallas::Scalar>, Vec<pallas::Affine>) {
+    let map = DashMap::<pallas::Scalar, pallas::Affine, RandomState>::default();
+    scalars
+        .par_iter()
+        .zip(points.par_iter())
+        .for_each(|(s, p)| {
+            map.entry(*s)
+                .and_modify(|pt| *pt = Curve::to_affine(&(*pt + *p)))
+                .or_insert(*p);
+        });
+    map.into_par_iter().unzip()
 }

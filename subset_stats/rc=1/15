@@ -1,0 +1,5538 @@
+>>> fuzzy head equality:
+    x:       0x37895313fa44b102773f037d07cb0d90cbc2f7737fcd23890cd48f99dab4358a
+    y:       0x0509de4bc812b4bd62dfe9e390f42aa387494f82d75f1214fcb7a39386c5cf16
+    inter: [3237, 3239]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x30c264e673a44c8b1434ba6e7745306181dc0aaff634f35994c6814de66706f5
+    y:       0x01877496785c77e58729bff84a94ba0e1893ae379f9dc2161cf7ac614f8db3b2
+    inter: [4153, 4155, 4156, 4172]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x2c5ea438c4553ca28cdd564e7c6c6d9d2e354be8587b7496edeeac35d3d62eba
+    y:       0x1c65df8af864c866f958d8d1ab9eaa9298e200d07d997205357aa7257ad6281c
+    inter: [9612]
+    - curr: [11956]
+    + next: [9905]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3dab63c42d2e21cbb5d00b6479b96fe3050b9a3eaafd4012b339527c207e6fc6
+    y:       0x1ed61b4baf2f96ef19577352951e1e714d5f43f4339f3000391d819c829bcea7
+    inter: [9649]
+    - curr: [11993]
+    + next: [9942]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x028f3f87e8251ce866644d2a9aced95e558c57c4e303d8cfa19e56d865f35972
+    y:       0x0118bc34e45d19939af962639cf8b599cb1872a6084c0d892334a48cdea2098c
+    inter: [3812, 3814, 3823]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0824e391a3251cff5efeaab7eae16f1da6152fd48f0a40577a2696c49ad78ad7
+    y:       0x1bb109b6beb808a481c17cc2325ce9976bd58f4528104f6ed3ca2ad042bc7771
+    inter: [4298]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x2f6b503e078deab9f45e33a26e2271b141e9c03b8391fbc8cee51d694218079a
+    y:       0x2de198a482a62dc80e0babb4c861972e813fc2f8d894130a6295e7c861d1aa12
+    inter: [9658]
+    - curr: [12002]
+    + next: [9951]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x20e83e93a54d9bd2b499934b0afa4a7d6844878f8ffdaf477f9d9572799934e7
+    y:       0x1eff40c4881d12e726af7f565b8e39742c32a94ead77ca2832fd44eff234b256
+    inter: [13712, 14108]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2b7225a656cccb0e8f58c6f2518f16b3eba8ed34139d6f37673be556a7117c17
+    y:       0x2b7225a656cccb0e8f58c6f2518f16b3eba8ed34139d6f37673be556a7117c17
+    inter: [9605, 9898, 10191, 10484, 10777, 11070, 11363, 11656, 11949]
+    - curr: [12535]
+    + next: [13414]
+    length:  13
+
+>>> fuzzy head equality:
+    x:       0x1d8a0ee3e8a3cbcdac64e93dda13cc5a289ed6c25c95093eaec0b4e2ff40b04b
+    y:       0x03aed98dc3dba8fb16c7c2c86dc6b904a30201030316cc9f1cbfab3fb46c81a8
+    inter: [3533, 3535]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2a0b6f16b884df76f6cab38c8783051955c37d99cc30c6da6364af1d0c05a504
+    y:       0x3882627b09f9ce60c016e9febbae7ff112b1e96c21ba0ab8c5943eb4b1be0276
+    inter: [9788]
+    - curr: [12132]
+    + next: [10081]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3ad3320586e5e530de875ddb348c44c2de30614e91127145c69085a8d5b53fbd
+    y:       0x02190353aaa7827c7d8d25aab84f33f60144f8da3f963908a0abba49ff275a78
+    inter: [5090]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3cfc6f84b84d3f4773e4f4874e80af3d5b3372e0b3e6789ebe64bd6ba7bf0554
+    y:       0x2131b113ebea663cc2594518fce269f949771ff0025f0444f3427d0f761ef56d
+    inter: [5136, 5138]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x266557e2df33e223da02d617fbc4c47c3b83299739c47c5bfb04357614b0aaf7
+    y:       0x27bd52999317168357249c4e85bb02efa5ad070ed25622a8af000d5df7f364b5
+    inter: [3705, 3707]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1628a62b778eac017b2b706248ee076b44631d65f09e21758fcad2203bdad4ad
+    y:       0x0c03bb55ca0196d61415f17446c4651287bc418799939a9efe18d9870ba5d96c
+    inter: [9781]
+    - curr: [12125]
+    + next: [10074]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0548ce7d611e079a9dd862b91e7c256af63f4a20246c669b417f1599a80205c9
+    y:       0x2e9a635fd153aa13145f6799ac43a700a37d5edc89929e2555c7f34401801691
+    inter: [9753]
+    - curr: [12097]
+    + next: [10046]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0ef417527046e53c528056fe84bb984683b4610d346c2a33a81830c13a876b1c
+    y:       0x0ef417527046e53c528056fe84bb984683b4610d346c2a33a81830c13a876b1c
+    inter: [7, 9518]
+    - curr: [16065]
+    + next: [14085]
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0038ba15b482e9e86eefce748b47054356c821934be51d3a3f6be074c6d45eac
+    y:       0x0038ba15b482e9e86eefce748b47054356c821934be51d3a3f6be074c6d45eac
+    inter: [75, 18453]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1b1764cefc5e16544afd9e616ca5dfed2a20aa643499eb5ee01ce132312e8129
+    y:       0x05b340365cd47c91808cb3b02cf9233a8e28e1faa5061873665eeb377984aa8d
+    inter: [9770]
+    - curr: [12114]
+    + next: [10063]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0fff3840afcc021a4de13a176d6f1c4c5297b29bfc48ab84c9d032b8ead32147
+    y:       0x2560d2f2bb56a715c81702a58a803b35cbd1336cf72342bbed372b9ee4158239
+    inter: [9667]
+    - curr: [12011]
+    + next: [9960]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000000000000000000d
+    y:       0x000000000000000000000000000000000000000000000000000000000000000d
+    inter: [9575]
+    - curr: []
+    + next: []
+    length:  11
+
+>>> fuzzy head equality:
+    x:       0x1ae599c9cf46cc48ab499085c22685a759dce4f4ff4608110ef24ae2e470782f
+    y:       0x18dfc54f827cb1bc2653acfce022520d4dad6275cfd11ebc22785f12a65452e4
+    inter: [9841]
+    - curr: [12185]
+    + next: [10134]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0bee4fa6a1acaf29362a6b125ee1a9f8dc586c4a3cbfec3328c9f57bc6fcb0d1
+    y:       0x2a2296788370a5f372bad7ce5122d92d96bc94ba0f3376889df4bc0d15cb5afd
+    inter: [4109]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x135796476c1ad22b5535d2e2849e2343ccd7e427748c136d2bf46fb1151a0805
+    y:       0x1d2ae60ebf201d120c3531a7f9b616891c12ea08c7f680b5308a3983d9a7b62c
+    inter: [9775]
+    - curr: [12119]
+    + next: [10068]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x07ebd28e3fd5f72575f47e000a796bd41a2653d560112b93348e08024ab45b6d
+    y:       0x374cdb8b49b0869adb5599c69069f0696443bccb3675a21166a098982b889c33
+    inter: [9663]
+    - curr: [12007]
+    + next: [9956]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x24be56dc0c351f8eea072c049a26724c01b2fd987d17442aedd972e2a82cb5e7
+    y:       0x2b7f2097e7aaf2808e3f108706d9a15fe02ccaab4991424e1bf3c3919e120a03
+    inter: [9647]
+    - curr: [11991]
+    + next: [9940]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0c6b4b0f1b61d453413eb965a67b4ddbe751a21942900cf766814dec6f7d5983
+    y:       0x050f15d94c3aae533b82f7f90417d759edf584d2352a47d90c964d29614b58e7
+    inter: [3119]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e2c3de702f94aa62caba64bb30c868178a2b695efd352f6a20c9f79f0e76632
+    y:       0x0d59c66ff1a4cf9207ff8242b5041bfc66fef5a99dc47d857615a09534aff38b
+    inter: [9587, 17683, 18429]
+    - curr: [15669]
+    + next: [16065]
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x034e110511da2aaf3d77ff74c35fa9217b99421c6d9daf044d707961d376ee74
+    y:       0x3d4104b4f14ee8f2e6d13828dcccccd916010cee3315ca6137e0b022ce90c4fc
+    inter: [9828]
+    - curr: [12172]
+    + next: [10121]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x065406824cbe1d8d6eaf0f9795cde5944ab4d9d3e23f5998ef3d13581cf7b97a
+    y:       0x065406824cbe1d8d6eaf0f9795cde5944ab4d9d3e23f5998ef3d13581cf7b97a
+    inter: [71, 1926, 18449]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0f284e900f399cf56c3facd031a0f0fd194dc289e64c9921945e48dccaa1f60f
+    y:       0x2e960326d66bb9582ae7882bdd1cce4572df4499d2fcb311a19c341131f58975
+    inter: [9641]
+    - curr: [11985]
+    + next: [9934]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28f4c855deb0872b054dfe9851397a5e081b8f41f7e6f86a93e73229ec246ac2
+    y:       0x291c28f0993340f9b3644361ca2e6d5dc685773beee9be614178689943c9d76f
+    inter: [9757]
+    - curr: [12101]
+    + next: [10050]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1669a2693d0477471ac26a377624dfaa7cac572cbe246bc1c12e7be733e2929c
+    y:       0x3803544eb8ec3b0c6a3cd7cc94df73177bb999d2186bfa0f4b893c72b2381be2
+    inter: [9759]
+    - curr: [12103]
+    + next: [10052]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3f4ab7b6724bc0507ffbde12622dbf452b7702001df40b6cba13f265296805f4
+    y:       0x189738dddf5a728d2ac34cc74a7e18c6e562658b93dd9de1143c00be66e3813a
+    inter: [4002, 4004, 4013, 4022]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x32aeb4c90b68141ffcddd2e5b4edbd6e3480b4fe8e71ae39ccaa8622b464061a
+    y:       0x32aeb4c90b68141ffcddd2e5b4edbd6e3480b4fe8e71ae39ccaa8622b464061a
+    inter: [127, 1982, 18505]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x11360af2b37ca20adfe945297de7bb6300b316f9d21513aedb6dd3b7f4981b24
+    y:       0x1c2c7a59d694907a9a861a390ce975ab894d44d0ef8443b32dac57aa61346ad4
+    inter: [9707]
+    - curr: [12051]
+    + next: [10000]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x049905739188a0ebd357d855e428e5c9a2b0330f3df277f9d092d8fb6390c081
+    y:       0x30310accdcf41f0b72e87f220cf030d1b20bae4084615796dc51f028c2842f38
+    inter: [4920, 4922]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x0d7bd6d8e860c8f7e557b2e6452740ce8389a55036b7d98f07f1a5f7f28ed338
+    y:       0x0e29e123c71a9e0b4edf421f47e849439eee1a36af188b7814abb70e52d741b0
+    inter: [3948, 3950]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2b02bd5117dbb1bb11a159f5dd51f7fe87d26559da81d7e46d82bf3ab3b53007
+    y:       0x24ec7fca20b8a6d1187a3496687d2a383c82527c554041c1d7a6f04e1626d974
+    inter: [4596]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x1e25497eb2852fd9c359462a4b4ac2e244091a75f78f9e5fbd3ff2e67a49ec2a
+    y:       0x01ebc897e03a1bd8909fbbd5caf6a12fba926b2586c28ea7f4c8c2369ab3e2bc
+    inter: [3381]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x3704759b08bb64d0745dffc5984c6bc94bf69bc5d7ead14466460741cc2668df
+    y:       0x133d224dfcba95f61d3807af354d04abc50ae3b25a87ef854c90d8a29a273f7f
+    inter: [4568]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x28c59473c92891157f9cda04591960fd2b4653f48296cf712494118e2da10603
+    y:       0x28c59473c92891157f9cda04591960fd2b4653f48296cf712494118e2da10603
+    inter: [76, 18454]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x13adf199a860952a6b9a8f92d6c4d0ef16bc293ff11e973051a9271828166f5b
+    y:       0x320866ad4931d5c2ce28c35c12b19271490b3e4d94a3b03c154876f2873e1a91
+    inter: [4946]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1a820d4e33edf19a89ef0e0405ca190099fab41a83f1504c9e33dd04a3a16777
+    y:       0x06bf1c3f07bb8205c5d2b5ceaf5f4d394e171dc0c37e50ab16942793021a6c4a
+    inter: [9626]
+    - curr: [11970]
+    + next: [9919]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00f38cc7fc8a0761451ec8f4c6d0a6d85fc7dab90e7c6f430823df8895078fab
+    y:       0x3e58ba97cb6312996472621e3442a507176202981da6a6308061c2b2730a46d7
+    inter: [4460, 4462, 4471, 4480]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x07f7f0ef98aa8c218295bd15e903b4e10d947ef457333efbf4cec61afd241b18
+    y:       0x27be8dd55150f217eb47c852da983365e05e6f33dbded2861c4c07ce45c71d76
+    inter: [4047, 4049]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2968230723229c5db0286d6cfc7cac92d7e8a39d33b7e217c9ea4a08cc6deff1
+    y:       0x1955381d00aeaa59a953c85056caf6def929de7649a7a345c4746030fac4028e
+    inter: [4560]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0fcc143c6b80c6cd422b9a0bef4957baeb213e4c817bc5d724403fac9a876c8b
+    y:       0x0045b62da8b178d6a43163296015288fb6712ccd38515e942142fcc5ba9eba1c
+    inter: [3183]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0d3e69aaf5588faa0c88745a5c5e6e364a101f68b47790937c9a3a350b432f48
+    y:       0x1d899833266ff1f722026bd5f96c9331d6b5fa28c10af5646475158a5030149b
+    inter: [4064]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x379ff5a1dff5e07eb4d0df6ba1476a3a4ddbe2ad4e9e7534c28b6b9557acab4a
+    y:       0x3df77c4cbc1c1a2d4f53ff0e45ccda08222212298c3570c94842937c5987f9db
+    inter: [3435]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x3a1200cc6f5ee31a314108e2fa6e4312ebe1e974fe0d5945f0f715f44d380d56
+    y:       0x29894b3c8f06d4b87a8de9b3fc431088ecc9cf942e2dc244f0fda2e3c1b31e7a
+    inter: [9727]
+    - curr: [12071]
+    + next: [10020]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0d8af15578b443b62bb0fd99ab96bf646ee34d306478d59290bea0a5048502fb
+    y:       0x0009dac52dc62ab92f6e81c7b3e2c023e7e58f71b4e361cfcf54208b7153de6b
+    inter: [9636]
+    - curr: [11980]
+    + next: [9929]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x15dc9de8672e4bc5e4b138181c58711aa5f9c7ea36e6a07558b0255135455982
+    y:       0x1d1f540c531e58d0962a1356d745d802908b6b1ad0c68e67c120a0a758bf1e15
+    inter: [3902, 3904]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1af18bf8b21cf712a700f08f14dbcc588ad948ebc1ff85cc300eea6a581d26bf
+    y:       0x1af18bf8b21cf712a700f08f14dbcc588ad948ebc1ff85cc300eea6a581d26bf
+    inter: [9592, 9885, 10178, 10471, 10764, 11057, 11350, 11643, 11936, 12229, 12522, 12815, 13108, 13401]
+    - curr: []
+    + next: []
+    length:  14
+
+>>> fuzzy head equality:
+    x:       0x2994a135e44aa7271d9f3d7baa4b29cb5ab561805407f64d4c9f8b1f5d4b4e2c
+    y:       0x35f0ff4f3b4ea51d0028dd532b809c67f31b44e14b6a2fab1fada9c4d85593eb
+    inter: [9597]
+    - curr: [11941]
+    + next: [9890]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33fcb3f5d70f352545ddbcd0454daf2342f422e916bd7513d3f38fd3a3fe2ee3
+    y:       0x0c245e56c61c547025280b52a0dea24ff6d8c7962f88d0248fc03a85aaf285a7
+    inter: [9596]
+    - curr: [11940]
+    + next: [9889]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x083b56053a32fcb2b16fd31ac261baa222d0dc55d34adb9ff4b316eafc1323d2
+    y:       0x1edb857f345a2bcdae5bef84864114788c10bcd429d366d28056569cb6184d09
+    inter: [4956, 4958]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x22da45b0e8a7aa0a11d631c4c61d725a4bb2f8286d2f7474432a59ab62404ae6
+    y:       0x2fbb18c59416d8c802f1c0136aa94e28b683312e37433b4478db33da19e5bbec
+    inter: [3416]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x34e516533dc17a4c83b024b29d730bfd4ba439be587b27725e49c16630fd7df1
+    y:       0x01243aae957430c1f20d3ece437cc224424026712ead87a5ea8d7d7c7cdef2c9
+    inter: [13706, 14102]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2bd1657f7d1e5eb0c8e579b484ce7b0a0a169903e38803b5561db61338c2fc6d
+    y:       0x11462e437a9c2fa8e7b8d18be1c06e15e1577ce8f7da3f6ef1b5d08a3b318cf9
+    inter: [3371, 3373]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x23c95e3c1001c555ece6abc68b562c5a7a14418995a5ec32a3c99f16d0c3087f
+    y:       0x219bf8a162eba1dc35e5ce6810abbdf8e862c35d006f4dd28973ad5529281f17
+    inter: [9856]
+    - curr: [12200]
+    + next: [10149]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0df640447d7c5c08a3723e7083f130748da9387bd958b675ed92131a936cb5c2
+    y:       0x31b2d22f6bc265cc80e429b1d7c92cbb6c9168913f66ad68c53a1e46e71c550e
+    inter: [4361, 4363, 4372, 4381, 4390]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x1ca95059a8e0efd4cfefa75f95dd7037faf3cfa4a2b113dc3fcf29e9df40156c
+    y:       0x21905b8651d8a6f9512bf7659fd2a8af2664050ea4b182634768be9e3ea626b0
+    inter: [3182]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00bb945440fd905d47c1ce6b97a049082847c82682779f53be6338c7192f2109
+    y:       0x00bb945440fd905d47c1ce6b97a049082847c82682779f53be6338c7192f2109
+    inter: [13718]
+    - curr: [15698]
+    + next: [14114]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x15b0de52e3fdce31d79ed0df4729f4e5b71bd1662bf46be307cdbac578748db1
+    y:       0x18dcc02032b165866b98581efac454482abcdea894e08da1e85242b7792ea48f
+    inter: [9653]
+    - curr: [11997]
+    + next: [9946]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x158b507e590573d7436024b0d998cd09488bc464aa1abc719d7358e75be47b53
+    y:       0x276f805dde98c60e2b4f25781e9894fa730e27139314a9cf28628a5614cd45a5
+    inter: [3147, 3149, 3158, 3167, 3176]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x2a1dfbe7ed00575f50fac06b209236b9abef189fb773625233d08d41e60b1171
+    y:       0x12cf4a1b977d11d74d0f496bd2480703a830f1845f8819f71e68fa926e9406d2
+    inter: [9654]
+    - curr: [11998]
+    + next: [9947]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0c3f78612d80d48bc56e9d0b9c72ef9004fea8f42a46336e1cf6783b8bd0d30d
+    y:       0x191073e0ada7cc8209e8466f7b63ab804e64b74a4cf99645c67a9b46108315d1
+    inter: [9620]
+    - curr: [11964]
+    + next: [9913]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05ff1bb62a401318b0cb0b233894b922dca4687f9bc0bb8f72db62199daf07bd
+    y:       0x0aa1c7b0179b68333579b56af45b5032b88e9adeed7a6fc3ba352a6542eb5b8b
+    inter: [4415, 4417, 4426]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0eabd4986e027e6c7d41d5dc77070d3f29ae1be16a48eb68dfbe630f159175e4
+    y:       0x368f144c4ff9cd94d7cf855d3a557818d1f1dc21e249f4ca9a572df39701b01b
+    inter: [9740]
+    - curr: [12084]
+    + next: [10033]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2bea49beee30fa688c490f206c16f04989cee62933fee0f2b5585df6e155fc05
+    y:       0x1e0ddebcbf8ce15ffeb8177d1d4c2d7b4bd5ae920450af0f55f62b1b1c55b376
+    inter: [9681]
+    - curr: [12025]
+    + next: [9974]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e6d39dc95f12f539f836c73ed515953e3b6925519e0e57cf09405c02a63153e
+    y:       0x21c97e82344713fc7ae361628db741e66c2b423658b30016aadabcc1c99a465c
+    inter: [3345]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ef4a2a79484a6fcaa85662e3fbd10d34fa85f91e20c0100f8fd0ceeb2b4acaa
+    y:       0x3e34e2eba7657690da15a790119f28565ec002fd153aaf0821c4b979efdfc421
+    inter: [3002]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x16668b14548427ec081a139d12d3a180c338a3302572ab8742ebdc7eeede8260
+    y:       0x27b5e8731f88386094cba13608b490e08a42680f0991e37250f5c6d53b54be3c
+    inter: [9855]
+    - curr: [12199]
+    + next: [10148]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x271951139e7a88b476133614e6ae02fbf41b1685fe90fa3a53678f69257f0d0c
+    y:       0x2395bd44c865cb17114f527d992d4361c0d2573877020a00d5c9450a160a5b62
+    inter: [9845]
+    - curr: [12189]
+    + next: [10138]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35a6cd44e8345821be0e1578c88c2aa2cf9626a8af276b79bc506f7535a46f17
+    y:       0x0d1fc7e5487d430d1581c67313789fce2ee1315d35685a2f7b0422a7ad27a782
+    inter: [3065, 3067]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x089b6e1ead2841813af706f2f13d65b976a89e77d7a79d8ddf61aa07a05765e7
+    y:       0x3aa02b034c0a3d1c93166a53270f091608bf8acdd9fd5dcc11398343ee28494c
+    inter: [17862, 18321]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00025b859e467fb869a5f41d035572a284af85129c44a47c31742d6b4d716d49
+    y:       0x269d8f64d1256290455f1a5b72d528712bd415ad20a012674e0bbad159108d0f
+    inter: [3650]
+    - curr: []
+    + next: []
+    length:  7
+
+>>> fuzzy head equality:
+    x:       0x2b899a545380868c380e9d381448a710250af649bb041d3eab32f65ac2b0176b
+    y:       0x3bdf13fd09599ff48fb61dc8fe578f9e8b11868e79c1636e80a68f750aa020b2
+    inter: [9771]
+    - curr: [12115]
+    + next: [10064]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x22e4eec20d53e377b5430e58bba45f139302beba7780e71a098dc661aaabdfa9
+    y:       0x3995e045f79e9dcf2ae92812ae33fc8fb201cfb47eb9e43d0ee3cd3c2ed95f2a
+    inter: [3767, 3769]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x30e464fccab762bca15ef4c967ef85160195ba64b4c7b36d25760506195f54e2
+    y:       0x1a1f2e05de6ad0bd5064e526fb987e88e4722363573d8e2d9be9d5111579432b
+    inter: [9730]
+    - curr: [12074]
+    + next: [10023]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x128cbe47fcb02c3e9390f031945de7fb1ff5a051981b751307db0c244a65e51e
+    y:       0x0dd96213f2a761675acfa3180fac7b3dab3b697f09b4763740b38503d4d71e1c
+    inter: [9638]
+    - curr: [11982]
+    + next: [9931]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x01d40d14d634bc5e0c457139901f541d2159172fbd03c29640e2b9a3cc186962
+    y:       0x0cff197163c3398eedb0b4d24410f6b9dc0d06f7813764ab7f5c3dc50160b7bb
+    inter: [9851]
+    - curr: [12195]
+    + next: [10144]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x280e5c25c39621b089a2f24a9dc1d56bf7add50c9531a832d0b9b2af4a6c39a6
+    y:       0x2dbc540a8596f8dba973a03280afed888af0ad1863f66e2e5aaf84742f939b60
+    inter: [9804]
+    - curr: [12148]
+    + next: [10097]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b2775b1a9ed2c2c6a3b2cade0b55df9d54e7b743cd29f9a5799be170d3cb4ae
+    y:       0x123a4d899d206e9511593ae4d2869234d7d30e1921745db49c1760bce48bc01b
+    inter: [5406, 5409, 5410, 5425, 9497]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x0833d30e56a7c42100f0051225cd0af6b36f3ba737904b8c29afaefd948ef04c
+    y:       0x2821bfb8401ff9516a5f217bd0d9336396f8960592a48352a4b96728dcc0f21b
+    inter: [4722, 4724]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1301f393842206889987e0d02b02a72a6c7c7d714d6dee6636886a840c48128a
+    y:       0x0d178572914fa120c7477fd3ae7d22a11e77a3b06d1dc420a9fd4633926d6f2f
+    inter: [3651]
+    - curr: []
+    + next: []
+    length:  7
+
+>>> fuzzy head equality:
+    x:       0x071c0934b0cb0c411aac13ae04de56070010840ab7a54ad060bf2e37708bce17
+    y:       0x13afd980178f4caf6619592851dd2139c4ce65d3884c4512d8612d93dfcfbb4a
+    inter: [9761]
+    - curr: [12105]
+    + next: [10054]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x121edc1f8114a32bd2a1031c7d4d47e950980836580557809bec6fb21c526cdc
+    y:       0x12361cf6b99202963f7d9392764ae6a144b5769a113298240ef19a370572a891
+    inter: [5381, 5383]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0f7c88373ea48282a766a5be6b748c502a5b650a29faebf6639c6017729f1dea
+    y:       0x37e5f883ff52c970b1bd3b37f4c58d4556558a7c4bc9ba8d1340aa87a966eccc
+    inter: [12517]
+    - curr: [14483]
+    + next: [14879]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x386b291fba9258081e46fb1a04bdd538b4fef625d4ff60f68ecbfc3463069c4f
+    y:       0x3f9d78ff9d8bd33881f1cc367366753c6bc572b63c988dd7c3df9c3da3faade3
+    inter: [3552, 3554]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x01ce7a0e485908823f5131111d4c5b3c41d7f113bb5206c929fa0553c1a7c921
+    y:       0x2c788948b8f667660630b7533acda6c3aa506607b9027d58345df9472d676269
+    inter: [9860]
+    - curr: [12204]
+    + next: [10153]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x21a988768f02222919f27669a2390bdb3355990a1d1dc151e0ff893b24e8b1a1
+    y:       0x2a792fa9f38c02c01b718eb464e03582a4fd7fa91ed85221854e99ce50e8b815
+    inter: [3911, 3913]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x196a1edded5a7e01cdd18af4f162fdc395a3e821fa0fd2c0019161d7534faddf
+    y:       0x24649d68e9611c7e5edb8dc57a4ad5f14d287835cd39c5f5383733f9e4c8d867
+    inter: [9628]
+    - curr: [11972]
+    + next: [9921]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28f4b92c556801e431fdce0489cdc3cb7c1ebf200b08658075be191d82916cee
+    y:       0x28f4b92c556801e431fdce0489cdc3cb7c1ebf200b08658075be191d82916cee
+    inter: [85, 18463]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x032ef100bf218bfa465a4bb65ad40bfc1f5faeb604cf425c30888f8151aa5846
+    y:       0x0248041e85e450515a92e0ae351a9a8407591ce0df1b66ef9310a717292b7d38
+    inter: [9726]
+    - curr: [12070]
+    + next: [10019]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1a7e3ff79cda6ae58e25b661d24aa9af28b7ac683e9c0527fe14f7132fb7bbdf
+    y:       0x371d2fb02d25cf14ce47b2b89b2fa4670cf3738c5a33afa01e009889e4aa6083
+    inter: [9768]
+    - curr: [12112]
+    + next: [10061]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x38904538fb1205df131fe898bb61488e242ea050e0036e62909e447485e76893
+    y:       0x311f56b86275f5472089a8ce18c8a9486f0229be8d07b61695cf34ea0d6065a7
+    inter: [4748, 4750]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0e1884ed7f10bcae87f28469b48eaf45332d6fdd7b4ea4a0e10145feb8cfc375
+    y:       0x27a65aa65741c4b0e242faf275272f31b3cb36a667ca0437e52bae83d077e2ba
+    inter: [4325]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a94d2b43679d4a7813c84f3306dc3f906427e3a5770c20c31c7baba4807237f
+    y:       0x3ead7fcc0d365ee9596c63745f6057502aee4d6fccf3bd29badb267d6b52da22
+    inter: [4038, 4040]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0198313d861d8480451dedfb3d5229a0f31e6051bafdeebfb8adffad07c7bd22
+    y:       0x00e268d1e0d9278aa06b2e59d93dc3bc3ac3239c94bb1f9bff03e68e5e1d4ac4
+    inter: [4166, 4168]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x396be137a714978050eb715ec441f9316f2dd330ccc38410da92304a504bbe2d
+    y:       0x396be137a714978050eb715ec441f9316f2dd330ccc38410da92304a504bbe2d
+    inter: [69, 1924, 18447]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2abade34f8ac1e150ce0490015ad0ebaa34b128797395ac04c25a79ddc1d101c
+    y:       0x3f64b0bdb33e9b9151a64cb80a3c91728be793c9c24e84cbfeaf68cb21cf6160
+    inter: [9598]
+    - curr: [11942]
+    + next: [9891]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d7e8d88b828cadfded998bd78a2ff26c978ded566a0b00073a3673f7a51133a
+    y:       0x1067d1730636acc02072084808b7fb7114610d69e4ac6033c22c9489ecd2cc8c
+    inter: [4829]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x00f8dbafad4bdc492ced798ee921948199ac1ae27c60bb30f8ab5c9bcd264301
+    y:       0x396cf546de35261edc5d9ca750c06134b4d853e9eca9a4186c3a43e5780bc57b
+    inter: [9610]
+    - curr: [11954]
+    + next: [9903]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2f0de0890526ed1cde76474836bca1653cd6ebae578e94326c484b16268e1c4c
+    y:       0x134047ba0e6b6a4c88bcfacb89ea1410018f1a22ca30d84a1c91c140acb0498f
+    inter: [9614]
+    - curr: [11958]
+    + next: [9907]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x015a0ae768ffa3727e93240b53f3a5ae854007e31ce058690af1770558255291
+    y:       0x3dc90bae66a039f12243c5eb07288cbd18abc4ee0d2d59fa39ca88848bf5e1b3
+    inter: [9737]
+    - curr: [12081]
+    + next: [10030]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x32a62f1e60613683ebdeae8b34d280350481fbc302626aa22be16468a8eb037b
+    y:       0x3c8f406ed69a4c7b49be128c047f8cfd90ee61bde3c2ec11702ecff21c0c3311
+    inter: [9609]
+    - curr: [11953]
+    + next: [9902]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0be1f0d14be1c0fa388bcef7cb0f5c688509798df4c538254f2fea6e96612122
+    y:       0x0be1f0d14be1c0fa388bcef7cb0f5c688509798df4c538254f2fea6e96612122
+    inter: [82, 18460]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1caad7a70fc4890dc696dadd3aceda35bf22ddf5736e37754d3ff3c12fb149df
+    y:       0x1caad7a70fc4890dc696dadd3aceda35bf22ddf5736e37754d3ff3c12fb149df
+    inter: [80, 18458]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10d174382aecad35ed4aab44e1182e42dac200b57655667a22886375d8325d4e
+    y:       0x18f1d7926be0ec0d991b5871e4b08040996481fc3e8ed613bbf98347696be322
+    inter: [3012, 3014]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x092f30c3fd03e3a547a2d94d38d600dbc1ded2e4871e6038e8da7aa206f71e48
+    y:       0x1f612535de4d4b6fe7e2bb3951396013ef3032e8c445375fed8e27f83067d548
+    inter: [3417]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e5481812fc26cce62509cd76f2696123867317da91dbb1c028ecad869066f57
+    y:       0x354c6bcdd630bed26a1e493d6ce65ff81418ab7f9b8915a6b13492fa8fcf319b
+    inter: [4650]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x20b93b6ae4410da179b0a2cee09fc3dfd6cc4ccf471cacebe5423a312ea4dc5e
+    y:       0x3e2ad75f8f0b458c337d41e4970a9652219fa96b312cd1fcaef3945664944be9
+    inter: [3030]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x231344b7bb2fa13547e404ed05297dccce83a40516288fbe87133e51d3dee0bb
+    y:       0x2e80bc400cbf8c4402edd10eaadc998270c5d99a349da7ccc4f9c15fea9abdab
+    inter: [3876]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x10a9a710e81fb3dd4a930c9d952a457fe414b8758dd5fed9ca4f51499d74caff
+    y:       0x10a9a710e81fb3dd4a930c9d952a457fe414b8758dd5fed9ca4f51499d74caff
+    inter: [119, 1974, 18497]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3cf70813b3ef5b6f0100f6f30c1f36dc224440c102c48642b42daca3875e5fb7
+    y:       0x0f4a1460f8b983bf6b3c58612b6601839d029d24500de494e06edb2b368185eb
+    inter: [4866]
+    - curr: []
+    + next: []
+    length:  7
+
+>>> fuzzy head equality:
+    x:       0x225617b15eadcddd6a355d73368a97a55def7f65643f6f7a0a60c7726f4ff31e
+    y:       0x01ea3c6e32bb98e2b604d7a32636e9b2260cbcb4d93c367c9f003f7a4d8d4417
+    inter: [3983]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0fa1eb5b0dce118b38d3a6049aaa40bca5be2214b2bc982ac788d8a7201a151f
+    y:       0x0af2cf87fb15f71f698b19343283c24fa63beb3c321b923f1206401a85f880a9
+    inter: [9674]
+    - curr: [12018]
+    + next: [9967]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d0e41c67898f292d5c80cf164e750d4227e0d68ea57ecb84aa922c0301de026
+    y:       0x3cb5aecbf3843204f233fbef032f4ac8e740fb600a7648e3d3aa3f6c45ac1358
+    inter: [3912, 3914]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x247404eed3f8eca985068e52214a1292530a283be07e362b526fd6132e54b939
+    y:       0x2bb57caae12c41142d42e873f9d4a2028d7e736262af5f464e9e84f28938ee63
+    inter: [3344]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1c7f3cfe928b6300d5c2d37ce30e39c78c3a9b68c82ef965a435852bfe204ec1
+    y:       0x1ae1041de3bc7520d4985cfa1ce55a62a9f88c322a9c2f625d8401c6f5215f61
+    inter: [9705]
+    - curr: [12049]
+    + next: [9998]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1349944daeff6f9a21ac14a116b196c975277e3ff9a3771d29c4b591be8d2d6a
+    y:       0x2df5d241ffda43cccb97cad5b092e07d832fe1c5fab417bffd196d93d2ca5842
+    inter: [32, 35]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x242f7a0c004c21a4d4d12828c9c2264e075d56ea5bfda64e12664853e02579d0
+    y:       0x0167f95a5aff314212ef8fe60920dc24119cf8698dcbb1012b42ed8365f87f78
+    inter: [9751]
+    - curr: [12095]
+    + next: [10044]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0784cd38221fc3d2404ca9d30ce663ac2b7aa14423bc0e5036bcc1980140fbb6
+    y:       0x2418699cd6b39da166276156f884170789e0c390482a5109efbbd6a90bc72792
+    inter: [4857, 4859]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3d0b5bb95eec5036572bae59d5ea6649fbd252fcdbbc9c12726ca314e5f2ce38
+    y:       0x2f51bf2c3b71ece582894aaa2c052a943019354c1f74f461f321abe4f1bc5060
+    inter: [4586, 4588]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x20b500e49a97cfb0effdc8cf1c1e8ab9f38895751fab40722120ca7a7ae3dfe2
+    y:       0x2b35e6f394fb457e06e18a3b753f51bcfe75bea7e5fe3183164a338b55f6da69
+    inter: [3903, 3905]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000065ab950a629a66
+    y:       0x00000000000000000000000000000000000000000000000084de0ca09fe7f8da
+    inter: [9160, 9504, 18440]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x297f6952e9ddf04279c271a35f92bdcef390cd5adff3708d8f1eb8fd5e84811d
+    y:       0x016532fb8598eeffaa5f5310f6c93d721ce8036e826d608c0ff5373b2c3f1fdf
+    inter: [3336]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x255e7fb7d6466b06521b50b7bee9c1c3ffa57a46f20ef0d0e6d20c87b0348b1f
+    y:       0x3101718c3fd8fe22f0182e54b2594a5d9aad01375f50323bbc3d1f7ea02fd5ed
+    inter: [3534, 3536]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x349fb692fe62bf8799fe04cdabe1d616e875c434dc32ed1aaf1cc41b44d7d906
+    y:       0x3507260e686559f74a20d14bef9f340e7b4f094ba4af6e4a745c4220268ebf79
+    inter: [3993, 3995]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x351b339bffe4ad9d83c3b44d76f52b437114674f4ab104b7d334bace4ab23402
+    y:       0x03d1e788d870c9b01de36ef896f8142cd399cc720847431fceec2ec6bed79b8d
+    inter: [9734]
+    - curr: [12078]
+    + next: [10027]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2345f871000e2a1a1eab0b1ab95cb3afc6c5c7f514b52c4a01855cd16d5cee9a
+    y:       0x0f42496e37dd22261e6dfd661db2b5f17aff2e4587cf6414ed1fd052fcc94777
+    inter: [3731]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0e2ff9b723a97fa8305d7372490e1b0c5d45d84371de48caf324ffbf5f619602
+    y:       0x0511beea39f4eac09c5173e4e2e998b07f3debf3bd2e2cd86f66cbc07b6fbdb5
+    inter: [4110]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x08f44bb713d964f7f306c39c5ecb1268ad293678a48955de8a04dc02ac7c66a2
+    y:       0x369d4d08dc75ce9dea4a705d4fc2514de98f7f844cfd728ef111b08086a704b7
+    inter: [9671]
+    - curr: [12015]
+    + next: [9964]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x306f216cbe8cb8a722d5915167c6bca29ef6f7dbb91a413abc4499c3d6f955eb
+    y:       0x1d1887632270812fb6a30ea00af262f0f1e3444a2f5c62404f94a36c2efe2d73
+    inter: [3813, 3815, 3824]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x02f934b1ff634f0cc7ee05a89886d5b75b175d73360613558687c7f934001fb6
+    y:       0x24d94d85b79c80ef6bacb7c9125de67d44407f05db0e6820c76aae3f0686dc9a
+    inter: [9787]
+    - curr: [12131]
+    + next: [10080]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x37cdb1c84a18960d2b954c05f534718103efd762050572e046795eb17406e36e
+    y:       0x0b551ddcadc1ceeae93f7de8cd1dcd6cfaf134d1e2fb1937030550a01ac94c47
+    inter: [9750]
+    - curr: [12094]
+    + next: [10043]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3f25a0fac9b0dca6d1df80329db66ebc405c1771a9e9e84f0ec4d943b46fc7d3
+    y:       0x26c243ffe7e1e11f3b5165eb72e597f53e16fab3d529db1b7a76b0b5542f4e85
+    inter: [3434]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x260dc0a87b67ce79ba134b5af980ee4210b5877d487bbf1cee2fbfa5ade10dbb
+    y:       0x04943278e947828f315482d004370c011c9acf8706cac544710a26ce111fb11a
+    inter: [9601]
+    - curr: [11945]
+    + next: [9894]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0bbfb953f0d454f9ffdd23839d5947048c380d227861c59d3720332495e01555
+    y:       0x39da2140c0e6b23402781e38ef09fe08abfa7fbd8d57f3c92b5c41245612f1e8
+    inter: [3191, 3193]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x360b7b11eb116fe2d7fc78ed26afa1b2a09410ba9ed4ca56c1e3317fe722032b
+    y:       0x360b7b11eb116fe2d7fc78ed26afa1b2a09410ba9ed4ca56c1e3317fe722032b
+    inter: [13717]
+    - curr: [15697]
+    + next: [14113]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0bd70b1e0e5d3658b4e7b774e0f6ff3f70fdb8356030e48453fa75d51ff48cbe
+    y:       0x1f707328bf3bd3685064d868022692dfd0366da764a3a57111dc860a345559cd
+    inter: [5127, 5129]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000592f9c310b64460e
+    y:       0x00000000000000000000000000000000000000000000000049902780fb304e14
+    inter: [27, 64]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1194758d58293c8821398aad2c0dfac562b6cb28ff106655edf8818b072d0978
+    y:       0x0d8159c35f51ce33f30d4b13bcc5dc3e28264e3d7d1dae759ea6449d1a230d3f
+    inter: [4119]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x231764d11f602b7994c8a79cf03c1686e2a4f015fe69bdbb301de1f7edf5b02d
+    y:       0x1e466e5438c0c90ad42d0b4d8d0d0d5594f20ea3d74fbe225d185230374dd7a7
+    inter: [9857]
+    - curr: [12201]
+    + next: [10150]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x307cfdfd70a3c9cdf47a51294b95a11d028c31c2c3929b0591c87db7ec7fe433
+    y:       0x357ebeaa049c1933c306ce11067afcb9d76de5aa83145094e422e71c4cfaec47
+    inter: [41, 44]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x381f968235c8868987d4118cb5ea6aa1a098c642b2a9d9223abdd579aee5bb77
+    y:       0x208df24ee8177989079c53619e849678e9ac0e5248f647e4803bce7c554717f4
+    inter: [9862]
+    - curr: [12206]
+    + next: [10155]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a8fbf9bb010991bcc68d4b2a47b0cb049bbb26501755308fbcb73b7fa4e36a0
+    y:       0x3b2192f05cc761686b42c779265a768b67bb891db1b5896b682cfac3b7b57e90
+    inter: [9644]
+    - curr: [11988]
+    + next: [9937]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3f48fecf6f8d46aa991edd26ba5b35892c8478782148adaf4ff3b894fdd33c22
+    y:       0x3f48fecf6f8d46aa991edd26ba5b35892c8478782148adaf4ff3b894fdd33c22
+    inter: [13722, 14118]
+    - curr: [14514, 14910]
+    + next: [14910, 15306]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x277906fb0d446d6561a5775ed7da5d9967903488997605035846e530facad705
+    y:       0x15608cbdc8535248976237996de6f32358faa2dfc139d99aa3292407e9be04da
+    inter: [4065]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x31ff2abf07d17cfd900f0e3ab7e3b37ff921e9e5bf3dbcc0ca3979e226928d9e
+    y:       0x1ed983f4e6e6317b0fe1d3dc5887a305e00e1dc5a910e22d13f535baf352c577
+    inter: [9640]
+    - curr: [11984]
+    + next: [9933]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x38c2c8c271c0f681c2dd63d1fc77f68cd0c6553c636e26b837cffde9464f120e
+    y:       0x0e1cfc0c11b7a7e9b1995edb3bc8cbc204e1d97d32f58a1fa52ba471387f4a87
+    inter: [9622]
+    - curr: [11966]
+    + next: [9915]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2f9235c18d18a453b9311f51acea26b4a6a9150e38cb54d07500212371422506
+    y:       0x289b9eea76ee96ffba7ef2ca48697f1bd5b04b8b555d43214f0e045e1fe959b0
+    inter: [5297, 5299]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2cc385aa574335f4e94b2f00e340487712b6850f7de48fc93a236af6fa46422a
+    y:       0x3812846d0fc709754ab3c0d7653907250203e55b5600165c6d807ee12158bf33
+    inter: [9873]
+    - curr: [12217]
+    + next: [10166]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10093151979a8a819ad7427a30790dd9d2c1f45a30a52b0cf0b207f9f620ef4c
+    y:       0x0fd2377d60726ff8f800922094f30ac55aecaf825ba466cd810c8afb583ca148
+    inter: [9766]
+    - curr: [12110]
+    + next: [10059]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1fb86237735b5d3c0916de5aaaf614d29fcab1e443bf20b2f8f25c254b365a96
+    y:       0x12aefdcddc933c2e9410eae72525f78c0b82cfcf0e202b03be523c05001134c4
+    inter: [4649]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000001
+    y:       0x0000000000000000000000000000000000000000000000000000000000000001
+    inter: [2, 49, 1622, 1653, 1826, 1915, 2705, 2709, 2710, 6673, 6674, 6677, 6678, 7329, 7341, 7342, 7357, 7659]
+    - curr: [1623, 1624, 1625, 1626, 1629, 1631, 1633, 1635, 1640, 1642, 1646, 1648, 1649, 1654, 1656, 1660, 1661, 1663, 1664, 1668]
+    + next: [1629, 1630, 1631, 1635, 1637, 1638, 1639, 1640, 1643, 1645, 1648, 1649, 1650, 1656, 1659, 1662, 1666, 1667, 1669, 1670]
+    length:  1734
+
+>>> fuzzy head equality:
+    x:       0x1c7377fd48a2f11ca3d91cf85eaf3f13769d93c3bd424fbb80d69c3bcd5254e2
+    y:       0x01c618c353c74f8185ca192f07c4ed545cc7cb6bef18c24891b351001950b931
+    inter: [9809]
+    - curr: [12153]
+    + next: [10102]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x301f9bb2482f3ac9cad6853a8fe4207fe88c3716d09793bf0b46995891c44e44
+    y:       0x3cf6fa152ba9be24432333e82cf1336736f15833d5c9437854214c7fd065528a
+    inter: [4785, 4787]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x09446e9137690c7ae408edfd31c746ae8b20f26b1964cfe53349e1afdb30683b
+    y:       0x1fdf8d0b21bfa48bd45dad088c9bd20ebdb4a3af12de34238fcf4ad7a4660a0a
+    inter: [9664]
+    - curr: [12008]
+    + next: [9957]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x16e9fee5c88d40d501f99ea13f7685cdc5d2b151488badef07a38cdebb50e4c0
+    y:       0x1acab73812329dea638c92d1e8cbaa1a85b2d59d3c8720b3664bdc4be5171809
+    inter: [9808]
+    - curr: [12152]
+    + next: [10101]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000224698fc094cf91b
+    y:       0x000000000000000000000000000000000000000000000000224698fc094cf91b
+    inter: [5689]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36f8cc0db8dfcecc93d57c9b108e49ef1abcd9913685548e9ed34bd89bbae8a2
+    y:       0x07c226e123bca833b20e74f286ba5d1f10c7618743fec50d2e0823b102fbf9b8
+    inter: [3614]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1edd6d1ca935bb45e0743f29c25f7dca46df4e830887a9f2ac9e23505d4d8495
+    y:       0x29d51d4e28bc7a2be63d9426dde76a93ee712a69edfe882636a3326f5b2f96e3
+    inter: [3921, 3923]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x18e6b8e07639ee9f74c2e5f5d78ecde3a77ed892633f90f2c555ebd82283e78f
+    y:       0x09df6d166214da884c7ceb95ca829b88fe72ef1d2e88948542d18f67677efb9d
+    inter: [3615]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x14b27ecee06804ece8cd9bed097f3c82dffd094bc34121ac1e705417877b2739
+    y:       0x134417536612edb0c422266e6a2048236c8ade003546c2571ff027bf4f72ec3f
+    inter: [3200, 3202, 3211]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x051e00830662a464c3c807509556df8b049a659364431cd590708f34b35e2c26
+    y:       0x0435204bd2cea4c94b59e589d4942120e1e2de37d448b399cc3943c78aa945a2
+    inter: [9624]
+    - curr: [11968]
+    + next: [9917]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1fe0dc7bb66151e2381aad2d3c3b87cbcc6ad33cf8d8ae0ee60f57d76aa3273f
+    y:       0x18215e86644a216bec46547751af38a40bfc38c7df76fd19d6aa27f42ad5ae24
+    inter: [5180, 5182, 5191]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2486e9a64ea8ce2ed084d64fa17d9e9d22f8a0037daec331cb8f88da888a4160
+    y:       0x080512237a2553e2b520d9aee690ca97718f33a05a3f551780ba695b285046c2
+    inter: [9826]
+    - curr: [12170]
+    + next: [10119]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0a3794dcf3e06da06f31d93af045740c9fc2e46e783d2ec597109f9b7f6006c8
+    y:       0x0a3794dcf3e06da06f31d93af045740c9fc2e46e783d2ec597109f9b7f6006c8
+    inter: [77, 18455]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1cda803d5d667b4648f803ee60c92906c04beee313ccbef35f46c7b63f4ed0f6
+    y:       0x3513a0c56b6d4c2ac0143f11b86139330e54f6e33ebb09f99aedab0e6f22e16c
+    inter: [17288, 17306, 17324, 17342, 17360, 17378, 17396]
+    - curr: []
+    + next: []
+    length:  7
+
+>>> fuzzy head equality:
+    x:       0x0d25b899d1dc6b9789e03422f644b4119256f2091b7a5b3a2428860387e00a51
+    y:       0x328a077dda77f5c33bdc32ab33c6d165c653d70b86f792cba52a2d3d17d32b06
+    inter: [9829]
+    - curr: [12173]
+    + next: [10122]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3efe41f84133713b6b17740d0117f328c84c403e8554132f20fcc17600274477
+    y:       0x3d05c545f2804f726ef638331b0d281b6cf837457ed0cdbac204fce7c6198567
+    inter: [9755]
+    - curr: [12099]
+    + next: [10048]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19f6e408ed4cd873988e734e0198904e85ce4227b629dcfc218f9a1e7abe19b2
+    y:       0x00aa25281bed65839143b1f295b44e58c3e823b7c31f91b33ba277d3592525bf
+    inter: [9878]
+    - curr: [12222]
+    + next: [10171]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x265fb053c53dee2bb5ff4766156f0c193355e0f79adc9a0fe65e5052ce854737
+    y:       0x269009dde55dc0b2d08c03bc672f1859a130f447ff26c98f0e3b415e41f46856
+    inter: [4001, 4003, 4012, 4021]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x0e730416c0fa5f60a4dfe278099bc254dbb0519edcee09ee0d648ed079c8909a
+    y:       0x26dfe83b8e737786689577fa4ffc0d6f77fbce2c8da9e2261e9c498db13480b7
+    inter: [3525]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x02db908bfd1a49c138d55348eb30a5603ffb17089ee887b94b6c08fefd7884c7
+    y:       0x02db908bfd1a49c138d55348eb30a5603ffb17089ee887b94b6c08fefd7884c7
+    inter: [13716]
+    - curr: [15696]
+    + next: [14112]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0c68191cdcf9d551a983dfb326f087c713cc0c102529405846ba7dd9f0ab7a38
+    y:       0x088d39671ec5e65b34d909e8a2c32efeaa029d8ed045290cf6f0ad45b70fd839
+    inter: [4487, 4489]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05476c92f576bed7ea85cdedd9d7263f7dd29b65ef100cb1d7a2f454069db5f5
+    y:       0x2223de5825ba193b12e89bd01bff07aa3438683be996ca7876f8de37804d7880
+    inter: [9629]
+    - curr: [11973]
+    + next: [9922]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2fc53d977b01bb1257c3fc7fde6230bc5b41cfe3e1117c49a9f23d975fc991c2
+    y:       0x31f0c17161a12d768f71f607e09eafc39f4caee50e6bbc4051777a4eec06415d
+    inter: [9763]
+    - curr: [12107]
+    + next: [10056]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x015d72cc0d9cafd631d9fad5e2fc76ea69d4f8506c6e361322b4a9ed09d16af2
+    y:       0x003068ae1ae952bd0364a5ce322b78722b53c14b243a638c7ff613f834b320df
+    inter: [9645]
+    - curr: [11989]
+    + next: [9938]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10ac3f5ef334e69928ceab01703f7d96066c42d019b68f03fe03a9c0979849b0
+    y:       0x08bdc7aa8a97cffb0d5a4bf85f6ded0e6aab7c038cb3c71e1cd0c577209f7a46
+    inter: [5126, 5128]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1472594ee5a8a8e482b4a51033c55770bd2fc17da0c1bcc97ab404fcd0f0b792
+    y:       0x3cd0217bef7ccb449d2b92c793450150b3b379fbde3f90268bc6299c042fc402
+    inter: [13705, 14101]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x01a85406cd28ec5b43e633bbb8c5b397e2e6ac32e18651fcf4a52334a7fb5128
+    y:       0x2b1eebff79c836258c87d10d560e4a36b88650aa1226c3484b0bf3607a209f8f
+    inter: [9611]
+    - curr: [11955]
+    + next: [9904]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1222bed59e35941fdd7c92c772833362c29bf12fa0c7f6bff47c69546de09658
+    y:       0x025abc0139177bfc172dbe3d5c61c87f56ecb995a00fecb39aba484cfa4f9f42
+    inter: [4721, 4723]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0463e678e3df45a7bd99625769acdb7e569e153228007d244216c0e99344e761
+    y:       0x3ecfb43ad0f7f43af4db60f930eeaec1492e127df0630a2798013e41dd0d66cb
+    inter: [9608]
+    - curr: [11952]
+    + next: [9901]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3c82c1ded74d38bc4cd53b358ac86fcf8ca62c3af2493f39429403c1c531c94f
+    y:       0x2a4da99870b35b34be5746f42e8219a103c56e7abe836abedd4c545ac7403373
+    inter: [3777, 3779]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x33dd60f2ac930dcb5c3cfdd66b44ca571ed2c6793656e05fe6d6c41021ad4d7e
+    y:       0x3a5514fb4916e010f466b61d34f55b712c73924dbacb7946c6294e57eb4ef528
+    inter: [5082, 5084]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05e8c78ce2e0d1fea89b6145d326014aec2ae4273e8b3717033e568969b5c6a6
+    y:       0x13beaee586e66013ac301ce9900c6638b403ecc9785e6909978e6c00b35b6313
+    inter: [9634]
+    - curr: [11978]
+    + next: [9927]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x08a1951f03cdfc6c771b46c08555a71256f77536d3e3f7f3ea040bd06c5795cd
+    y:       0x2cd88d2d272dceb6ab519cedd715eb8f015e324b481d568d032cba43476ec37a
+    inter: [4983, 4985]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1400dbef8b1b31c320e53eb7fcef2414d42fcc016eacd52b38b0fc0ab063b2a8
+    y:       0x0167c4e74f816cb4d196a7a7989e2bf44b4431fb5d12331bf04042accac10f2c
+    inter: [4190, 4192, 4193, 4209, 9493]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000ece234db2a50e79d
+    y:       0x0000000000000000000000000000000000000000000000007e769609bc876fd3
+    inter: [23, 60]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e2cf5ccf713d2af5ccad099a2f6cd20618fd322f90d3c860306c83464889e52
+    y:       0x19404fcbab2e62eac9030245402ed2eb37b8d0035795aee30d5db7fc09737860
+    inter: [3380]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x0105d54c7e0e10afee909c14c72143b8cbf133023ab59ac93bd8ae24e87cee03
+    y:       0x2a53d5a36091904f09cd86bd43b07c7961faad8ec81c97c9bd30d3c6e9da1ff2
+    inter: [9603]
+    - curr: [11947]
+    + next: [9896]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19a40514d1bfd7fbf298d4066d2ca9424f8903c396cbd55c104447b779789d63
+    y:       0x3a862b4fb8c4b970080e4a063f95cdfcbbdc7a776b3e0ce9da709ac3f759ec7b
+    inter: [9744]
+    - curr: [12088]
+    + next: [10037]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2b93ba51b8f2a1cc515c011e4df98f0765dbf574a8bcc491b0ea5f888598d4d0
+    y:       0x1ab15b518306d3850dee4be8aaead7381e975c0ce17b588dc6e05828565fff82
+    inter: [9842]
+    - curr: [12186]
+    + next: [10135]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2aa255bd273c7c7a5e5fb40b8bbe7f768556c4b489c5ec43894e50b508fe8d6e
+    y:       0x06c6f039ae899e1d821525db399cb8e6d762147058c8175ddc6fd71a39b7bdbb
+    inter: [3057]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b1984a64b78eabc37e4048c10fa2ec5b5e65643289c931148f26333331f1e2b
+    y:       0x2d076d13d999d76da26830640cb80f67993ad92a5680a8512f6c49907c774b1b
+    inter: [9802]
+    - curr: [12146]
+    + next: [10095]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35d408c5462352ba8a12651f05c16ff2e17219b834bf7e05796f3f0b4a544a94
+    y:       0x15480e7cb5c88bc77d6229181b086156262cd58d7ce586f3860c53a9ca0666a0
+    inter: [5144, 5146, 5155]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x23cc7a5a64f69c3227bc26fca5e9e802c355a33493f75997f258b298959fb3bb
+    y:       0x3dd0b7f6df3a7d67aaa62ee2e752d7eabdf9596bbe50b30c36c99df0140ad34d
+    inter: [9615]
+    - curr: [11959]
+    + next: [9908]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2eba5ad00cd75516ec92bbc129883c8e75723b25a19126f11e2659c76f602981
+    y:       0x2eba5ad00cd75516ec92bbc129883c8e75723b25a19126f11e2659c76f602981
+    inter: [9530]
+    - curr: []
+    + next: []
+    length:  9
+
+>>> fuzzy head equality:
+    x:       0x336dbffd8f0e86e01bec759ebd3662cf81554c9e0ef1fdf8bc04d9b393249269
+    y:       0x201b1b95c0cf354b820ed53ef622022d9b9f94e0eaabae20d555b782e37d3620
+    inter: [13709, 14105]
+    - curr: [14897]
+    + next: [15689]
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3c6bf682955841d25609045740287c2af19455c3ca995d86553bfabb84827083
+    y:       0x29dd0402a87d5b40f9d6cfd1b6bafe4b88d3a89d1a2391749fd334313e8bdb08
+    inter: [9602]
+    - curr: [11946]
+    + next: [9895]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36e42780b23e0180c2f54337066cbc11699f34532a81dc542740a82e62ea838b
+    y:       0x3cf2ad451cdc83a8bfa4458e2bc8e53b94486c451956577dc5536e06d8676c87
+    inter: [5325]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3c127f7243b3e29ed92d95e1404fc6fcbe46912d46838efb2701d19bd5af4f68
+    y:       0x3191e39763a443c45282ba69bf615edacf646a646e959c5430b96346973e2531
+    inter: [9858]
+    - curr: [12202]
+    + next: [10151]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x11e945672e2065bf839455acbfa67af03ab547fa3190e620d03d98e76d7f828f
+    y:       0x14cd048595d0c0666d792cff398d08d318fadf2ef5ba83bbeda1f8fc1417d199
+    inter: [9801]
+    - curr: [12145]
+    + next: [10094]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2954fecf996803db7d44089a1b3eef16eea4bec87dee03d0fa9e24a7eb35f9bb
+    y:       0x1e3c1a0a13de752b1905e12b56226e07255771d4c855509dce27892978c8a0f6
+    inter: [3228]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1d2d8971085e8d071aa3bc8fdf7148017393501caafe52151e1bf111baa2771e
+    y:       0x1e1d0906143848ddd011df0b645a7011f797fc0c0151ba04452344c4a0d35903
+    inter: [3066, 3068]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1cd67a4505412a23a3f18c6312aedcf5f0fa45c837da49695e2f23c0b3f643a4
+    y:       0x3cca03ddbff6d6b54dc1ec8cc966f6487ceeb752af1a9299825d058e1d1314b2
+    inter: [9720]
+    - curr: [12064]
+    + next: [10013]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2f039565edfa7bb482859fa9355010bfb2f1af72a704ea451a2c9c63e73722cb
+    y:       0x23419dc40681f6f24e3514d3d29830b73f2edc1597cf6806495524a237d89b34
+    inter: [4523, 4525, 4534]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x2222dc833186e8492bde28edf5ceb6ecd1eaacaf543bf7b242c22890d4af9733
+    y:       0x3ae08940ad8cf9a078ced0ba4d6659e2b8e3f4e08d6b6a18c1aaa74cfaf5ca45
+    inter: [9835]
+    - curr: [12179]
+    + next: [10128]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00000000000000000000000000000000000000000000000014dfc46bd546f951
+    y:       0x0000000000000000000000000000000000000000000000000b7d0a3cb02e3e51
+    inter: [24, 61]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a96aed7ef153f968ba38bb410badb7ef302ac8fb351a60870dd61d75d9bfe0d
+    y:       0x1dc715f0e0f3728f5cf5625366e99315cfe9fd01f83a8100cdd4360e3d3cb736
+    inter: [3992, 3994]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x338a35e652bb9a842d2daf7106891ae8634564d7eecf25140e41337370badcb5
+    y:       0x3d079959f971c3fff577f79d17cb50befda981d001e8cf8e259bd304d8128e9e
+    inter: [4595]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x1b6594e3c03ef4a2c36effde3d3735cc90f06cae304a976a3e79d17414d13e74
+    y:       0x30bbb0b74dc29d5f5ba743312d42fa78efe7b4062b616df40a41ada04e9b231e
+    inter: [13708, 14104]
+    - curr: [14896]
+    + next: [15688]
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3d68269b4fd9259b1ff16df2e3fc02fb4e41efb5f63a91d283279cf95c3fa0b6
+    y:       0x06ab90ce2ca337ae7287d6a084ae7031fb60d7f40d0c3315f814c404c250150d
+    inter: [9824]
+    - curr: [12168]
+    + next: [10117]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0c979e60ee3e0801c50892c340ee5152820c2d8126292a3a7acf8d7f309aacb2
+    y:       0x2f304676f7c52723a64ba2d3f720604050fb1911f44f733cedf09a66a5ce4d6e
+    inter: [13702, 14098]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3f2b8c899cb4c5aa91d61abb9a1ddb53eaf6593290be6b3f9227e3adf69f6032
+    y:       0x12549bbb76416418f083c7677ba763130657c3847daf80e7a0fe535f39a0ba38
+    inter: [4443]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0e6e6a8ab6f4403b71477fb42a41e98b741d490a74b8eb691d857e29cbab8399
+    y:       0x1949b4cfe00e1d6f30ddb395f90d67f912278801c39710173a2b82e2932b9f6c
+    inter: [5009]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x340f1e8c173f3a97833137c949277592be6115ee8df43977bd213eebc45e5437
+    y:       0x0c0c37b98f8d25753cedfb64fa93ba9050c41cc196547268e14589c5c7cd35e7
+    inter: [9846]
+    - curr: [12190]
+    + next: [10139]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2a1fb3863539cc6b53d8cab62c5f8bc7c5bee2da007e9909e3baa5ef40b77ed6
+    y:       0x36fd74f12aa238fc4d1478c7e050dfdf0fa4e9ee58bb48d664c2e7ad3e2412eb
+    inter: [5171]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0a295b61e90a9c52318087517b47bb1bcc99aa05982453116482d376e87d1e33
+    y:       0x0f7f98ca5bd517fe2b6a27cba1f56f4c89e36709ff7fb75e50a2e8a2184e4703
+    inter: [3741, 3743]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36553f8a17458fc85f16e38fe2212ca3506c8310be0d7b85988de7f50749167d
+    y:       0x3016d2cc488641b7d824bfae6c04ecc317c06cb5f4e664fd8744d812fcf99851
+    inter: [9779]
+    - curr: [12123]
+    + next: [10072]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x13d46137946cb8a93ed2f1ccd9c61875d4168f5793ec3cbcc687f33c39baf2ca
+    y:       0x173ae5cfab4f9a9224b3d609f55fc01322fadafe57f5de4e0da95b7d26caba59
+    inter: [3309, 3311, 3320]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1d4fd43854336787a0beef0513126e0b305f00106efd29de14f476f13586e69d
+    y:       0x0f392ae5f5a85716a0c7cc4c10ffca669abd55f09a6dc27570dcdd0730ca138b
+    inter: [5208, 5210]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0251c7074fd632773f6212021ccfd71e32150624b70c6786a981187a300e919c
+    y:       0x2b1f753460886e754027daa864a7744f58112804c5b83ade1f9ed8d37cb0c818
+    inter: [3426, 3428]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x25e39e441a7dcd56ea1fe6ee334ea36f126176d7266c9e973b3a3d4ee9b3125c
+    y:       0x23a64294f3bba8ea50911894b3b952f86c9ed5c4233a23038975714ac2114a10
+    inter: [3335]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36d896c7658416f861fcf55d56b5bb178f5dd7deaacf4f4edf582118d772604c
+    y:       0x195fffd982c815fd33ea2879ebb3134c5955816d944acac284c5bda32944163e
+    inter: [9702]
+    - curr: [12046]
+    + next: [9995]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0826987a06dae22d7cd55e9485a594069a0c1f62269cfa530be0bf49c7334dd7
+    y:       0x3261263e8403fd28facd301e1812a561c7b4aae217aaa6c81cd132e5bdb67f16
+    inter: [13715, 14111]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3f9211e1e131d267dd67e995e5da6701c0ab3270f93e217c24bd61a606524b3f
+    y:       0x167de255340163ffd4a75adea10746fdc518361913f0cd753ea3195a99375ec4
+    inter: [9817]
+    - curr: [12161]
+    + next: [10110]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0f8a7d40c3bd5de43a6545081a892f1284179c60bbb0fa22e350227ebaa87ac7
+    y:       0x282c7b2ed38dcb7b4fb8c93e25572ef1e30c5c63dba7a3f947ec444544b87b80
+    inter: [9694]
+    - curr: [12038]
+    + next: [9987]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0cd979c24ecbb84611659d68d6580c68ae3bd8228fb3f54cf2b1c029128dbed7
+    y:       0x26662f1fbdf2a892340d598eb58d94f7359931536e55538c1621cd5b14b638e6
+    inter: [4362, 4364, 4373, 4382, 4391]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x2703847df529ffb9f35a145dc6540e70099d16a20c0fbf3fb1558fbc1bd30362
+    y:       0x3151287facde9d72eded525ac249681a8e55d0500408c8b3a363351b03c619df
+    inter: [3281]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x25e7737ffbe954d78fb7001bedecb4462e3378e7841d775a49b28ae480ebc929
+    y:       0x014514c02c29693c4d904286af88b3c1cc79ee63cb08efe0f438b1ec8b40f815
+    inter: [3236, 3238]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1fbfcb5608ad072f4438d17e805bd500c0304f80d3f4d004754f78c0d3dcfd6c
+    y:       0x18957ac81789e16481b3a5e33acc9c03506dc72ec5ffad559ebec2f3e397a33f
+    inter: [9838]
+    - curr: [12182]
+    + next: [10131]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x16587d20a97c000c5514accc86457b7062b6f6a2ce7cdbe9140bfb6c3b8eb373
+    y:       0x33eeb4a8a09e70482c9335cf65d8e2d0b6b288a7841036f31bedf78f0f49874d
+    inter: [4587, 4589]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0045fee53c69afee6bcf37de6e1ef3c546ae122c62488cdd3f9ed7dc23377777
+    y:       0x2a55bd4306ff160d21be5a9a0f4ba72e0a9c4e0d72324963d950cdbdcea37b4e
+    inter: [9819]
+    - curr: [12163]
+    + next: [10112]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2adcaa9cfe035d20e781884962d906bce7728bd67e91d6b49b0e505197e8e46e
+    y:       0x353225c6bf91019d46a5115239f57f1d5965d6c57343732aafcdf6b754f2725e
+    inter: [9637]
+    - curr: [11981]
+    + next: [9930]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2fc9d5beb2e58cfe3371b1a410d9ba8ec1c78b608119a6b004c18277d79e3a8e
+    y:       0x12d56c05cfb287e4762c02745233082840741100cabefc216a8f4e14c323eb0c
+    inter: [9621]
+    - curr: [11965]
+    + next: [9914]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000000
+    y:       0x0000000000000000000000000000000000000000000000000000000000000000
+    inter: [5, 1713, 1714, 1821, 1822, 1823, 2707, 2712, 2714, 2715, 6565, 6566, 6568, 6671, 6697, 6699, 7355, 7364, 7445, 7724]
+    - curr: [16, 19, 31, 40, 45, 46, 48, 50, 51, 52, 53, 54, 55, 56, 57, 1621, 1627, 1628, 1630, 1632]
+    + next: [9, 16, 19, 31, 40, 45, 46, 48, 50, 51, 52, 53, 54, 55, 56, 57, 1621, 1623, 1624, 1625]
+    length:  5241
+
+>>> fuzzy head equality:
+    x:       0x294b6a7f0984f3d0560b3d0d973d20f41186547a1e41c758e2a3348c0141a665
+    y:       0x294b6a7f0984f3d0560b3d0d973d20f41186547a1e41c758e2a3348c0141a665
+    inter: [9594, 9887, 10180, 10473, 10766, 11059, 11352, 11645, 11938, 12231, 12524, 12817, 13110, 13403]
+    - curr: []
+    + next: []
+    length:  14
+
+>>> fuzzy head equality:
+    x:       0x184802327880591735e8eea8977fc8fc66b26cbe30f32993ca2364384ca234b0
+    y:       0x150c569911397952d15abf13ec3fb7426840b84a87036efb0fc83311362f7177
+    inter: [3866, 3868]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2f516afa98ac480c21856364e102cfe9c117ce75ab960fc6a4fcf9ebf149a644
+    y:       0x2e88333ccb23ba95fbf71ac36447216fa0691f2cb182589ab65e4fa797329c9d
+    inter: [3201, 3203, 3212]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2d52f53cd835527343865210b32f12507df25e59e56b4cd28e2c49961f07aed6
+    y:       0x18ef2cec7076ec0c08a782e8c449a8978b2c7f8f008b525a403b069090f95750
+    inter: [42, 4212]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28490fbd804e5387d07927da7b49f9bc80cfedb9c34f64770d99ef6084145bf2
+    y:       0x3edcc50fe79362fc96e6975351d08d7b74ae017ca3c402896474e04b933c01a7
+    inter: [9732]
+    - curr: [12076]
+    + next: [10025]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3319f064e0363f546210575c9e27ebb1deafeea58d7af3160548361280691430
+    y:       0x0cdae7e49b3d41c886b2eedc37e3e821276b9320893a2da7374faf834d2dcce4
+    inter: [9717]
+    - curr: [12061]
+    + next: [10010]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1c590409f8fa70a550cdedfcb79776651bbeb7faef2f04e8900283998ffc836a
+    y:       0x1130f98d0f0cd8f844d8e8433a6cf1cf8c7f9bde769f7d5694ca0b6ecdffc547
+    inter: [4992, 4994]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1b2842293032cb6304aa32722197b648f4062e96576f1b128e8d98dc4aa7f1a4
+    y:       0x1a3e70e50ca2c4e8bf821a172685e0904699f8107ddd5d8870cf6c565259e31f
+    inter: [12228]
+    - curr: [15277]
+    + next: [13103]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2a6f9116de9990bf12664544db567772b00fb48af8a8b145dd4bf26873bdff5d
+    y:       0x1ae6728dbcbab312b6788ca6ee2b8bdc836d2a50c511960e4ebd309501549b27
+    inter: [9870]
+    - curr: [12214]
+    + next: [10163]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10958d4ac40eff478b5c034f0102ff8192ed7057a49dc9f88ad0ccd987a2bc95
+    y:       0x1e4707d0c2fb8641ed212c0ec48fbbe362ac8946221ac336baf595e27289ab09
+    inter: [9821]
+    - curr: [12165]
+    + next: [10114]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31fe8db81d99e1b77ca35c64ca79fb5a5350ddeedabeaa8373dcc94433bbbb3c
+    y:       0x2137aa93d8096076540fb10ced31be55aa8bcffefd172090ed10827329c9967a
+    inter: [13703, 14099]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x2bf0fe885d0bda4eeadc0c5e1cfd57330c3ecafd3074100cfc28f67892f7b53f
+    y:       0x2a250776cfeb001ba2b15d11f565095bd481b19e06cd680544192be4ba9a4e4b
+    inter: [5352, 5354]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000780bde4889ce5320
+    y:       0x0000000000000000000000000000000000000000000000000065ab950a629a66
+    inter: [25, 62]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33bb7e0b140aa2a251d441ebddcc092db35bd131d24387af4fd82484a4f45635
+    y:       0x2521fb6f575c1d6f15d4039aa31d90395b0b0f7b54ade2d8c56350bf8cbca0d4
+    inter: [9867]
+    - curr: [12211]
+    + next: [10160]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1044fe59dfe44364492580d375b12f0de4edfd7d5e57c57665a70c54975b50ec
+    y:       0x0744f9ba5363fa4b6a6e6f172f8a5c99f41c40120c559b8de9f59da5c17297d1
+    inter: [9833]
+    - curr: [12177]
+    + next: [10126]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x21ed69b9c1214fb198d8286f79ea2c26cf8d8ca77095b69dd43caf5ef8a96006
+    y:       0x322aafcacffe775db2ce1c6559d26baf6e68e3471973692d9c2593fd71415e0e
+    inter: [9849]
+    - curr: [12193]
+    + next: [10142]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2f5f3ec7b1c7896b74d6225064cc477fa4940a50fbfb7e1a6e7d05d21f3595e9
+    y:       0x057172d3dfd1deffbc8cb16dbf7cadca42458e04801372d9f0960ea691dcc890
+    inter: [9736]
+    - curr: [12080]
+    + next: [10029]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x18dfcede78a38bdf31eaab7066d5c08a4612357255c5e16367557e4afd9a7ce1
+    y:       0x3f2a6e6c57d60859f9870069c3e9f9e1936533f2152f9be68b621082ad8f03c5
+    inter: [4766, 4768]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0e842dbe7ecdaa894333588048108f57d72f234d1a745654999198fe064b7914
+    y:       0x016487ab4c9c0170f91f91d99a9e4566b8a61c4a893a55430e95d805ea805217
+    inter: [9698]
+    - curr: [12042]
+    + next: [9991]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2101a27a3dc192df10a29d410b348c2c84b73701ddc8f47d0f75f68b269ecb35
+    y:       0x263ff1f14e3854459afefb10be57382d0aab4f6c5771d8eaef94a41f6b5e3b12
+    inter: [4830]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1f198b05dde393a37131f58eab45a9a77588a0e4af9a038a88d3a7f7deffad86
+    y:       0x3738d3cafe7fa8612b9bd7a65f2b3f30100f686f5b309ef419ef5887c119e584
+    inter: [9820]
+    - curr: [12164]
+    + next: [10113]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x356aed29f4ee28975871baa1ffffa58c31fa594c6190434b569c451c435985f7
+    y:       0x19ab93cf6dcccd844a8d74798f6f0d185b0b21a683f7f03966e5a5d60c6a7cf1
+    inter: [4136, 4138]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000b7d0a3cb02e3e51
+    y:       0x0000000000000000000000000000000000000000000000002c9e3fcc8a94588b
+    inter: [7263, 9503, 18439]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2ed35a8cac13d0b7aa392fc7ad0db754353c3c3355365a8067c9fa7754ab896a
+    y:       0x3ee146d71bd53276832582fa70504af9565c7d11e97fb9e8ac99f1a665af6a5d
+    inter: [9863]
+    - curr: [12207]
+    + next: [10156]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0abf296c7e362693d6d50da37a5aa9ddc7f884881be2be5f8c87502937a54041
+    y:       0x253450f55da60248dbeca38d16922e776bb6b23d956ae90bc39aca989ed63eef
+    inter: [5145, 5147, 5156]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x231ae0833b13f67f38ea5f2f70e548f1758c82d6bd2cd8a3744608f287a0a5a5
+    y:       0x055b4fbc92a824e6ab612771684406c92cc88a4b707947f0ec2612ad0e5a8163
+    inter: [4217]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3424629375a1c16c12f0ec879aaca6c8c345af9e7e7a4a3d95a180c65e175342
+    y:       0x322dd71a8b18a433e1f6bb0421e208c96e842490fea1885f005211d335f9bea8
+    inter: [9678]
+    - curr: [12022]
+    + next: [9971]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x355f95c13988fb59a1e2dfa2644b6018e5da05fffc49bf4ed76448314f604614
+    y:       0x29ad760f0007ad6e927d0c06396e7b3a90cf2c128b7747da1e32ef951e55ccc5
+    inter: [9684]
+    - curr: [12028]
+    + next: [9977]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ff85d7779b5591f919853248b9ad1123cae12c98b1786f55b37887e1f7bf15f
+    y:       0x2fa4b3f29eebc971d0ef74770a79201d76c4f4cc126e0ac10616895f9a83bd6c
+    inter: [4694]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3bc12f1dc915ef5baa11e06957a029fdfc2e96c4cf191b9e3e30dd99559bda82
+    y:       0x3bc12f1dc915ef5baa11e06957a029fdfc2e96c4cf191b9e3e30dd99559bda82
+    inter: [13700, 14096, 14492, 14888, 15284, 15680]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x35b0e5a597555f7af9ebd5464489112a6b51fb15de08ade6b388e5b5ad3b8788
+    y:       0x35b0e5a597555f7af9ebd5464489112a6b51fb15de08ade6b388e5b5ad3b8788
+    inter: [117, 1972, 18495]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0e89b73788bfc224eeef6979636f69f2dd1264425289aa43eb89fba0289ec94a
+    y:       0x28ce53b5ff8188120898133393afeca779bc9f19475f8da6301ddfec82f54a60
+    inter: [4165, 4167]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10bc39e9883070405d005b8d0c6caee0309757ff55d41dd3804d3077a90c0f1d
+    y:       0x14066ddeb69d277ca71dca8bdc75befc385ea9add465a30d16a3568764cca806
+    inter: [9627]
+    - curr: [11971]
+    + next: [9920]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0fda31d65821bacf0736f153efccf4b36e510437e952d55276ed8c1152da5beb
+    y:       0x0c7aec0f0e800b9b9d856dd232974fc3ae452c15bbe2692ecd3cf8109e1a2c26
+    inter: [9696]
+    - curr: [12040]
+    + next: [9989]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x071610866828748fec83374e9e935edc005b9e6bc7f237daf2b70b93ceeb2b7b
+    y:       0x3203f38cf94774f878f197051cf5d0c3216d43a97f624274acab7dfcb9c0fc71
+    inter: [4334]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x277fa69516f9553d6ccea8613851f599167c48617b735aa1272878a730dd647c
+    y:       0x05c163d61b6601323ad01c39c255566b7e283dd4cdd9fef8588ed21f47face1d
+    inter: [4955, 4957]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31f1351617a7ee6b7f8befb9b49bf99bad4c49d9acfee03a9f10d6fb50bf4697
+    y:       0x03f4cc78001f65fa6c0ee4f5bec0683f1725cc1a4f14c699330e6e51a03c98f6
+    inter: [9805]
+    - curr: [12149]
+    + next: [10098]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x156eccb026d8e4de347d3bfcea9a89e6a72474c7b57408b90d43f0b61a79fb14
+    y:       0x09fa5354fdc3fa1b5fb75642b89ebdb3b11ba0683469e27a365887cdff4de79d
+    inter: [9708]
+    - curr: [12052]
+    + next: [10001]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x238b0b175b70a2aedbddd072373dc4a4519bd8812365ec9e2417f33746c3e7e4
+    y:       0x20df08a5587f33bb4cbfb246a05fa49172f134cdeb7fa63454e86b7c7d2e7460
+    inter: [4407, 4409]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x10aa749c46a72fb2877d280b0e15ce236be43f592bba66c579aada6600c8e7d3
+    y:       0x2c1459d136bbfd46f2d4999fbf2c9eb366528da31b086bf198a60278ee528e48
+    inter: [9672]
+    - curr: [12016]
+    + next: [9965]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1f3756acfb9f4338050b5db41b9f56dcfce443c1bf9376271b3d86a9aa510acb
+    y:       0x01db1c2b67ffbffba07f8fcec3acc2e81b0f2f746c127c4b663fa2f2e5824250
+    inter: [3272, 3274]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x351e4b1b91bc691b2b98b0d144995ef12006ac8c1b3750be5e431c9ed94e8f18
+    y:       0x2b6a49cb89bac1cb76f5185641d9940a8d6138ae92fe506c1d3832d0836c2c21
+    inter: [5333]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000003fffffffffffffffc
+    y:       0x000000000000000000000000000000000000000000000003fffffffffffffffc
+    inter: [6872, 6939]
+    - curr: [7591, 8772, 8839, 9491]
+    + next: [7524, 7591, 8772, 8839]
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x29b06e3d42037968be450e8f78a57e93e251fe3da03744c430658d13f24fb1ca
+    y:       0x0e1ecd6a5796186637619622a4ccce14ecf1baabb08c0159e2d974ef3454c492
+    inter: [9731]
+    - curr: [12075]
+    + next: [10024]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31fbf5561cfc90c6af1bacd0872673c2545999279762e7bfd891b5156644c85b
+    y:       0x2cb2960b8474ee25573df05fcbf0abd55617f7210114779438c4de8477b94802
+    inter: [9806]
+    - curr: [12150]
+    + next: [10099]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1dc466f63293dc51e099b4f043cd8341a0a9040b72f1f8132a64ca7bae282db5
+    y:       0x0a60cd74c47de9ff2814b9a006318635c0cc656f7adaf83787be823dc631b56d
+    inter: [4632]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000992d30ed00000001
+    y:       0x000000000000000000000000000000000000000000000000992d30ed00000001
+    inter: [5688]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0733f1c5e1dc53965972b312d032c080254ca1054978cd9930dd3d615ce0f5ae
+    y:       0x19de8de8e90431a55dfe3bcd2edfb693cd013cbebe3cb5faf416a3a39300f7cd
+    inter: [3920, 3922]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e924801d8a8061dc22f7a22bb1d2fcc4df702a80a534b9d7a12c5890676be9a
+    y:       0x076513c1dc3bafde299bb61e69467646b3050c446fc88a81f26f74435a53c257
+    inter: [9722]
+    - curr: [12066]
+    + next: [10015]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0cf7afe5cff24cf111c69197cea0535476da70a319bf0fe2c1ce7407dc562f15
+    y:       0x2e2f185a02ded7ffa7d118e19f22edd1abfdf701ff0735f6bbbfa77e1f83f0fc
+    inter: [9816]
+    - curr: [12160]
+    + next: [10109]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x324c5ec9b59fbeeaa46d4249d90291fcdf362d1f52ad6143882580ae9b9f976b
+    y:       0x081ef4b8aaaf587ad877582b633a84fe0c514c31a6695160a204f11137d2cad1
+    inter: [9764]
+    - curr: [12108]
+    + next: [10057]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28d172247a2e4dff812295641713d737385928036817522a4c706074a0da3bcf
+    y:       0x0aeb70fa9c19bcdc113b739a516245af0d675d46cab8a70bb46de63872dbf2ae
+    inter: [9762]
+    - curr: [12106]
+    + next: [10055]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28d09d1256cf0b19a1e7c7eac7adea5c0a4f74d909add9d625b4173e80eb24c8
+    y:       0x399b95a127d3d123a3b7da459fcde8918efcf0437899c6b0c210f5c20270c828
+    inter: [9715]
+    - curr: [12059]
+    + next: [10008]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e7c16d39c46e9597d96be8fce262ed6ad0728dbfd20c70ec4d3e4cdcdf36eb3
+    y:       0x1c0adeaaf01ca44cf6fe25c5dd3d8100d405dfca6f6fbd5ce7b3c149d755fa17
+    inter: [9631]
+    - curr: [11975]
+    + next: [9924]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1654ccb0b374c6d5df9edd347e98bb217979fced435ff99f2e6c037052ff865f
+    y:       0x05091de0a9abeaf53eec6c2e7d9898e089018ccd89bed6258ff5440824edbd49
+    inter: [9822]
+    - curr: [12166]
+    + next: [10115]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x32f17c6e27f8539b605650b4a9d6f1779f916c7ea33e2b2a6cc7eb84b974f80a
+    y:       0x32f17c6e27f8539b605650b4a9d6f1779f916c7ea33e2b2a6cc7eb84b974f80a
+    inter: [9604, 9897, 10190, 10483, 10776, 11069, 11362, 11655, 11948]
+    - curr: [12534]
+    + next: [13413]
+    length:  13
+
+>>> fuzzy head equality:
+    x:       0x0acd544cfa3c2834b172b75e757374c2e2da2e6785defd04ae8caea384ae2b2d
+    y:       0x29a749b895cf29081b6fa045e694f0f6354b465020e44e1ad87bdd187162b1fb
+    inter: [3830]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x3d409c3f84b8dacc5d37dd53b6f345a1569cafa7eacdcade02e72e20a0c5e6fc
+    y:       0x0370a5a591ee699d1a4b59969193f7aa76138a8ee103816c24f56f3b97856bae
+    inter: [9686]
+    - curr: [12030]
+    + next: [9979]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3c5e547d87da8f03086dc692a8f5e00679b09728d771678ef441e4451383ba08
+    y:       0x2d102f9778e069dff275cdbaff7fae2ab7d1d6c2b8552ddb2ed3b4da60ba6011
+    inter: [9688]
+    - curr: [12032]
+    + next: [9981]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1eaf5149530c43fbe281b616daf89e8bb4a98458a6110e0b70bbc8b453025cca
+    y:       0x2428538601b19d925b0690565a522d89214a166953523207bccf2015c9cc0419
+    inter: [9776]
+    - curr: [12120]
+    + next: [10069]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x356ce3987fa3e21bbb447100b49e346fb7df9d5e1883886020ffcdec6402b0a1
+    y:       0x3ddbacc1b1a7dd586f8641c4ade9b1975384a5b0d2f8acca4289e043a4edc7a2
+    inter: [9769]
+    - curr: [12113]
+    + next: [10062]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2783f2551faee3479133283229c1830e0a8de1e35b2721d673dcdec3ec919883
+    y:       0x382aad696cf9169e96c288298a98f30a0ca337a48b2eb1a80a8ef1e89cc0e0bb
+    inter: [9618]
+    - curr: [11962]
+    + next: [9911]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1555555555555555555555555555555560c232feaddc3849d96cf90b00000000
+    y:       0x2000000000000000000000000000000011234c7e04ca546ec623759080000000
+    inter: [17239]
+    - curr: [17245]
+    + next: [17848]
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0bc1f2fd295f55a42d6d732d8d1144c7e712fee4be37e9e77a85e5b8ca4f9630
+    y:       0x088ccdd3fad9b14a2c03440fde6c75c9e19506d79e5d674166b79f4296bedda2
+    inter: [5010]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2c94e98e602899b890684cea591a43fa7d689cc76b796d24b61ed5769f64dfff
+    y:       0x3d6ff70bfaee83fa6d4357c2320aed694d5cc61407df25065f641b4f848cb809
+    inter: [9876]
+    - curr: [12220]
+    + next: [10169]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26b04265765947d12045bcbe58b2e6547bde60b25ddff533f9791fe2170aeb5f
+    y:       0x26b04265765947d12045bcbe58b2e6547bde60b25ddff533f9791fe2170aeb5f
+    inter: [9606, 9899, 10192, 10485, 10778, 11071, 11364, 11657, 11950]
+    - curr: [12536]
+    + next: [13415]
+    length:  13
+
+>>> fuzzy head equality:
+    x:       0x000e963524090d92c9c994aca9cc3291e9b6f4191ae2fa61583467c3b1ad8665
+    y:       0x1faaf5ba1a9f3c812fb5937b873d4fd366fa7e9a18e898c7f8986d26996d7259
+    inter: [13714, 14110]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x19186c07e647f03f2d997d71f1ae9eec291cfcfdb824d35e7a5b9237fff69090
+    y:       0x3ccca12e78b19e76eb9369ffc9f50207f7f4cb98f1bae2cb4a0d4f53372e686f
+    inter: [13704, 14100]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x28abea77b202373ccb3c6a51724385809e7aae9c6a2ad1e8705663fc3f0db6ff
+    y:       0x00745e77f9bb785693789f84c6287c4128077328b1fcd58c8e50e967ba315e45
+    inter: [5252, 5254]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0fbde89163f0123110eb05e421934a856b972f117bf5861d101a7e34eacdf378
+    y:       0x281fa2be1f3e4b451a6ad89554ab1f851c7ba7199940f9dbf5e5a181abc474a0
+    inter: [5046]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x39da555d2afc280a215a43f25612d8f734593a15074f795e6eb447c385568b6f
+    y:       0x2f601c1966f03814b859f21d09750a5ff03fadd584acb83ba70a70379e18599b
+    inter: [9872]
+    - curr: [12216]
+    + next: [10165]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0a17a2d8c9cd9cacac167d3eb8ac7f59a4e27f7b3a6b5a82aff8003116637437
+    y:       0x19f6423e7db5f9d1b6411de396c12457cbb987c7c8fb5db18cc24f8c836a00ba
+    inter: [9661]
+    - curr: [12005]
+    + next: [9954]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1673048a0323ea9fba7ec87e359e8fec49577d0ed13ed7d73bd73d3c0835f321
+    y:       0x10d0c8a51f61808f84a92e6973ad030d51b73b82370a5e618ec843f66d233e1d
+    inter: [3641, 3643]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x350716fe967332122c2dd13495a0e43df8e76b5bfd5e032ca7b4333215a8c526
+    y:       0x0afd1bce1600ba6c4174ef0dc1444e54c34bdb520ae6ae52866930e13e2e8d16
+    inter: [4037, 4039]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0717df6f2ddb508f504325b6b5b0da8d7be6c40813150cb7283fc3cdaa4b82ad
+    y:       0x2940de3f12a04f04f6323d5f88bfb1032bdd729a1d17af6f3a53d2d8bbdf5dbd
+    inter: [9760]
+    - curr: [12104]
+    + next: [10053]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x18b3ca9d66818eb38f14ed6fda21d6b6bfec3e1eddc500050b579d3122a233d8
+    y:       0x3b4e9d624d9607caf13a45fc289316fb466ddcacdbc0d4f47a7d6c9a87ec7ab0
+    inter: [4406, 4408]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35f59ef3636b6e2505c0e39a4fc3762573425fb094b72a97f20c1a5ce9f0b41c
+    y:       0x357156c051181dba7fd80eeda7b75819920207fa74a42a8fb9c201fc140f9fba
+    inter: [9695]
+    - curr: [12039]
+    + next: [9988]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00a2f0f3da5fc007f4b49a1bc6b91165d0a3a42dd95810e5f99ba2f856cc667b
+    y:       0x33f1ea4e48533146b6006e5ce92ae968ff8fd0f7fd442ad2adc18eaa201a6c60
+    inter: [9861]
+    - curr: [12205]
+    + next: [10154]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x178b7ab8db24de58467c6016eb7dbf5fc41813a4d37387c9b21559294a0564ca
+    y:       0x00605543a7344fb940eae1d3979b43a6e38b1384b18e944f484fa954faf5c288
+    inter: [9795]
+    - curr: [12139]
+    + next: [10088]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1b4012cf3fc6b75eb66017e0efa25e589849236d13b56d68c1b11d5361264b3e
+    y:       0x39cd3ab88bb7872777b22fb0aa08529bdf84d33327c15cd3f0860ede8588d2d5
+    inter: [9844]
+    - curr: [12188]
+    + next: [10137]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3ec023f556f152b0d9bc53232c025e3cfa7716f23198c5993d4401ec515d65bc
+    y:       0x3333e76232779a7c2fe7481564e648b5021023dc763535f464d4d2e371238db9
+    inter: [9625]
+    - curr: [11969]
+    + next: [9918]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2379526eca1cf5f298c5eb0a64a3bbc27473dc2d511037b2ff7b281a8bc31269
+    y:       0x2379526eca1cf5f298c5eb0a64a3bbc27473dc2d511037b2ff7b281a8bc31269
+    inter: [126, 1981, 18504]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2f32bf2bc25160a38b1a5bab8acde4a439d1f196bccb2b539a4778734567cafa
+    y:       0x39263f40628cefbcd9e88e5813d3e09bd2bce7cdaf5472c5b0a89a826d2c57fc
+    inter: [4281, 4283]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x335962d16315c30998d60dbdbda58fc95b77553daf6933326d7195cc85a4377b
+    y:       0x335962d16315c30998d60dbdbda58fc95b77553daf6933326d7195cc85a4377b
+    inter: [99, 18477]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2828e579c63643e0cda59a2fbef28caab869e05d8724805f00b9df523dc1c568
+    y:       0x0f80ba73e7398ce858e3493fc5f33e2f87a19d01ef45e694e91a4772e6ebe395
+    inter: [13711, 14107]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x08aa8bcdf07b3e113d312b233eb0be4208d2e518a66f58d4b1fc48dff3beea15
+    y:       0x1c7e15df90d1ff88bcae945df3b4a4fc2fb3e858de5eb21453bb6e4dc58346a0
+    inter: [4461, 4463, 4472, 4481]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x36e1647be14df9b887de724045c66395d9ed796611e68bbb08f368d8c9112b0d
+    y:       0x2bd6dd2a811763ac8b1627e47c9b57293aa394e579dae572c29463ff1116f403
+    inter: [3480]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x0bbce862b738ef24bad72943f25ed086a9e08985949b87a3e3ce350ef115a2cd
+    y:       0x251d3ab56178a11b92b88e5910daf78463f96ca4280a9d40d0f47b40bb9f170b
+    inter: [3308, 3310, 3319]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1096a05daee2967861c6b5689a6090b3fc7c97c588990a61ac37ab10295cd2c9
+    y:       0x1edee266680b8a406a6327cea44aea6ec05a726065c17dba1bb7405a26c24a80
+    inter: [9650]
+    - curr: [11994]
+    + next: [9943]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x30cec62d4a4946f0d8aca36f58102d7b4391b1a45cdda87619c62b2bf57b47af
+    y:       0x10d60d918e4359264f9d651826dc228c0bd59c8edb550764ed4556429730e639
+    inter: [4550]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1e97d6b2ab09a600511df535faedc261ec72ac05549772f05433ea9aaa6c5da9
+    y:       0x10183df541459af8b76548f5af858b582d65182655e342dbf6ed19923c21becf
+    inter: [9630]
+    - curr: [11974]
+    + next: [9923]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x03ed6f9e6195ff4df92d90e142a17d7758c13efe6febafe40262da35b936d96e
+    y:       0x3e2c3de702f94aa62caba64bb30c868178a2b695efd352f6a20c9f79f0e76632
+    inter: [13, 9514, 14877, 17233]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x28338c33350ed5c5b0a93be14773c8551029c93d369bd386e37445dc9c06ebec
+    y:       0x2b92c9b440deff84fdbb0e9d7196801877d15412866eb5db59fea5a1482babcb
+    inter: [9676]
+    - curr: [12020]
+    + next: [9969]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x34dd341c92518c145d6299030369af76d3b56e5547f71c529c2c2cbfd8b19b2d
+    y:       0x34dd341c92518c145d6299030369af76d3b56e5547f71c529c2c2cbfd8b19b2d
+    inter: [104, 18482]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3fdca25dd613b308ad22d360b57156188bc2f36a341215425b2460706d7322c0
+    y:       0x24cf4c31d602b95288127bbdd8687a92b8703d8516f42cfd1bb2cd37613dc9e6
+    inter: [4919, 4921]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x06c9ae6441831d76e1e68de949d3f41e9b70fe15250c2d282a489ef4384ca35d
+    y:       0x06c9ae6441831d76e1e68de949d3f41e9b70fe15250c2d282a489ef4384ca35d
+    inter: [102, 18480]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x397ec34485d33938c61bf6e1676ad4916a1e5aee0431e559d7c22226f356ccde
+    y:       0x31371bd4e853b3124db0edcad7d5a532a9a357e7dc895fbded4936f9eda01a7d
+    inter: [4991, 4993]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2c68de77c0ed3a46e3f3f69789255496e2c80b7d038e39b9a07fd081058a7d44
+    y:       0x0064b9b50eab074548e277e9bc79a1dee0d92162196ae3442ed5d4ef3320f010
+    inter: [3129, 3131]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x25601c76246483643fe709870fe2b4e41bdeea4d9ae0ac54d1ee3472e16e2c63
+    y:       0x13bca9a5def42853591544ecfa579ed081067deacc5cb6504c557e3c936e7a36
+    inter: [9869]
+    - curr: [12213]
+    + next: [10162]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x34346a60427bc9c5e1ca60087c0aad416e81c4e54b6e8d4b7a61809b505dc840
+    y:       0x1ccab453b96ef10d047215d5d319dea2b0f0eeaabb4898663eeb5e6551fc2fc7
+    inter: [9697]
+    - curr: [12041]
+    + next: [9990]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e4cf8f116f1bb4ad1abc11a7321f9d58f278d2f5f797157395bda1d32baf6cd
+    y:       0x347b87a893948a415c96b08ed45cf81f10cfdb04e73e59c1bb9171dc54088497
+    inter: [9741]
+    - curr: [12085]
+    + next: [10034]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1f1f45ddabe286d6ad82f171cd0d23bff43a36f9db3f2235e9d95092953770ff
+    y:       0x3547bbfecf673b89fd6093ad740518cea70cc3d43b4225e9b9815096fbc7e621
+    inter: [4749, 4751]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x07099ee3c1239fee9a6e92d70347cbc0fd653fe584c9705f0319260dbe2532d1
+    y:       0x1785074b20c64c622c249c7bebdbe7c89e7854502073f97210d3ad3d354d2314
+    inter: [9803]
+    - curr: [12147]
+    + next: [10096]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x103ad822f76966ba344dbd064da4b93218cf6508e949000e93b7e3d7c7568a8c
+    y:       0x103ad822f76966ba344dbd064da4b93218cf6508e949000e93b7e3d7c7568a8c
+    inter: [79, 18457]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1a6279e75f33f111848aa85cd098f71cbe848dc6917225f2e9e2c8d91377e81f
+    y:       0x00121ef4036293253c98fcf5a495d18b6c47ce2a586021ae2f19cc05a2928763
+    inter: [3569, 3571]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x22c32cdc540357b54f1755d126faaf0bd593596c1a75095fbe59606abfc7a820
+    y:       0x35c9dce7a2f27922e91779dc0a9247358c2818d0aa7069fc3bbe869b3eba4392
+    inter: [5368, 5370, 5371, 5387]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x3b69a2707db668c8799945901b524ea5436c4307d09dfc55f0a7a284763bca7a
+    y:       0x3999aefec190ef4ce71f555288f9a054ce9104df8bbc3fb21d86a3394dc7e201
+    inter: [3875]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x053f94121e3328f40d3c855fa29dd3476c415ac78f4f48c6c721d4ded84f2a97
+    y:       0x37e70022322c67bcda41b044e42ff854f64008037de8907c90b52ccc4d11afea
+    inter: [3506, 3508]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3bad6f09015ff4dddb5e47f8aead3ea243fb972167a1a66914cecd733d682768
+    y:       0x29595b0a90995252b4bfc012d1ab77f8febc345b1edd7559a0db94d563570735
+    inter: [9865]
+    - curr: [12209]
+    + next: [10158]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x03494befa956141daafb90909f7457e48b893070cc741d4b963e60b2d4c174b7
+    y:       0x218b76e8974037b1b1c92338cb890c7c75a16a83ef39268bddde4aefa9b1ed52
+    inter: [9875]
+    - curr: [12219]
+    + next: [10168]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x21b207aee5f1cbda24c32b054c1295a4b0c31050f9ec46bcdd983f98a42d8b44
+    y:       0x21b207aee5f1cbda24c32b054c1295a4b0c31050f9ec46bcdd983f98a42d8b44
+    inter: [101, 18479]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ad41b2fac4a00a38560bf2bc8e2a54b3c086b7e5c79f38404850aa7f0b7c6e2
+    y:       0x05b7116de727fe9ed624ef87ece780c713fae5bc62d4833396a463c3ec76ba45
+    inter: [3750, 3752]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x33dc6ded46453e4cf2f7ac751b0a9f16ec42186792cc3b362b4fa612f26dcc10
+    y:       0x33dc6ded46453e4cf2f7ac751b0a9f16ec42186792cc3b362b4fa612f26dcc10
+    inter: [81, 18459]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x07b44bafe80da3839439ec8d52635b3dfd8ac3dac3a3a348cc45061bd0ecd08a
+    y:       0x07b44bafe80da3839439ec8d52635b3dfd8ac3dac3a3a348cc45061bd0ecd08a
+    inter: [78, 18456]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2fd6fed5495f17af92295929856cce9a3fefbcdf757b8f008551090ee77fd079
+    y:       0x1bb699dae8e801ba1a38261a4107b57f861f7b8215c72e48add526cbcbb4dc32
+    inter: [5405, 5407, 5408, 5424, 9496]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x2dc1ead95116d02cff73ea3d15628eac0180c47f722bb34680e80e7ba0caf02f
+    y:       0x3d19824bc9229191fa46d0475baecacc7dff0b0eb8d9be85a03ba40a47070ade
+    inter: [3128, 3130]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x36c8063fea6823d97edbdf1733c70d6a2cc46d12fee699b4fd266807d0a77e80
+    y:       0x24ffe3ff130e6c57554b3546fb06fac88c10788e9645958361ae6fafb689d499
+    inter: [9827]
+    - curr: [12171]
+    + next: [10120]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00fb1e3276a9229fcf25dda7ba90f33a6a3ecd2293824110f7dd23d9c7f49bf9
+    y:       0x03e4e39d7ac22fe45c6a77f814b7924e51eab5f4e3f2748bcb05ed2a6da6f5da
+    inter: [9599]
+    - curr: [11943]
+    + next: [9892]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3b32fa7d80a1f366516623d9d680498434913ec4d5956f03cc3e2db17922b776
+    y:       0x3e91279de90107e796d1738b188b2b8c3af109135817a4070716dcef8254ee39
+    inter: [9710]
+    - curr: [12054]
+    + next: [10003]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1bd133a42e2c7308cd56126237e29a0d319af0b236e97c9a971ce7d782a2b4c2
+    y:       0x1bd133a42e2c7308cd56126237e29a0d319af0b236e97c9a971ce7d782a2b4c2
+    inter: [13719, 14115]
+    - curr: [14511, 14907]
+    + next: [14907, 15303]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x085eafe26c46934bc51d97745cf4b128b8f191f7d20a90fb55997259cc5f718e
+    y:       0x1b77112f4bb1d1a04f6aede8eb333f0a6467b78ac4adda7d0061a04b4c6b8d6d
+    inter: [3966, 3968, 3977]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3ab3e0c2654ae3cfb40869523c302d8e2f683f92cab89c9f845741fc45bdd062
+    y:       0x15073f5adbecfd29f710b9296b8853cafa9cf1ac6353fa127e62f017cbec7374
+    inter: [5216, 5218, 5227, 5236]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x136e8de171bec3863756524e17159b51e464514748db387ef87562e3b7c76aad
+    y:       0x0d59b92b953942a82b7ff2a68e962f3719e5c9ad6ab58ad6e6c3d2b8011dd654
+    inter: [9682]
+    - curr: [12026]
+    + next: [9975]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x355c8e57c78976e2315feabca5223309c5cfdbebc4c321865eea577f2de9f44e
+    y:       0x09369a70eca24c8913d25a225e0df34f2ef6b008342f52a267f29918056b1256
+    inter: [9633]
+    - curr: [11977]
+    + next: [9926]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e1b02ceda4b25845988b86e0bcaece44cc844062c3f432c7dd2aad1b185e3b9
+    y:       0x2a1cbd558d066fb085e124e33e96c8d8f9e635c2b8e9f904d4eea90edc362625
+    inter: [9617]
+    - curr: [11961]
+    + next: [9910]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d808d7ea0bad78a6287fb0c546f6abcd0379acb34b4ab241676c480e4def0c1
+    y:       0x239dfe44e140adf66bf887b7715ac759cd10bbaa63d7d6d857373144445f570a
+    inter: [4631]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x394e5ae8b38dfec53d053b3e0a6a870aa962ca7d4312d7249759bcf634596311
+    y:       0x0f3e047acaff294fdf5a5098d12580873868299c0d097e20b49c89cd12c9e9b3
+    inter: [5279]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0db56c82b51eb66a8f8b36d11c3f83b224bb6c8849aa3b1856f077e7fed6e4d3
+    y:       0x35bc899738b0763de7f3c34325d9fcf5517efe94f718597e6b1e9aed2c4f4ad9
+    inter: [9691]
+    - curr: [12035]
+    + next: [9984]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x320c0fd8c6c32d0335331f8ef96d74e26388a0e98596c5ea5691272ab2a6abba
+    y:       0x3d5db79620f986e8e32287f5e5c1b42d7a5c12301c35fe101326c13a9ab12751
+    inter: [4433]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35b3237a78eef148a095909d5c5d47089a0d51f68290506d01e6cf313b8372f5
+    y:       0x0c537267c685208b07a957c564e8f4b83402d1dd15aad3456bd3b401da2772eb
+    inter: [9800]
+    - curr: [12144]
+    + next: [10093]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2cdbbeb9ed5e113239878501cf47f3ed8042cbc2c745f7d0cb0adc922cb3461b
+    y:       0x26fd149b616d8e6e485dadbb6a757b5d64d26a557d865503b0ee74ceb739d936
+    inter: [4397]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0a976f73bc7ba7a4a8b6676368e2a5993af01254aed220d1e5f1f1426706c37e
+    y:       0x2d211b5976fcf23fc566cec2b4dea9cc64d3561a132bba5feb18cee31ce3a306
+    inter: [4083, 4085]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1f13299393bef888009a4f5f13edd2188da7535b994b43ba83d1ada61e196b63
+    y:       0x0d0820aadfcd4878489fe44ec9b15d2ccc0bd7e061dee4d5f808420d7d685ab9
+    inter: [9859]
+    - curr: [12203]
+    + next: [10152]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ec66428b1e552684a4d42634e7005e4e857dc833c6c7da945b65bb017248a87
+    y:       0x034ad490cad2a2ea8f70748a6f2b79f8bb162799811f96fe375ef0af976ee726
+    inter: [3245, 3247, 3256, 3265]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3f2a26d0a93ecc9a62d0f928cb371df10c567f025a8fe65fed1fa52004ba6a34
+    y:       0x2e7e79913d91b1dda505a8fe33ae67d7c25edd106cc387b335496fcb6ec03fee
+    inter: [9792]
+    - curr: [12136]
+    + next: [10085]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x29abbcc8438c047671aa270bc0b52f64f4615beba13e40c6328b47f14261a495
+    y:       0x16e93168cb5e5a3f2cfeed718a66699c9f89c853cff3a82104d32d198380dfd0
+    inter: [9864]
+    - curr: [12208]
+    + next: [10157]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x178f5c4052e224e0700f14b402cdb1ae0d0fd6b3c48cef4bdfb82ecc68c79745
+    y:       0x39740c490aae48df3c9263d667916e51b2e34c7c3559272a6f6a4ce283d8363f
+    inter: [3965, 3967, 3976]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0aceafb882c577c8bf5c2196639c8cf04e4b69d5325553d5fdb62e37d54517c1
+    y:       0x39721a9ccd9e28de12f9d910841c9a98dcaa995488502a21a855dd0be85d8d19
+    inter: [9839]
+    - curr: [12183]
+    + next: [10132]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05ddd7d4f93d632b4a17135bc798dd1bbd62e6ac9178acf4e1ed2c5baf7c1cc4
+    y:       0x23481865c84c6e543b9b9af7b4f11a17316bbb8630d89b8fd7edcb598cc48620
+    inter: [9668]
+    - curr: [12012]
+    + next: [9961]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1e2721bc0036154ce8072d69e181acbba4e1022331397775300f4698786cc28a
+    y:       0x1e2721bc0036154ce8072d69e181acbba4e1022331397775300f4698786cc28a
+    inter: [100, 18478]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x245a2988bc9b268a163b31faae29edb665fd4a492294e41f4e403150615fec05
+    y:       0x0a072cf09ef99b78a4865aba40075a3ef638389284dfb4ede08cc3b235d98c01
+    inter: [9669]
+    - curr: [12013]
+    + next: [9962]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2745840fd4e4e45170dc07f87d196d731675721f46a5a49745349f79fa8a6f39
+    y:       0x265311089ed51076019da107e06beb33731cf4b8a57d4829889cf431e88ba9f4
+    inter: [9700]
+    - curr: [12044]
+    + next: [9993]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x258bc2ba069351669b85b6708f33fb51837d2f5b30a081e9698fb72a91bc05b1
+    y:       0x12ee9eaf2fa9d6d840b442c35b8e07c9fe0785d09bef9411b31ec74c066c698e
+    inter: [4227, 4229]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3e478da032759002f3cf46a46bc4ed2e1abe485a91431e8c8df345d7cb71cee9
+    y:       0x3ce133d02cf8f1734a5dc3450c2f390c5439353828c007241a64ce40188ea150
+    inter: [5081, 5083]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26fbb292dcf79817c3fde15f2a2f73957513186bb4c29c85f94da5bdcf6204a1
+    y:       0x33a541a46685b61fc3688e779a5bd0b432407205690f4999eb9fa7828a0d95bf
+    inter: [9866]
+    - curr: [12210]
+    + next: [10159]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19f425088d7570a9cb1c3815b40c9b9b44b55823aa8eee11eabd303e9d85216f
+    y:       0x2f923bbb6198419493c18d15370a44ef87c844f56ace6f6c08f7edcdf3eb794a
+    inter: [5369, 5372, 5373, 5388]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x28af5460c2dd5e7c61ab27b9a1225b1ca6a5316d296ea2892b76429712152617
+    y:       0x085df9e69db3c370ad08b30c78f0b3f57f41f88d153cb9ca4fdd3eaff74f0a22
+    inter: [9778]
+    - curr: [12122]
+    + next: [10071]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2de04552ad6bb0eca54ab77951bf6806ea4d333724add83da57df6ff695976e8
+    y:       0x25da6eff0d07b4cf373081406af25bb52ed3b17f3aa5c567ed4732696e00c922
+    inter: [5117, 5119]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x11471fb58099a89c92fbcef57df25c50b8b8f1e64dc939f37c5afdc9f85d064a
+    y:       0x2fd17b476a8bc1321c835e3f80bf1a0ddc06b2b9686011f55b5fbcd4a5bbfa22
+    inter: [4137, 4139]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000a7558401d50b94b8
+    y:       0x000000000000000000000000000000000000000000000000e47f0fa29a99e92e
+    inter: [7261, 9501, 18437]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x18d5658d063e0eece2591f6b90a4fd74924b0fd0e5f81d8a217521666daa9125
+    y:       0x12c397f5ede788a944ad992258570f621174620095b8a1aa3c6e5faa5cb57246
+    inter: [9642]
+    - curr: [11986]
+    + next: [9935]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x18b94fc70eed9ffccbee9b41c66175b47bbb46116d8c5989de45dbbe23c96ac3
+    y:       0x26067fcc36567e7c5cec71e8771d3af8c6fd16676645a6666c970a3cf3ed0c19
+    inter: [4767, 4769]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x364b8510acba73f62dac00bd6601f1e80ebc489b909078086124eb14d44f8208
+    y:       0x364b8510acba73f62dac00bd6601f1e80ebc489b909078086124eb14d44f8208
+    inter: [9516, 17685]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x208e7f88f20a397fd3ae7e79c3242da2c417f07300cb9cf189d1ed6ec748fc07
+    y:       0x30fb65ab3bb4c991ea0d11b1aa5b9ceaa83db19888aa1156f75c42df2a71a449
+    inter: [9692]
+    - curr: [12036]
+    + next: [9985]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x290e0aa94e28c7906c3b65fbe3ff7960d4d154a2990a9a1eb658f592805ea8e7
+    y:       0x2601bbdabf2957c9b14def2229e175361426f0ead0b74e9e1b0ad989c3270441
+    inter: [4695]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x161dfa89e0b68de2045e08e6f73e09900d9d495b1a2a591717416dd95baee37c
+    y:       0x10e012848efe44cd876dcde188ce695652fdaa607466ac15b737d3ac96097101
+    inter: [4451, 4453]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x29aea1544d709567052d862872487e4d6abb15e7dd163b30b32003053e2fbedb
+    y:       0x19f11ebc052cd4b2c17d2039ea03a6a0ad3bfd83fa5d064903a6b45838678e22
+    inter: [9711]
+    - curr: [12055]
+    + next: [10004]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x329a458788d171d3c68adb4e8a39042a124b2ba6c67ece65fafb2b08e14e82d1
+    y:       0x1e9924b6cc49ff8c8165f4675d6c38a77febfd5abbc86c0173eedbcb6f0e203e
+    inter: [13707, 14103]
+    - curr: [14895]
+    + next: [15687]
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x228e3f6b0133513925f79deafbe4b8a17171e3cc9b9273e6f8b5fb93f0ba0c94
+    y:       0x1fa2f68ed51782643906bc7f017e341b95c6cc76c72b7b0d2a788e884b77f443
+    inter: [4161, 4162]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x021cdb1b6fc3896af2da46ac29f955700cf0046519004891a3be4fedf74e9ae6
+    y:       0x021cdb1b6fc3896af2da46ac29f955700cf0046519004891a3be4fedf74e9ae6
+    inter: [11, 9512, 9585]
+    - curr: [9880, 12224, 14091, 14485, 14883, 15279, 17231]
+    + next: [12521, 14487, 14883, 15675, 17231, 17681, 18427]
+    length:  22
+
+>>> fuzzy head equality:
+    x:       0x3a0a026f54b20d10837c9aa44cfa7b65662c5ad0643e58744e297c28bdce6957
+    y:       0x26ad4381bd7d994951d80b28135028a291848dce7761cb9d3163fd56ff7775a5
+    inter: [9837]
+    - curr: [12181]
+    + next: [10130]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x38dcbebf0b173bc850625dcda1cdfad898d0ebbe5a387aa6c9e77b0806ea7d24
+    y:       0x2705bcb4d857af7b9851881c4b4aa35b29d013a24676b5ea60864bf30d478395
+    inter: [9643]
+    - curr: [11987]
+    + next: [9936]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x25e6c58058e40cc0afd892d0b8278208dc296210ac3d5fb54f54a4267148b90c
+    y:       0x28800c2a54dd4e2405c242ce88b391422db507e289cb49bd55707b0cbfcb2c3b
+    inter: [9749]
+    - curr: [12093]
+    + next: [10042]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e10f21f715d36637325faa705c6fcb07641e579bf441a2946843f918fa122f2
+    y:       0x126d3c994bb1227357377418b313a775b2772109fad4c298a458535bb57edfab
+    inter: [9619]
+    - curr: [11963]
+    + next: [9912]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0d56fa0d0b75c163acad37e2130c98262bfe04f62f8d60aed43f7490458a49ac
+    y:       0x3ed4b18a2002e225409149983e3a8a7198015c3c052de02bbd9b5c0cb50e44c0
+    inter: [3120]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19f3ac9c790ddec336c64430b4b1ce87d6b072cdae87dae84f8216f3d694017b
+    y:       0x148646516ac6f875440816b85e40c465df0942711759ebd9e779e0b5001083e7
+    inter: [9659]
+    - curr: [12003]
+    + next: [9952]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1b2dc6d5b704e55043af68a8921d6647576af905bb857ba54cad9790dd851ac3
+    y:       0x006401f1d71dd8dcabcacd5f52cb6abb933723cf3dbcbbc4aaf363b22ea68fd0
+    inter: [9810]
+    - curr: [12154]
+    + next: [10103]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x146558db9dd041faf78b370810519e8e9d4e20061ae25ae87440f50372fbe74e
+    y:       0x0ba24f89e1b6ee6b21d26a1be3b8485e880105ac202b4ecc14470caf5fe05b44
+    inter: [4488, 4490]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3cb3a37c9cb9ed7b4ecba746c9d04a54d68b470d81969159d9f30cb3e357ad21
+    y:       0x3652b0072f1cbebc7589537402e965767acf0d4fd078fc323a1d0ebbf9df30b3
+    inter: [9729]
+    - curr: [12073]
+    + next: [10022]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000001b9d2934b37b05d5
+    y:       0x000000000000000000000000000000000000000000000000f2c10ec26cf0955d
+    inter: [21, 58]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x127a250daa05afd7d0f4deac7f04cfab9d61f1b53e995c96b8cecdb1ada2b801
+    y:       0x17a1b5cd73778d46a40170dcf35cf1bcb67525faa6bca633599c2e8cfe2e0a70
+    inter: [9712]
+    - curr: [12056]
+    + next: [10005]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0c3494f46018f0654ae1280eac82e349dbf82d12e348889f44d9ff5f8593b2ee
+    y:       0x35f2aa36caa79b0eadc98a85e44c2aa36de7b865b7ea4c27afe337f7555d86b3
+    inter: [4245]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1e492a3a06d2520afe40258913a432a7a281d288d7207d9f5829e4667a8c18d6
+    y:       0x0c86be86be0adc88c10f70835c193cdb5173c44a7a9f11bd2b1ab084de22b67e
+    inter: [3192, 3194]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x023c1c9ce68c5ea795f304ae79eaa3de791d86cd8ddcfc2a0ffca8784f8fe6d7
+    y:       0x3877d9368961f6173d985f8d4c24d6d02f38ab1cdd0aef5e67358a465b9b4dcd
+    inter: [9595]
+    - curr: [11939]
+    + next: [9888]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0dcc59862a7ed64de1afff60b5801032c595d555db5e36f6b8f0f3d91c4bb301
+    y:       0x0fe3fbe84dae5bd1a7dbedcc410ca1b701ea7faf87ea83396bd464cad8a6bc23
+    inter: [9607]
+    - curr: [11951]
+    + next: [9900]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1c0e14cb6f49ff497b98d0313932182d997a21184d54ed988f2d392cb4c4a7ef
+    y:       0x3c12cc638b6c3eaae66106d9405a2f4b9d67c048c8d364d7dcec2f2f2e48269e
+    inter: [9616]
+    - curr: [11960]
+    + next: [9909]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x02550a2c68d8bf58a62ec6810395c88c7b2da5fd0b31c2d7a5f160eb940101dd
+    y:       0x0071794e492374cfaa08bee8f0c8f6f517da8858d3aaf0a214b700ca77ec9cb4
+    inter: [36, 1918]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x332cea61e7b84811f08550819a12dd56ea35073b99bd1e92f05ce297e61c70b6
+    y:       0x2a6a109f649d0235ad1929f31ed4f9bf5c775af8a3be7542732932b3dcb9abab
+    inter: [4344, 4346]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x15bc8704ba6b0b834d769f9e9d5982d00d78eb7ea4f59968b71be769c8c15a06
+    y:       0x032010ffb50c8eea16e9997d67f849991b59602667ebc53cd669cb39e1d309ad
+    inter: [3146, 3148, 3157, 3166, 3175]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000006347fdda75d3ef01
+    y:       0x0000000000000000000000000000000000000000000000003e7f6170be75bd23
+    inter: [26, 63]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x06cab0cfd153788d71280ba9499821ca1c5f78fb620e1e87ed68c7d2ba858a58
+    y:       0x38273d2c2522795373011c863e3cbcab32a29529a089a31ac00370dd4481f59f
+    inter: [3083]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x2eb5dc0bff74a2dd37a3d5565615aaaa50dc39c0f9f30353b3bd96ad39d36769
+    y:       0x0f570b36aa484386e52e096503ff107f121aafdcf73a03f004dfd65824e46f70
+    inter: [4964, 4966]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x095b3c1bd2e8ca310294a8a19dd29f285fd00aec2996ba2fa8cd959c49f21f39
+    y:       0x1b1066947c5eaa42e4f7361cf3cfba83841b001fd1ea4953b5498b56af295900
+    inter: [9756]
+    - curr: [12100]
+    + next: [10049]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x128978cffc2d4c6d6b5fa72539db22a78a8671e9599f0bf230b26f81879f7b83
+    y:       0x048089576c3935bb2949d793e5aef9975145d09c9a3fc565d4c1f04cf656a7d2
+    inter: [4398]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x34a6437c9f5e1e3849f85a8d675a87fc1ef6927f2554eb408bdefa14179dcee7
+    y:       0x1650d26c927093403900fda976422d0d3109acc2d3fd71f0489b470d7c5d4598
+    inter: [9693]
+    - curr: [12037]
+    + next: [9986]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x03bf08659bb3de02eb647c8d17af5a19c210c0d21e5851bf4174ee028e4ca85d
+    y:       0x0db4c21d3abe9de3b0ae475446e685927dff1f5858e5578e04e0171266f9d818
+    inter: [9723]
+    - curr: [12067]
+    + next: [10016]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x02583c0dad85282ed8da7ad0af2a400f2bebd56328797a66184be906a56a95fe
+    y:       0x0d3f8c6fdc6dca50d37dfd67921fb164885a2ac7fbe2912b185941b7d1a66716
+    inter: [9733]
+    - curr: [12077]
+    + next: [10026]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36e64c9d46cb8975fc52a15657fab9adf37dadc0c788b2aab1cfc50aec54eba4
+    y:       0x2a016075d245654de05a655c87f76b28f3d9a5f63283b37d42f750265559128d
+    inter: [4046, 4048]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2b590009f811bb1b60ac0e815e369d4501d77501e11eaee8fd0b9a703c92c883
+    y:       0x1e7742e0f60db8cbc8806bb8ad65f80aa3367a6332da19e76dec713c8f53e6ed
+    inter: [9662]
+    - curr: [12006]
+    + next: [9955]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x11424ec092b4735d3861ca43439278aa4b74697800aad672494e532e2817f515
+    y:       0x1ffba1f0e0c563bac01fa7fc77c64f9564901130509b55482da3ab474d00d3bc
+    inter: [9648]
+    - curr: [11992]
+    + next: [9941]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3ca9740e7438d37867d23f7ce66c76ebc75f7ba4513c2ed921a40f79d06c97c0
+    y:       0x24d7bdd6cfcd349cfb55cd8dde6849b72e406a65b2258dcafdb95244b5580e5d
+    inter: [17921, 18124, 18340, 18353]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x31ef8c687bd5cce697f2941f9373f6850758677faa712fe2d8910f2c99832230
+    y:       0x2552398f3ede0d94477925e128e6622185e2c0dabdd63f9e1510c4beca606262
+    inter: [5262, 5264]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3ab9996d5250f5def4b948fa71d30f88aff991467d9c72e3eee30ef007066668
+    y:       0x00b422b0f814e08767954fb85306335fbd58dc6069abb561420ba055b97ef4cf
+    inter: [3029]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x183664e767a683892164087b02032d5e0ea63fcfdff98e6a4aba09df97b0e0b8
+    y:       0x303973ad29fc927f7ca2aff8ae8c1e0983d962e8569c312036049c9cc989740b
+    inter: [9747]
+    - curr: [12091]
+    + next: [10040]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x38833ad5e810333d8f9c20dad20a0138bc4434fb7fb8bce482787dfd3aca8492
+    y:       0x259da54635b355e5c80d946e449102c8bad37f3bb9e56c6f4ff76a474cee4a02
+    inter: [9679]
+    - curr: [12023]
+    + next: [9972]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1dced978c979284f0278af975ae43d629f5976ef292675a981297b8dcfb6cabb
+    y:       0x04f76fab6a707d979a20523388a8a157215dae54a7720a0e55bb3786f267a8fe
+    inter: [9656]
+    - curr: [12000]
+    + next: [9949]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x274e767f51807cd9a52af762bdce4ba22bd41f054c660e56fc31f459e23a882d
+    y:       0x03c18747006c56bf5bd10a3127d1b132b67f3453d5dad0849ad7d2e549bef036
+    inter: [9690]
+    - curr: [12034]
+    + next: [9983]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x38c3c57219ea7062149b34d2f687c3da993903cb68eb2b7e08664e6b305249ce
+    y:       0x38c3c57219ea7062149b34d2f687c3da993903cb68eb2b7e08664e6b305249ce
+    inter: [89, 18467]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x24e3b43649b04b3c9b524fe11b2a77226aed786b974059643ea1c01fbea3565a
+    y:       0x24e3b43649b04b3c9b524fe11b2a77226aed786b974059643ea1c01fbea3565a
+    inter: [13720, 14116]
+    - curr: [14512, 14908]
+    + next: [14908, 15304]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x3af97f02977beac2dea995e1bfbd78e35cc7ada0f209ee05c897d886240b7e9c
+    y:       0x1d9321a8c4660c95e2f07e69c4089d8f23d2bde43b9be5a1eabfe60430cedb3a
+    inter: [9785]
+    - curr: [12129]
+    + next: [10078]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31ea6026cbd7c2a8d4ff26da1c6a6e8b00a74dc45d6a15da69ac57a28cb11fc9
+    y:       0x3c7f99275e83a4ffbf752c64099ad2ac2f5dbec412e72a3a29f4329e2dd308e0
+    inter: [9834]
+    - curr: [12178]
+    + next: [10127]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x049afc267e1e16786f51bf33f6fcfdf047babab5a5dc76a6db973d72fa1ecc6c
+    y:       0x350bd6177768b95b3a43d9e766e810a74a1cc424fc3530b70763fbd6920b2507
+    inter: [9746]
+    - curr: [12090]
+    + next: [10039]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26f776f2ea6e70f0c0779ce586e7f13c585aba9ac27cb235a3abb6deb762ccec
+    y:       0x3ea67f7d5368d6c2018505dc648c89e6ad845a3eb4b73b6c272ee18d58a22709
+    inter: [9704]
+    - curr: [12048]
+    + next: [9997]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x363b7ab96ee9feb03f0b935080b2414605d73f47b287e03511afa41974e0780a
+    y:       0x2a3bb636fb64176c9eb6ea14c4e9782d70b67e2203a2216a3e7232f5c86f5130
+    inter: [5298, 5300]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0e2149b0509517801a187475baef035c166f256e8df0cf0bbe2f3d396a53abf6
+    y:       0x34b23a81599a26542c89c7920329f517bc20c7f747ffc365b84969ca90bf5c80
+    inter: [4416, 4418, 4427]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1d09c3f4f71f568bd860d274006468649f2853e1b988422250c70bd348e3cc92
+    y:       0x0842acf077d02ff4c627b840822f576716ec352b6eb609ced1196de492d54288
+    inter: [4442]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33f8135e79107841ebe494cb1a19477953c6b55daa449a34e85bccae1a92188e
+    y:       0x039d03f673cb257537a27930e35bba74e7bfeaf0be50347bdf80fc6d2e69778b
+    inter: [4154, 4157, 4158, 4173]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x29f864e458766f035f8173b65928537a7768680704f3db26a3cb87f22e02ee8a
+    y:       0x328a4d65084cb5e05b6d0e49f1e469b5b5843c9e3537bb8862a4801fe000fe6e
+    inter: [9807]
+    - curr: [12151]
+    + next: [10100]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3931b6785ddf65230ac38b8121d600988e033fa8fee42c528fd207e05c63c314
+    y:       0x1c0dbc340ea3472ec98b8f82420b485d5742f45a54f9a6936c020129e03f0509
+    inter: [9790]
+    - curr: [12134]
+    + next: [10083]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0f456555c062228920e5a6963dc4cf6226e8797f8f9bc65b29067f05c82ca62b
+    y:       0x3b60963481ee10eb348227f19206d3e68d3db489d45c685a878403c00e123695
+    inter: [4218]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a615344330a48cd4ce6b35269652aa4971bd112eba01689de9eac89c3d218b8
+    y:       0x26549650343c3c1be28870875d97c0eae5a445763adac8bd66a096e7ed21bf72
+    inter: [5045]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x27cd355b04d831f9f30313e9345c41803048b25c4644273cadb890bc3cba270a
+    y:       0x2ebd379187501a70971711f509a246f0509e7f8f4ac5cbc590215f39b2b79fe8
+    inter: [5118, 5120]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000002aee3fcba2f0c6b7
+    y:       0x0000000000000000000000000000000000000000000000003fe840cd54c0106b
+    inter: [9163, 9507, 18443]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3774a54e13460a3510ee0556c0e9edbbd6bc4f5e9a672ff87ecab4f771af213f
+    y:       0x25f651e268a892d8b9b18b79d7a6bf8e2f7119bf401c35cf39307e075f0471fa
+    inter: [5172]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19b2591ce01ae91157315ba00482b4a8526c8a6b4e0c25daf20dd32f06ab740a
+    y:       0x3a4df714d0b16e79cd32893e11869ede6a428c6edd5aa9a8911b71ae1c1b187b
+    inter: [4272]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3fc345b88fd9f23d35682c8df6bf3dac919db54e68da6c150e3b001f2bc1e275
+    y:       0x01cb78df85256f55fc6e801d589d9011c620b4647f8cf1244b150497824c6312
+    inter: [3479]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x0bffa9b46316b88c7f2b806b8f02ada7a1af1d0af624cf8e834a533db623b6d2
+    y:       0x1e29b5671149b80c2f7bd0f3afca5edec5c65649a8d8c63088a37f16d899fe46
+    inter: [4202, 4204]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0ddf10dbe41c6e78bd1334a7edb34aa3ad583e1cc96d03eed6593461ed0014e7
+    y:       0x3d9915702e6d6917088fbf5ec49227abb71c9f9ca4d6172c70a9ce25dd0e2232
+    inter: [9675]
+    - curr: [12019]
+    + next: [9968]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x02a063a317776353dc1f641b5b1b6865968df55488113b1f9e770d57ae1214b7
+    y:       0x02a063a317776353dc1f641b5b1b6865968df55488113b1f9e770d57ae1214b7
+    inter: [9523, 17235]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00888be63ea112fbf5b72ce35fa883a5fac383285c1214c52c1b192ed86d0a22
+    y:       0x22e38b3514ba284ca0c9c8b8877c41266ce4643b72342677a4087f6c9be7275a
+    inter: [9852]
+    - curr: [12196]
+    + next: [10145]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26dfe5c35959d2d154230cb82be83346921712451ee1850c40e82314c9b515f9
+    y:       0x0b6a43aa6e98b49a7d64f9e06b4fe7fef96902b962134d38403465c8bdd8b925
+    inter: [9632]
+    - curr: [11976]
+    + next: [9925]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e4de36cd1092d797c1c6086b96e18f048820cc32247c5c87f7989f2f216a334
+    y:       0x132894430d32a8dea1e8bf6b732d8d1aaccb2e422f67a55bcf46d465d6d81c7c
+    inter: [9639]
+    - curr: [11983]
+    + next: [9932]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0df7609d100933d15a52335ddbae6bd748c9b51cc5b2e22842995bbc3e8a1a5e
+    y:       0x0805278d25d5894a6cc20b1653957fc766d76fac39e0e0db5f0193e940053c30
+    inter: [3732]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05a2cd3b72ae092cf70276aae7c6af48ac669940406ab9fce5ca8eccc4290ab8
+    y:       0x10743475e402fce06969808b3aaa814800347729272cbe9708074ecdf016006c
+    inter: [4101]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x05d8587b60289d929561debecaf69a0b114a6e150c9ecae6dc1a12c7ab2ea469
+    y:       0x05d8587b60289d929561debecaf69a0b114a6e150c9ecae6dc1a12c7ab2ea469
+    inter: [70, 1925, 18448]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x10e3914cb5dc20f3b9942e6ecead77ad4a751f14afc0e1759120749585550e4b
+    y:       0x15f669608026427f95707503736187aa2b69463afe640f45a0b4a414fb326df7
+    inter: [9635]
+    - curr: [11979]
+    + next: [9928]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x161da97b16caade46e6157962ea8648f03945542a6eb2554256e6d41c1b8ced5
+    y:       0x161da97b16caade46e6157962ea8648f03945542a6eb2554256e6d41c1b8ced5
+    inter: [67, 18445]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26111ce019b534c6d09b060b654b68fec7059f7b4ada27e86bf7fc367a111965
+    y:       0x3aa4a4c8654813e6e8b78d253b233afdd95a9f1c1346777549b72a0512a4bcac
+    inter: [3947, 3949]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3903f7f16981ad06032093c3bb0a2298081301eaeceec13018719a2e295228d2
+    y:       0x172c3150c8d615fa3a64018738b35fa6f4f4ab12bee635c6bb410db1d1dc0a19
+    inter: [9782]
+    - curr: [12126]
+    + next: [10075]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e80a8e1f02c5032ccef09e13c0b627c8f6ad287ea5aa564491e367ec0e20a71
+    y:       0x11dd0418bb466198b47e4e30408ca9896ef9d73cabe0cf980d8804efc2834a65
+    inter: [9794]
+    - curr: [12138]
+    + next: [10087]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0611111f46b59f88afd91089ad802e705ede211343526793234425088b740900
+    y:       0x0611111f46b59f88afd91089ad802e705ede211343526793234425088b740900
+    inter: [84, 18462]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x24fb9518a67ba97d15c54fbc8a7e32988686d454d31896d8a5f073b5b06210d3
+    y:       0x04a694a7d1c9057ed454f11b9e48be941f33033114f1928112e4e7e5a48c2b2e
+    inter: [4496]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x2a1b0a42276262d06eca8dcbd035ffc8467ecd2acf9e5d79a435f0d45e70e740
+    y:       0x054349d10c83b6c3bf856f976f03629279983b9785e9dc9cac0c2144015fe950
+    inter: [3507, 3509]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x09321e76ad063ce2dfdec0e7475394f43b01a21c16505399383b53d21d946a64
+    y:       0x14c1c2b6ecb8da804c28880623a5b2f0a353e3cc243e063b3d18a9385df09ce4
+    inter: [9719]
+    - curr: [12063]
+    + next: [10012]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x08ddca6255e12041fe60361f74cbfcaacf8f266cbfa460bdea0f51badc350bc0
+    y:       0x2f694c123612b0f0e5a7391cefc3f878e27c1f14e1fe986557bf5cb8eb94f67c
+    inter: [9850]
+    - curr: [12194]
+    + next: [10143]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000001002
+    y:       0x0000000000000000000000000000000000000000000000000000000000001003
+    inter: [12, 9513]
+    - curr: [9569, 17232]
+    + next: [9574, 9586]
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x18a695f17308ca9013eecffd9b89af3ad9c82c01e34b71b72e00f4d868e97669
+    y:       0x164eeb6353da5858d476595bc16abbf3aa9cf6e879a53f34af337c2e1a79695c
+    inter: [5413, 5414]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x27a87b2076237ca235e3f475ef308da97fc1a49173689bb6068c64b16c83f0c9
+    y:       0x2f8f4e10fa0ec693aff95bb190248e07ca9b0eef34dde521472c5e2dfdb152fc
+    inter: [9754]
+    - curr: [12098]
+    + next: [10047]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0f5971d1ef5ad0441d1abfa90457217b36e2b0264a10f21f7b5d543574f8895c
+    y:       0x1375f592710314bc30eabcb2a62e15b57660edcd75b56d28a46ec629c28ba837
+    inter: [9721]
+    - curr: [12065]
+    + next: [10014]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0de448325067f60206b78d542fe0a101d4ee4476a64b2bf5be0b7aafc421bb1b
+    y:       0x3c6e60576a18b632c871071bcaac3e7674a05d4cab313c36cf34cb06600df6f5
+    inter: [4118]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1f7eb3c210ebb13c01a99eecf64ecf7cca248d19e49eb5e2cb4455a53c8a421e
+    y:       0x00518a46c3fe44a7b575d830a24466e18bc515b3a4150e0705bfe6b477aa32a1
+    inter: [9685]
+    - curr: [12029]
+    + next: [9978]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3fb3f6c94bf325f5b6300c9e108a0077304b9ef3dd4ea7d610355177d3e395c1
+    y:       0x1bc4600017d63be271b5e46f9bce324d0d63fdd683d9bd5edd307a6164f155ac
+    inter: [13701, 14097]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x287ebd6ead971d04415261794a83b33a13abe2d1e619879a285218f9274579c0
+    y:       0x1b02951260c8f824e195f84a43bf06c58ad932a0f7de398d0725c52a7da198e4
+    inter: [9718]
+    - curr: [12062]
+    + next: [10011]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0f161cf3a03db4b1b96bea83c664b0449ef3d2b54f4058b28c988a0e24f6abef
+    y:       0x3ab358db82ff700d702170c90e32398517828e100235f92d83675a10738fc5de
+    inter: [9673]
+    - curr: [12017]
+    + next: [9966]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b29675accabe9dc13d2269ad55c58d7fea23f1dea2ff01c2b8f27852a9a63a2
+    y:       0x2a2a69c4e00ec9cb818f415bde1005eec1d2427a04f2c9243c85395f52a8fda7
+    inter: [9657]
+    - curr: [12001]
+    + next: [9950]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000f2c10ec26cf0955d
+    y:       0x00000000000000000000000000000000000000000000000003eab74b9fc97ca6
+    inter: [7260, 9500, 18436]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x318e37c48b4c8890b7c507da6034c5ed1bbbb112a43d2a6dc81afd785d338a0c
+    y:       0x2a2fea7649cb2141e71ff63e63fdd9c16baaa273e22bb22e70f22288288abd88
+    inter: [4335]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33484da240150720da652acbea5b68049ba1e9ddcccbde6e88bb530032c6ff69
+    y:       0x0c888559c5b583b2084091b3812fca03ad5d15feb95a391dadbebd8b958071c5
+    inter: [4434]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0961683b9701bbadfaa0852522ef9cb176ec49c68e124d9ecb63257ded93e723
+    y:       0x19d1f8a0e46f9d7e75fbf17bb7e846f1e87d4a23aff6a6e69a4a7ce66ef49253
+    inter: [9777]
+    - curr: [12121]
+    + next: [10070]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x045174b22d5eb54270718693449a5ce12d08a8e6feaf9529beed2c6d6d2c62ba
+    y:       0x19f40fcbfd77b09af5bc6cde8a66c011d375f02c68db7a6caa207ae00ee5d540
+    inter: [5028, 5030, 5039]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1b5405e641c1685f888b90605495d6bfbab0467bb2fb8efc9ae393384ea2a127
+    y:       0x3270f5558a5335dc19ea17691f9d588d569f6116919252f84a6c18b80ff9a4b4
+    inter: [5217, 5219, 5228, 5237]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x203e25b716aac6df6eaf5392e2b7f3480f50ca5122b4f770f5d41126ad13a25b
+    y:       0x11aecc36b3ccb0d49c986fd343e087705f22be165927aece62e3d1ce8a067f6e
+    inter: [4326]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x39bad704e790af1a76091f49c0faeb9018de599c353f3a9dd12fa55236d5b20f
+    y:       0x39bad704e790af1a76091f49c0faeb9018de599c353f3a9dd12fa55236d5b20f
+    inter: [90, 18468]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1089f2ceddfcbcb3ca37796c1454c7f6943484d9c2153508476e96c3fb51f81f
+    y:       0x22641922ff220c05a3f740f7ac8cdf05388ba759333548b0f72e3e2a64e3d8a0
+    inter: [3768, 3770]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1a28fde1fd1046fd831b91c81b1a789a26c1825b4daa32cf766a1ec96cc2ac10
+    y:       0x3b7bd986b1c38787e3f8a448f84c8d55a07f5faa5204628654d693a5b5865591
+    inter: [9660]
+    - curr: [12004]
+    + next: [9953]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000fa7389d679059198
+    y:       0x000000000000000000000000000000000000000000000000a7558401d50b94b8
+    inter: [22, 59]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x216f0a0707be9e604d021a8de620a668a8dd264b712ef96bd0da9beabf81dd7d
+    y:       0x216f0a0707be9e604d021a8de620a668a8dd264b712ef96bd0da9beabf81dd7d
+    inter: [13721, 14117]
+    - curr: [14513, 14909]
+    + next: [14909, 15305]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x31b3f214b0dc78bd5a77efe81bd39cc576dcff7b51523f048c87e799437681c6
+    y:       0x3498521e9604e25e787ff23c4050e50394d25ca69f28c6deaaf2e6265d995316
+    inter: [4082, 4084]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0864bcb1fea1f84680ede5e5921a753f57b765756465d5086512d0f5a35fc8a5
+    y:       0x2d94a8cd05017e9a6ed75b0c3322d137ce37c891ac452eee86259840308abdc4
+    inter: [9868]
+    - curr: [12212]
+    + next: [10161]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x19a166d59c5c15b172c1ba21a1ee4388ea698440e487aee033493c88e7fe6596
+    y:       0x2045686abf5043173bfe4431b0e2b379fd4946623fecd89c7421244003521a30
+    inter: [3561]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x074b4dd25538c5c38371a1bfdbfeb7f6de5c33b7dd275e5997631b55115fb54f
+    y:       0x38caffecd1e179b2aaf9fe93b8b2e2b58448b10ba5528f188bcd752728a527fa
+    inter: [9665]
+    - curr: [12009]
+    + next: [9958]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x071c71c71c71c71c71c71c71c71c71c72040bbaa39f412c34879a85900000000
+    y:       0x1b6db6db6db6db6db6db6db6db6db6db7c676622df88daa8178c1ba06db6db6e
+    inter: [17241]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000000000000000100c
+    y:       0x000000000000000000000000000000000000000000000000000000000000100c
+    inter: [9536]
+    - curr: [14486, 15280]
+    + next: [14488, 15676]
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x08a9608f9564c1e9e4625229c3793a4b68b56d335c2204ba28ecdfc3ba522816
+    y:       0x370f2cec666c08f36afc69b37a647059df13eec2c827b7a40df9c0ad22456c91
+    inter: [4947]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e7d45a2dc16d8a4892a6234bcb69eb52c1e99ba87e23f4c21c67e0ff30d068a
+    y:       0x0d0977b7560d39b16ff56e15e07ba8d0c143984e4f68cd4454b4d93266401b30
+    inter: [33, 2997]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0ad542f42702139be69a0d764e40ba2a620586b17f993e9e4073cd1ca4473d70
+    y:       0x0ad542f42702139be69a0d764e40ba2a620586b17f993e9e4073cd1ca4473d70
+    inter: [91, 18469]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2e4dba4a3905dde48f760a6740e024ae1374ee057cf7600dc64184314a6e2221
+    y:       0x2e4dba4a3905dde48f760a6740e024ae1374ee057cf7600dc64184314a6e2221
+    inter: [118, 1973, 18496]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2a9262a1f385646111b9ead3d721bd7092f2012fe5f17f38d3ef0a300aea9a43
+    y:       0x145120beeae1ca8eb254c3e6c440c6044f834824994511dce5ed2f3bb0bba1eb
+    inter: [9879]
+    - curr: [12223]
+    + next: [10172]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x022cd8ab70f7bd6e68f6e5bfc1c861325e8873ab241eaa3a4341afcd6e2bd24a
+    y:       0x2c8f1a4b8ba0269436f416492a06aee7df43fca53a42b1f7f338457b285bb8af
+    inter: [9728]
+    - curr: [12072]
+    + next: [10021]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1a2ac957721ce63e26e0ec4cb5605753e0abb73bfe7aa03f765f50bfb785c0b5
+    y:       0x19edbc6d0995f76c3a71203b14a61bfae931e46827817033be86d78397d55684
+    inter: [3084]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3bb038e85a9dbdc8361d2657b956c6086a3679434aadcb89517a0a698a6816f5
+    y:       0x0fa40c5d45716ed0774ffd4385b9e440ec22b55142d1b82587c2f75d73e287cc
+    inter: [3227]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x352795d36ec4fd7dac41a05857f6110653e72fadcc743e3fc5a02895a2aff8e9
+    y:       0x0b9f48b285086db3ecfab5b7e3533d7b03649f55daffbb3547a8cf4cd44b416d
+    inter: [5162, 5164]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0183848f34085223baf855012678c43aac42b665e5cd61dee4d5cb7e9773e0f1
+    y:       0x1b0c3389e27e65e917d74b9f53ad0aa5f9ad8d10e053c6e50cca1016e4d08263
+    inter: [3246, 3248, 3257, 3266]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x19cd14d4c5bb33ab5182edb10fe517e3c74b337176553a55b08ad9488cebc9ec
+    y:       0x231b81c308fcffe6c30480df9c0d8594fe295ceda3bf55e2c7b45d1a9a6779dd
+    inter: [5163, 5165]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x14b7e8ea809ff5f7915e0c338cf7901a6c78f8faacedb27578ae8ba528d8533e
+    y:       0x15009ce8d3b5bd113ea72040b6625f2bfbdebadc5ea8de8f8af2be4e375dcdd4
+    inter: [9655]
+    - curr: [11999]
+    + next: [9948]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x325793f981f2b34fb3b791ddd75e0f03c12090fc7aa10e1e7aaedc7f245dad0b
+    y:       0x05e9261a2a77b57b801d5658646987734f5db5f752a454ed32fbcbf1253063a3
+    inter: [3372, 3374]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31e59c0c569092e33dbf360388fb1706129c1846fde17848ea0fb715871405af
+    y:       0x1b5cb80df6c7f90be7f8ff2c25d742fe3d91e024acf0ce9fc33135ff40deea5c
+    inter: [3984]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2086255f91045bd16604ef2d31cf0c7b60960b3ba1d8f02c352ff3ba9b30f80d
+    y:       0x149883d439d7512f94cf2441bb2fdd0ffcf56775b153e073dfe891c6acdbc00a
+    inter: [5135, 5137]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00e32a4553bfe64e4d86ccd53a5f21cbbef8eb7279a8171ddcd9c434bf09cd8b
+    y:       0x1b2842293032cb6304aa32722197b648f4062e96576f1b118e8d98dc4aa7f1a4
+    inter: [17872, 17882]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x18dc87f1eed86658ae1e4e0490a287e5fec6f12e51c0982cd5dc080263ffe071
+    y:       0x0c1e8b441749ea731b6142ead3ba5f2ed8537a06e10898adc8d1fadaa458957c
+    inter: [9836]
+    - curr: [12180]
+    + next: [10129]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x21d9e7bfa78167079d9960f3698fae60fac938203e6c582810178c5621a85409
+    y:       0x124d964a507f942f6cc8a375d91315ce3a4894a72e1ae11e0029060f06b19427
+    inter: [3867, 3869]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1e79265448c5b41ac9e40fd6c9d482e665a4accf6175fb84f5c36a40b4d36972
+    y:       0x1ea9093f26fa4c7df789f89dfb3b2fab544ba2650b461bc87ae15c6bc738a4a0
+    inter: [5091]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x376228f533b2cf56d1bbb2d315345a4306cd3a4920f56e171937ee53e38e82f2
+    y:       0x376228f533b2cf56d1bbb2d315345a4306cd3a4920f56e171937ee53e38e82f2
+    inter: [68, 18446]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x17e33abadd055883b676bc03c00b800f5b0d946261ace484e1e7076dd171b565
+    y:       0x2e8aac6905e24e0b3177136c0024df9f80a2e137282ba2d33600b0e245e23040
+    inter: [9687]
+    - curr: [12031]
+    + next: [9980]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x165590ce80f93fcb22990f3034fc5ae7397ef31ba87076b072cd5fcdf4d91245
+    y:       0x2a813211dfcb2932e9e369ee707d6bef4b0caaf671f839aa40420e854938f4a4
+    inter: [9847]
+    - curr: [12191]
+    + next: [10140]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x050994fd5d804d8898ce123077de763566aba5f0dd50a7f9de397d0c8faf54f6
+    y:       0x3f12fd345df4f111af5cb24c487fe490aa67a14b915e53e37d6ddff14a4f76dd
+    inter: [9758]
+    - curr: [12102]
+    + next: [10051]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x052321608acc378b0285317215e5fc0660d63860052b0d862e0483aa5c790710
+    y:       0x052321608acc378b0285317215e5fc0660d63860052b0d862e0483aa5c790710
+    inter: [17274]
+    - curr: []
+    + next: []
+    length:  8
+
+>>> fuzzy head equality:
+    x:       0x22e0787b5a20c18b506547ed53af0127b02e772b66335fb8980963f831215dae
+    y:       0x22e0787b5a20c18b506547ed53af0127b02e772b66335fb8980963f831215dae
+    inter: [66, 18444]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x17e4c35509a3ca93e547a3605a2acff26306b5c37db9f55ce2280ff096864473
+    y:       0x22b4d33dde3c208ebd2166e33be15a908ea260b98a51b0a6167d9afea29bc699
+    inter: [9767]
+    - curr: [12111]
+    + next: [10060]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2ff9a6f36e16fe01b6aa102f30a1832887cad50d2283394d89a07825a76e45b0
+    y:       0x30964207a3f0ac90438c2b5d4ad60051b75b38d3a374c96171a9b3872e7eef1d
+    inter: [4497]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x3500e4081a2f4d31ae097ea22862f19883a6761c288872dc5eedc7fc55345b83
+    y:       0x32e1402d9b4f043d03a3666501cd5b542c858ffc088ec1994042edd76b150f3d
+    inter: [9774]
+    - curr: [12118]
+    + next: [10067]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00000000000000000000000000000000000000000000000049902780fb304e14
+    y:       0x0000000000000000000000000000000000000000000000008bc721b4700a770c
+    inter: [9162, 9506, 18442]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1f680d9f29b7fee4aad44e567837fad5d5101880704828ef115c74ede918e03d
+    y:       0x3f2a5a9c4ca01f3b98f25ad5206f17843050e453caa61635289a200e1aa7f61f
+    inter: [9709]
+    - curr: [12053]
+    + next: [10002]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33c1e0869f105f820e038cd6556266a9d89fdf7c2fffc90a096fb341372a00fc
+    y:       0x19d37b305e14ca7e037a74673b32809e61bf5a66fdae0c40580625ab0117a48d
+    inter: [9623]
+    - curr: [11967]
+    + next: [9916]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x329ea32e3c93e3e790edf1d408aaa07201d8d395d6d04e465884c23ce9f672e2
+    y:       0x0d73b5bedc0e87ada3afed5aa6dbc79dc6479096a7f093239b4495497073389c
+    inter: [9752]
+    - curr: [12096]
+    + next: [10045]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d89f407e098aaa2c4cab61069434f76a09df51aeb2613a5e856d7587dbe93d4
+    y:       0x2d89f407e098aaa2c4cab61069434f76a09df51aeb2613a5e856d7587dbe93d4
+    inter: [103, 18481]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x243482c3b7b8dd02aa6e557fc27bb3e0ee8bd3d4da1422ff544a9e16d7b61b19
+    y:       0x39a3753d88bce3819cdea547cc5409084c646825e5c16557a2b799bcca62e2c2
+    inter: [3794]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x283c41624d83a26208e92a0d91fc1f8f807732342026dedfb363f5f4b2e71757
+    y:       0x3837ff77c8518ebacde5d69b727e547c86ae2093c519480f195f32f9fec3bbf6
+    inter: [4569]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1a441312a8f1d6003f74039210a9e56badfc70ff045a1ca443f35e14e7eb9148
+    y:       0x1470a59d2865e9c217abc7b7d215b4676a0643581f97c8e38d51509b48199a8e
+    inter: [5334]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000005
+    y:       0x0000000000000000000000000000000000000000000000000000000000000006
+    inter: [9508]
+    - curr: [9524]
+    + next: [9571]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33c0e344d6eb8cf036c6e8b4d115ffed473b3bec3abb3e47806c3481b237f121
+    y:       0x0217f383c45cbce9c1934fa96e430e890af0038d355e42230ad57c98c2c203f7
+    inter: [4784, 4786]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x2256c798b0860d94d1267fa17d720249a788617a3fd3bbc0a6bd5ec732667c20
+    y:       0x02e328ac3324c66439e320eb60137aa84f0677d954a4cecd99917b5def7e66c3
+    inter: [9773]
+    - curr: [12117]
+    + next: [10066]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x036331b7f73b0eb3cb1d544c77a988183d6f57eedd539557a4ea23dbb8e1eb15
+    y:       0x32c7805754a73c5055283cad690a9f932061869863ca0717f7ed9557e77b6aa5
+    inter: [3930, 3932, 3941]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x16236cb48b7c3dac8fd8bd5ef10a27654b765c192d8fdc52489f85a3a0f42dcc
+    y:       0x1a09a2c77d1cc5be78a53af07b3822783ef9efb6c7abb11f306bf14cacb3661f
+    inter: [9811]
+    - curr: [12155]
+    + next: [10104]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x040df44214e52a85fe46aa9795f7168549cdcb20d132ef91f7229c6907b56c43
+    y:       0x015236eb4794b4f23d54c3ba8bf610c445a2c9cdd79d9d6274e2538d33490f2b
+    inter: [9670]
+    - curr: [12014]
+    + next: [9963]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3dd8e4a94c61971b79742404111660a21ea3ab8f97108b08e5e83309b14a3f4a
+    y:       0x35b508e6e6287b2d8e0dd285a27351682565976c7c5905242fa1fe18d6c5ac6a
+    inter: [9713]
+    - curr: [12057]
+    + next: [10006]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00cea44b34f8225eb010806c7a398217ae5b6922a1c3c32fa57b6da745a40686
+    y:       0x3a1ce4fd1d55eb470ba4d0bd6f0b4b9d2a167159ccb9b428c41169a1c2fe55d0
+    inter: [4299]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x0488b1aad2c0de3f654f7f6eff6a15ede42e72cfb56d862cc2e0e7e438e7e448
+    y:       0x0d8c9c5ecfd3696d2b176e9286a5ef6aa8826965af784bacb7e1b90b56c69fa5
+    inter: [3524]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x27d7f18d7965577c108baef2f68a81be8fc577018d98d7dcc44f5a5d6a8b66a4
+    y:       0x2fafef5129ec7e0230b485b0cd7cb5c71b7b686f216d648c933723027d4da2e2
+    inter: [5315]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d5800b009d8e0eb2bef563db8bfcca604afaef81c647a7348bad3164bf349ec
+    y:       0x3c95f4f92fe5cea2dab2dc42c08eadc37cd804ec45b229aad2df61c57f7ae3d7
+    inter: [9765]
+    - curr: [12109]
+    + next: [10058]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x37b8a86d4b49e043d4d2c210d5c8126767fa49257eafce008986ee4e688f0f2a
+    y:       0x0524b858272a782c3cd900b10380f26b1288ced1bd983daca9861c258c8d0409
+    inter: [3110]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x39c0145253adf66cfbcd2eefbfd9d9e1f6238388f8ec29cbda7f6c47774d0147
+    y:       0x0b4b273ed135393d903eaf50af9d2e709005a91f89096922bb3f03aabc3bca47
+    inter: [9793]
+    - curr: [12137]
+    + next: [10086]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000002
+    y:       0x0000000000000000000000000000000000000000000000000000000000000004
+    inter: [8, 9509]
+    - curr: [9515, 17234, 17267, 17285, 17303, 17321, 17339]
+    + next: [9522, 9582, 12519, 13104, 17228, 17678, 18424]
+    length:  13
+
+>>> fuzzy head equality:
+    x:       0x3ffc99e21f921bc47f55e198a19445fdd0684f9a175a51e4dca5b1fe755a8336
+    y:       0x02102abe0eb0985d9824f33b0298c3c6516dcf54140f082ecfb8febd07d4baaf
+    inter: [9796]
+    - curr: [12140]
+    + next: [10089]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e4db6727691888619d4d9e319354e346b1f6d9cdc5905607875c63bc884a45d
+    y:       0x306b97d00a7af59021cf8c645d8f7e9798cfdee78fcfb7fbdb027c83314ed617
+    inter: [4965, 4967]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x36d80e058a21f466ac0801ea92accb4fcc3d33706fccfb2ffb23ca6928f42b1c
+    y:       0x3ba9d988e521187a1dd47bcba82b2209c5d7b65e04ece54bdd137d3312bfe921
+    inter: [9843]
+    - curr: [12187]
+    + next: [10136]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0a339b2d7a3f47075852a045adb8b8358a140d5d082b0fb53fa7ca8ff6119618
+    y:       0x16470ba17a3dff290421205f65d0f94e0a4e6d09a76171c4ded12ba8c97c3862
+    inter: [4551]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a8c12b3a9961c8d5fb0a0b5b23df111c45c6c66fbddcfa7ce7fd7dde0ac484b
+    y:       0x0a62cf3c0e3115d922ee30e078e10cda7ebbd1a9268d8dce65aeaafb1a7f9440
+    inter: [4865]
+    - curr: []
+    + next: []
+    length:  7
+
+>>> fuzzy head equality:
+    x:       0x02e9ba37bcb8535d0d6336af7bddd0f3160df61d187fd4a9fbc604b79e4710db
+    y:       0x3c51e9518e3ce3e2226554af42a8257e3a791276b061bf3372eabf8c68a8dc04
+    inter: [3560]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00d46e8d201b41e408c32f55f228ed3a8d81bfc5d77d69f4b5ffefd16219abb0
+    y:       0x2e56768f25b6f18869ae34b789038140a5fb5b9d3096aa52e274f1f54abd17fe
+    inter: [9683]
+    - curr: [12027]
+    + next: [9976]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x39ef5ca13d23a339dbb93be2c731ae157980515f33abb621055ccd00f0f2c605
+    y:       0x39ef5ca13d23a339dbb93be2c731ae157980515f33abb621055ccd00f0f2c605
+    inter: [13699, 14095, 14491, 14887, 15283, 15679]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x3aca90e2d1507b94c832bfc3de915969e71ea965356e617edc29521e2a02e337
+    y:       0x3aca90e2d1507b94c832bfc3de915969e71ea965356e617edc29521e2a02e337
+    inter: [13724, 14120]
+    - curr: [14516, 14912]
+    + next: [14912, 15308]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x31a76d3795bba78fccb4a69ad73fde21ab026daaaa326882766e5ac49441d411
+    y:       0x31a76d3795bba78fccb4a69ad73fde21ab026daaaa326882766e5ac49441d411
+    inter: [13698, 14094, 14490, 14886, 15282, 15678]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x0aa675f54c2123c7e9fe52fefcc8570aef68012c57c26a86b5eaca5fe75d59c3
+    y:       0x3f29abbce94f7357bfc2b4571ba82d3e465912396a58dd7e3417bf02d75ed1c2
+    inter: [9725]
+    - curr: [12069]
+    + next: [10018]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x224c40e241bbfe0f56126db130c6f7fdc63e38ae236ab93432e6681df10d15d7
+    y:       0x06808a5a8de90d40abc4c81199269fdb41eafaae043748daf1f829310579f1b9
+    inter: [3282]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x01d26c73388d3676132842d821a3cb493c7cc5fc5957ba212a5044babe15e422
+    y:       0x19340c9f8427a45d11bb9ef115c6d5500f57814f783d02dd441e16a08e5d01c3
+    inter: [9848]
+    - curr: [12192]
+    + next: [10141]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0870ec11f5e52e1d5429db674338b9cfb910f9df7aa7066e35d9d02ee5942902
+    y:       0x175765dcb83e6aa0c19a34612f20e488c94448cd7320600d6863a76c84e56e54
+    inter: [4244]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x11f1fd7f6a358d4880a275c22e6d657a21a3d061659d8a9495746ae7504cdc2c
+    y:       0x34b3b23dc873bdb58e67d5c1e4b11dc6a7c0a59e33519dcb0ca80d46e6feeece
+    inter: [9742]
+    - curr: [12086]
+    + next: [10035]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2b231efc401b7b5d877befe0dfb66d2429f3fbe5bafc619d8ea047bcb52c32ac
+    y:       0x28000567df66fb485b21518fd042251541c9b554b91e5932bfd670b467d985af
+    inter: [9699]
+    - curr: [12043]
+    + next: [9992]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1d3513d0d4a0f552e879b5e5e116f3b9b6419530448e6528316426ff999fa903
+    y:       0x112d8f817572b2072231848601472640840510f54df1757ea0ade8df67e840ac
+    inter: [4198, 4199]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x002c6f2e1400c1fa7b4015bcaff1843db716a855ec38c79c620586fb5704cd5d
+    y:       0x21039b8d1c2d5b30023ab2e679b3501c2a5b0bd0b2db1e3695b8025b3d08af91
+    inter: [4100]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2522469fab7043862ba79a4dc192f0034fadf37e7395391311a840faa8063743
+    y:       0x3698982eddebcf14c0090e1834ba8b65afc602d1f0895708eb358cab58b79f15
+    inter: [3749, 3751]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x07201643e99308f4efdac52f0017cd29551a33ab5d2fdeed00c9e1aec849a512
+    y:       0x37d33a1027824743a29e84355b84540a7c0b0fb96c27f0ab6c8df18d1ac1752a
+    inter: [3056]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3952e81ce871a6f0cfa47ef9ccd8edd76c785e4c98e3b4d4b70133d2a0d92f7f
+    y:       0x09af7bad9f9a6939f6ab9b1bbcd0936e3a3a3bcf5ab672b86f2bb9686ab01cb9
+    inter: [18343, 18356]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x397d32111407a43b6f8c0c73e29bd8fe6bf1a06b48e91d83db7830fa28c28ca3
+    y:       0x2963e4e1870e72d9437f674c01b6e78030374e77f313317feb84d1bc92da0fe7
+    inter: [5199]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2efec6373cae9493fb36cbdc00b575da6a3b68938e0df3b367f574fff49177c9
+    y:       0x11905c45554f5d7d00a815977a259cd77bc20fb2c037b72c528b9aaba2338d51
+    inter: [5027, 5029, 5038]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x006f4732b983cb12a5babcfa85e9b088208221a666fe4d53f17d0be7644b8b06
+    y:       0x0efb92e6b86c4ff96da33a7b8e62c4340f3667458770f7742d81bf30653ed7f6
+    inter: [9830]
+    - curr: [12174]
+    + next: [10123]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x273c02af1139435477a29e7d150fdca9cd9fe8efd7b08dd8781315d3f0996c30
+    y:       0x3cae4d11ea0573b4701d502fb20494e5e482d92fd48e6396f12c24d5d3cb703b
+    inter: [9814]
+    - curr: [12158]
+    + next: [10107]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2a9378497600ead2da9066ec01eea1579a36a250b7dc4eeb7fa6fc775631a2d4
+    y:       0x22cc03cc0eaa2e987387c8705530b2a9c056acc695a806c33d8124525525f75b
+    inter: [9646]
+    - curr: [11990]
+    + next: [9939]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2dd6dd4ff96b92c086165eb3074b39384dec7cdc9b0a5c115d2e000fa7fc6288
+    y:       0x006fedb47b5cafa591dd0cd70f09adbec554d16ff104369ce88e011e5fd9744a
+    inter: [9716]
+    - curr: [12060]
+    + next: [10009]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b378fd981c54c08280cbf59281b7e3deb76fd7334e55734bcdce90195b030e6
+    y:       0x2a5c3f807e821ddce9b03cdac25dd36e4ac508b536887dc21e78bb20e102731e
+    inter: [9780]
+    - curr: [12124]
+    + next: [10073]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000004000000000000000
+    y:       0x0000000000000000000000000000000000000000000000004000000000000000
+    inter: [5691]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x171bf85810d25203c1e2db4e46dac4ab6a80ca147d7e40a646002bc58c23e811
+    y:       0x171bf85810d25203c1e2db4e46dac4ab6a80ca147d7e40a646002bc58c23e811
+    inter: [87, 18465]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a8a17a663f3c8235f24e192098515990dab09b4f914eea094b62e60c4b593c2
+    y:       0x11e6d52903ec41ff311c4484225fa1fe20132a496d5afb877de65395843234ca
+    inter: [3111]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x111121885efeacb90b8fdd849a86d4bf02d7e0dacc5e2a6fbd53afc6bc63e191
+    y:       0x3ceef0e4e6e791dc756db7f6b8ca5ec18ac05636982e5c5b731ea09f564cd203
+    inter: [9739]
+    - curr: [12083]
+    + next: [10032]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0090d3643b516feffd54013a36357485c2b438a4f75ec1ab7b769a19a029795a
+    y:       0x33d91c5c78ab81ab560374e59d86510251d632913ad2d32a64b32dc567b72a98
+    inter: [4559]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000003e7f6170be75bd23
+    y:       0x000000000000000000000000000000000000000000000000cd22ee7bb5608fee
+    inter: [9161, 9505, 18441]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1a27f9839b12a2e9683df1023befb65f411926a90a0a8e8df8d9381bfd8bdc13
+    y:       0x091c68acf9a870283642b3e1b10f6e456542624e3e493143b03eba5af04e6ed7
+    inter: [13713, 14109]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x0ec331a721254399d97471372c08385dfd76c114507385d8da293bb9b848a5d0
+    y:       0x2dcc6b4f338549df100406f2bd83b007711226a16aeb8c9fae26275f41747d1b
+    inter: [9871]
+    - curr: [12215]
+    + next: [10164]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x31103a745c7943ebbc6aec2a674aefbfdca049522d042a31e8d9d96ab253abd7
+    y:       0x33fd70885a3fc72a5477357dd1021711b05cd5c014d42224f76b9b88e1fe2bd6
+    inter: [4776]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x30546c70d7170edaecb6823b9eb7acdc6c6b0eb8486e0caec3b94d3e3ea15072
+    y:       0x3a459fa7f32473390f7df39259dea5140a5f0c4b2b8af7d54f71631fc2955f9e
+    inter: [5324]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000003
+    y:       0x0000000000000000000000000000000000000000000000000000000000000003
+    inter: [9532]
+    - curr: [15274, 17228]
+    + next: [14482, 15670]
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1a4d6e252c5be81acc6ce777750b936ee96ff31410f444ead3f189739dbcfdb0
+    y:       0x14d79bf8459a58400a64028764f2dabb8101f9c2d30a9dc44cc8489ba939065f
+    inter: [3003]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x144fb996cc05b198b97ee337e5f14299c3fdb5bc94429e72f1332ec2f5406c14
+    y:       0x01bad183ac91361fcf6d370ae6d4484cfcdafd916ab4775a99199eda3c4e7867
+    inter: [9743]
+    - curr: [12087]
+    + next: [10036]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2a3192985f22335b9faad246a0ace28d14d188c6b0cee8d3737ec2d0e3d37c08
+    y:       0x3cf4e52528600be835d7d0242dfab553105bf92aafede3111ff460ae13cf36d2
+    inter: [4775]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b3d7cd5ecc3aec0d7faec6a32d676b3307c670c12e73eccbde95ca4fb75c20e
+    y:       0x2ffe40a83a21580a965a7d4422a6ad1fa70d0e67f723a81c2e857aa751ccc68f
+    inter: [4280, 4282]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0a2361bb254209731175aaef260f3ab2c6363bffcb8bb8274bff440da04c566a
+    y:       0x24d0ef8b51578e5260a9c6614b121edb10ed0ce6be855556dcb416854f9ddf99
+    inter: [3740, 3742]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2c09edc24a027966e7e09d230285f9c9888da957e9f36fc74ee3736ab18b594c
+    y:       0x2c09edc24a027966e7e09d230285f9c9888da957e9f36fc74ee3736ab18b594c
+    inter: [13723, 14119]
+    - curr: [14515, 14911]
+    + next: [14911, 15307]
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x3c61dde84e825dae4bb77c92da31a0c8f4a77757ec1408ca1df03c3c7435ccbd
+    y:       0x2a75591d24a23684984a33bb588bc9f71cecde6364f4fe3facbfb1982cbc651b
+    inter: [9831]
+    - curr: [12175]
+    + next: [10124]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0bbcce04995bd0a653f94c38a1e62e28272a5e2304e86c13faf7fb61898f1883
+    y:       0x15302a06e7c00fcf06bc70ad212b87b37554558284b54ae739b37d38a7af3c3d
+    inter: [4271]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x06d4535d301c0b1ebf8635c2b987fd06b50aa2d2fd6eaa50d590f04fd502282f
+    y:       0x25e43df171dc6c0c6dc187d0ae0b17793b0b3b1398ae737cff5a05902a34e09b
+    inter: [4226, 4228]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x39a9998553b6d1afd836632a89e08b490ae1189dab19e92fa2d4d2d2f3db9c39
+    y:       0x22682570ada284dc13e3e249cebcab43766f177001c5907eb39b0109853b3420
+    inter: [3776, 3778]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x33d495d56dfa84240c09cb797c262611b3c837b4c1d02100bed2514ba0596e0d
+    y:       0x3e179a868055425fa7c0af282c1275d37e9ad78940b800030ce779e23257abab
+    inter: [4982, 4984]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x28b266a0bbc052da14bc6ab64b187bfa8d33d0406b570a607934d9619cd3c2a2
+    y:       0x26960b3b65ba88f85cb5bb1d306f7cdf6b6174fdcfa0ac165e94a4f4c52a9562
+    inter: [13710, 14106]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x25fb87fb145e3b841b08fa49eb0b121fa4a432908928ca00d4abd33fdc57257e
+    y:       0x0a17366bea3bc85e1c376562520e01d6ee2c0c28da5bad2eba24281da343e4ba
+    inter: [5181, 5183, 5192]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x227cf87216d231bd2666967c7038955c1f6ab7537f4281129f8b3a77f8001cba
+    y:       0x3062b9a5fe1777680442ab0b7df5339a9b99b063aa390cf695a381f82c41c9dd
+    inter: [3957]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b0cb407d1a8b86c353beebd12571b860f76620316823f578e532e1d33f6f044
+    y:       0x16a5ea7131f30aa0730b8f30b6ae5120bd1062eb59f729efaeaca3efa7acd344
+    inter: [9797]
+    - curr: [12141]
+    + next: [10090]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x081ccff20f1d8e98d6149aceccd94f4c0a6140b606ffe3f72f67dfb85b5b10fb
+    y:       0x0c14ac21aa4587e8ba7e79d10876c9f19c2e990727a62035b22ec4736b521eef
+    inter: [4740]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x197b186d5523d81350f5d420040cc7a374df7d7099e8e5f35c30081870c56b73
+    y:       0x02e2a6bc63d9836aeb619eabb315f07cb5d78697d54934dfb9f213029bf73e45
+    inter: [4452, 4454]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x27cc1c60a4bd865fec7bf42c18bb01bcd537ad84e94d6a4e42ed980fd51c0b87
+    y:       0x0f98c3971500316563f6e8e207165a3e281d1116e2b24e47fded59a21b2e4906
+    inter: [9652]
+    - curr: [11996]
+    + next: [9945]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3003341a1cc2d3276b5196b7e6b5e9127b06c4108ba3137e8c93085d56b74621
+    y:       0x2c21766feb5beca55f5cda164b4fbfaa5cd169f1545559ab344c32d444a788cf
+    inter: [5417, 5419]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3abfa3fa3ceb5217f455b27028f4c9e07437471949cfedc7c20edde5132beb5e
+    y:       0x2d10eb22ff4fa74539f8a906dbfa8dc3d1ec5e428cda0a8dd5ffe1b0b1078a76
+    inter: [3218]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1752e2b90b38180e6c1e81d9d971ea6f03109020a97c73c733df2264c977732a
+    y:       0x279429360e4b66352a17f5d86f8f7a9ac7552c34846cbd5e588b4f0d5ce964e0
+    inter: [9825]
+    - curr: [12169]
+    + next: [10118]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x061135f22d288eb8710567fa0c7c154e3f3d49a50e7daade267d8e28520e4208
+    y:       0x061135f22d288eb8710567fa0c7c154e3f3d49a50e7daade267d8e28520e4208
+    inter: [92, 18470]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x042e8a78363f036e2ff32b75b839c241c1866e99e0651989032a293eebfbe991
+    y:       0x14870ed09e479d2a8f9c6393b710f8aaf679c21b3fb419e7d5f9bfad129c22ab
+    inter: [5198]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35a1b0022030a64c0b9a14dd2cefb4211e6357bbf1caf853d02a0b3b11dda1a5
+    y:       0x18fd8a678938833a9a298e3b7104fa3ba8c8b2f53eadfa6e99c8795aebf604eb
+    inter: [3704, 3706]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x1c4efdb4ed6757da7737ebc5c50e37804ad698eba9bb8c3e19b7898c2cf557e5
+    y:       0x01ce35d917938817dfa7813aa2abbca26502daba0ccfada0f3411125d4659c08
+    inter: [5280]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x327e5a07a894c031109e087c4bb2b7240735c53e6e1ca980800c1f3ab28c36b5
+    y:       0x36b0b1c9a258fd49beae3b1f6aa715da1b79e89f301ae25e316fc670e852eda8
+    inter: [9798]
+    - curr: [12142]
+    + next: [10091]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ba02c8ac18ce1fe3dd359b3afd850d81bda6e08533ffef219a5550fa9b1837e
+    y:       0x3d6ef82ba1de67a60eff09024054e22c4f701f0db3fcf09b1c320a020862fd51
+    inter: [3273, 3275]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3e595516277e07a62ece003bc83dbd58bb8970e174ed974d50e85b396f5e59f9
+    y:       0x37bf6d973b4ce7e831f510558349e2efe2dcceb99e3bfe81e7d5fa9643828f23
+    inter: [9666]
+    - curr: [12010]
+    + next: [9959]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1c3d99ab371d5e0e7f77dc56b5c630776d6f75e6e339f32184951656e870ab41
+    y:       0x3fe3d44e8e89863e062c3a7595065147ac97de36e11506faeee2c6c98d93aaf8
+    inter: [9600]
+    - curr: [11944]
+    + next: [9893]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33dc10234521e863226e796cb71b77329a24b922690f56955bdff9ee719b07eb
+    y:       0x3b059ebe13ee28422c72690528a10c81f697feec91640c7390ee965b997bb382
+    inter: [4739]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x375c6106aa495ca88727552a51f487cc4718b494686b0b9a29680a0fac6717dd
+    y:       0x3a31596861cfbaca46161ab0147eedca48fe07c9dcde098dfcac16660d989c3f
+    inter: [5380, 5382]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000007e769609bc876fd3
+    y:       0x00000000000000000000000000000000000000000000000082842c20c55b9f2f
+    inter: [7262, 9502, 18438]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x3b54be528afd03b914286df89b05adedd4951aaa71c6ee3a37bc0f08ba042cfc
+    y:       0x26554af9ec4de2129deb73a63ee572c792a732e94f877974230a030df342c31d
+    inter: [9703]
+    - curr: [12047]
+    + next: [9996]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x127b20ff6b1364ec173d314d75accec42676b77491fca9861d5f592ada89824b
+    y:       0x213194630f89809c63e3e5bc009c6b799e715bb2bb636c534e92d6ec395499fe
+    inter: [9783]
+    - curr: [12127]
+    + next: [10076]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x30e88fc3bac8c666a4479624cefd4cbdae352b22308a040fa23a694d1e12a33f
+    y:       0x3804718b8b6c01c72a868443d806becc60c0c038a5afa8b8a54be25135e3c7de
+    inter: [9853]
+    - curr: [12197]
+    + next: [10146]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x02b9c5233810f794d6335fcf012df490b10780cf15f08a46529b72153e43fa88
+    y:       0x02b9c5233810f794d6335fcf012df490b10780cf15f08a46529b72153e43fa88
+    inter: [88, 18466]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0af8d7bf18c95c2a651c811243b9ff1124c4db6f41eb59ec62633b96e83d8061
+    y:       0x0024cdde89e529b34443d8a3a4199854a4314368407027c6f0d46a11c04a5133
+    inter: [3011, 3013]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0d8b7d5e970f72e12d943d2d4deaf570008ae79b41e892498cd7e3a8c3c07a85
+    y:       0x0f599002455321c5c9838564607baec2fe3e9f7f6c2dac1e0c790d2021d3d625
+    inter: [9877]
+    - curr: [12221]
+    + next: [10170]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x39f08ac8a71637d79cdf653aaed7c262103cd9162f9c00b2f1207f6a6c2f1fa5
+    y:       0x1260bbb1c4f15a56a68538693498f49a88263df622bdea5fb37b63a4ca5e3015
+    inter: [9613]
+    - curr: [11957]
+    + next: [9906]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0b5b6543927d74bbff4f0225480641f560e11b2e4fa4015834508e34d409064b
+    y:       0x34f7d70674e67315309372e47e583295f15dc8467d91d79422248f0a04340444
+    inter: [9799]
+    - curr: [12143]
+    + next: [10092]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x17e1fd10ba17b49dd5b818bc39faae65f636fcfe5753773c6c0b01d025ef6a7d
+    y:       0x144a0eed9fd600374562ba23eaca12b786bcca400406272cfbeb6ca875349c95
+    inter: [5376, 5377]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x04947230a27f9f272b619c920f20ed27a3b248d240949761b93eda1290f6bc1a
+    y:       0x28265757624163e50738b690a61792d67b4c5c7b5d2a4ca46816b19d65eddb49
+    inter: [9818]
+    - curr: [12162]
+    + next: [10111]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x146ef7c2643b7754ff5b0f1b25877bf4b5ebcdf3fedce56fe27ac9c0e3096673
+    y:       0x3402e61351fe59628a79741f1658c74fa989533de3f5df508ea32f392692f38d
+    inter: [5351, 5353]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x259d0dc8256ecb7dd10e2cf68d304c0f43649c024bd8a394effc506388126fa1
+    y:       0x0f016023379d7e9ab1b3ca1a2dcd0fa27d3cd2fc50ffca98d5e05a437451734a
+    inter: [3642, 3644]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x384a4a3678196fbcdffcaecefcd7972c11ae8b9f6f25a8c549f5094a68aec9ac
+    y:       0x115f466615735a75bd2cbfe3accf295024bd4592a1c2bbbc81c03b425406a899
+    inter: [4641, 4643]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x173ae681d8fce606a1dd98e54aeca74dcdea7a8568d5432517d951dc79817c08
+    y:       0x1a4dddfd058ebce3f509c04fdb46c82601f171ac0d14694746bf45cf453bb862
+    inter: [9874]
+    - curr: [12218]
+    + next: [10167]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2c87006d39ebed5302900878253ebd29984aeaf11deb7ad246c6db95a0d65baf
+    y:       0x00a1a6534bc4e04dc62008eff24b3cc3a9a440e40b21a6b3fa73722b7106f854
+    inter: [9812]
+    - curr: [12156]
+    + next: [10105]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1910a5abb1fc6163a8e8030453d55f0ccfe2a74ae00e89536857661741c50c56
+    y:       0x2bcdd2f92bc124b4cbc199c09dfba54885f493dd3bf57cdadde1fa96f0062b0b
+    inter: [9854]
+    - curr: [12198]
+    + next: [10147]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x26274f9f300ae94221ee425e4f09674d2952dfd59bebba9080a2f0b6c9586b85
+    y:       0x0a2d8ab7630c68bcb74a4c186a8015bc8b67cf1002d8b2cd29a3b90ea6f4d19f
+    inter: [4203, 4205]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00caddfa2b9b0a90be8b5c0dbccb3e28b1a315f48f5e0231ae5eadf7361a08af
+    y:       0x080d65db99fd2aad9790fea0e44e0d4f1ce8f947f96cff10e56d8cc4bb4d3935
+    inter: [9786]
+    - curr: [12130]
+    + next: [10079]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1d960c3763dd2569aa1106de9a959e66226dbb4e71c5fddc2307e3168bbcfe6d
+    y:       0x01b68005f9fd46a8e92f495407fdda52942fe46369e6adc2f7fcf8d3c8adbe85
+    inter: [9651]
+    - curr: [11995]
+    + next: [9944]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x097656727a3b6cf4e5f4313ac6292eace8ab241c5c13436001bb5f6a20b10737
+    y:       0x27f321e62d8fbaedb9f6cb71fb6a1b3b91d85e12c4730e85c0e4731e76c3df9c
+    inter: [5316]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x03b209764edf6974daa302735b2665edc803404fe10348f23509bd9823951634
+    y:       0x09cfac2b16ba9094a67db45dd0c1feb48deb4c4c7d73a470c23c047eea929a0b
+    inter: [3795]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x1355f5a95b7970027cf9fdd7f5119f620492a67a141912920dc378c1ecc30d61
+    y:       0x1355f5a95b7970027cf9fdd7f5119f620492a67a141912920dc378c1ecc30d61
+    inter: [86, 18464]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1ad9c6a70ab74a68a4a307048953496027528d89ab9fd82f95d0f9cb6f98487d
+    y:       0x22ba30259532246f7f2baeb07e59f2630b60c90d0d48e8ff1ef0f89ee5ee8e55
+    inter: [9738]
+    - curr: [12082]
+    + next: [10031]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x29e91abb12c266f01184a0372a8ab047e06c24fbda350ddef7322efe3f00eb7f
+    y:       0x0df430902d0fc9dd8e07d31e1117d5912ddd77ae8b29c070c6019978d84ab9dc
+    inter: [4524, 4526, 4535]
+    - curr: []
+    + next: []
+    length:  4
+
+>>> fuzzy head equality:
+    x:       0x170bf85b174e0bb6a52e7de0dbae8610b1098d5cfa0ce99a5517cb8917d008e1
+    y:       0x3441a37c6fc0bca9be5c15426a9d94e6e6f47585c6a7115b3579990f09ef0faa
+    inter: [9832]
+    - curr: [12176]
+    + next: [10125]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x15a14aa628b880e00186ab9ea12e85dd1c41d525729ba371962d84504eeeb208
+    y:       0x2092c6b6a6a4a05013e15ef2bb3a5e93274760772754e9e1db25a328f8920f66
+    inter: [9784]
+    - curr: [12128]
+    + next: [10077]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000000000000000004
+    y:       0x0000000000000000000000000000000000000000000000000000000000000005
+    inter: [1]
+    - curr: [9522]
+    + next: [9524]
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x16bdb1e508b9ae851a6b1a1a70ed9d847eafa4449046a1258ea75465e6756d8e
+    y:       0x092630d43be98537d84fd7126052b3e6646cb943b4d3e9a995506d1aa2a38778
+    inter: [9823]
+    - curr: [12167]
+    + next: [10116]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x36fe47a46f20d5b0a6a3aa3db9e700489b7edb3a5ecf0bfe5d2191f005efd387
+    y:       0x36fe47a46f20d5b0a6a3aa3db9e700489b7edb3a5ecf0bfe5d2191f005efd387
+    inter: [83, 18461]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3b27683dc70773e26f9f919cc38d7cb2ec733dea5c829f7c7f46f62c88ccf622
+    y:       0x0ec36d1cbb91295b25d9556e923d8fd0b0ff80095dd85e866ac814a01fbeb96a
+    inter: [9701]
+    - curr: [12045]
+    + next: [9994]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3ab2342e2522737c5f052af755bfd448b87bc97ab84e736c0bea443f4b17c989
+    y:       0x0ebc6dbf76c8b1b8359b31857601625159691b7a07fc78df53d716e05463b12d
+    inter: [9840]
+    - curr: [12184]
+    + next: [10133]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3241de37fb0f2ef845654d2b010a3f80e6de3437bffe3f19bd2ae824ec916d80
+    y:       0x237ef4ffb1d7d2f3aa7b03811f5a44b5c8228db7c6543655857d3cea5140c70b
+    inter: [9772]
+    - curr: [12116]
+    + next: [10065]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x3a76bdf23341d2890898837cf0c9e3676e6509b85956592a558ff3dca62f664a
+    y:       0x3145a8b653207bda63904f52a9d7c98f50bee79a9c4a3465a3bfb8cd7c6f635b
+    inter: [9677]
+    - curr: [12021]
+    + next: [9970]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0896c7c0bab959039118c24300a393204202887aa6f8babf5056f46fb3f42056
+    y:       0x3ef4fa2ea08d1e6edf0d40b193bbcaaeb976b6b2d692c8bbc384492ecb61d71c
+    inter: [4191, 4194, 4195, 4210, 9494]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x07be7ca460607d48f96fc336b8c04ae9f0a899752913b775d2776376188cee57
+    y:       0x1a78b3327812c148ce5b6ff6dfa197639592ba24cb9da159c88d8532fe3a7ab4
+    inter: [3956]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x1cdb2392eb792e9c1c12d32412662af8f28c817424afbe14981617117c77ce9e
+    y:       0x1ca1f8b44ea8d34d9fe8913cf2e14202955e9cb834d1d03b2449e49ad091e282
+    inter: [9724]
+    - curr: [12068]
+    + next: [10017]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x113d7c2b0072ec5f1623110fe02dbb6baf1b0c6e5a63dac14fa330187f2e737a
+    y:       0x0401de7e2ad334d6ecf62db784cffa0c766d76cdfad865913ecbc86e00bf8505
+    inter: [9689]
+    - curr: [12033]
+    + next: [9982]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x382b19665772cc9fe856701b860aafe3c4b7368eacb288dbbe313ad34adbebcd
+    y:       0x107f6a9f8c054df6d452d8a7dffd0cb98bb9740284b541239ae6a997cf098387
+    inter: [3831]
+    - curr: []
+    + next: []
+    length:  5
+
+>>> fuzzy head equality:
+    x:       0x20283667c3d71b8e91b90d6e460e10e7669f076179a94730d0e3ced46a508612
+    y:       0x306a50c5299a7259f6b6759b76d58b6b3de9c96eb8fedf3769a37bd8ae254c87
+    inter: [9745]
+    - curr: [12089]
+    + next: [10038]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x000000000000000000000000000000000000000000000000000000000000000c
+    y:       0x000000000000000000000000000000000000000000000000000000000000000c
+    inter: [4, 10, 9511, 9531, 9584]
+    - curr: [13694, 14090, 14484, 14882, 15278, 17230, 17265]
+    + next: [14486, 14882, 15278, 15674, 17230, 17680, 18426]
+    length:  21
+
+>>> fuzzy head equality:
+    x:       0x18a1834cbbbdd1605c36b36934561ef8e3092942a1627ae747a6eeb7f84dca26
+    y:       0x295ccb914329c59bcb3f291a16961ebc32e755ad1cc67c06a61dd24340131856
+    inter: [9815]
+    - curr: [12159]
+    + next: [10108]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x07ac4b73f19c344c2ea20e5fe14309c4d81aa3a6bf678f56266d2ac947c688e1
+    y:       0x1b60bfe58624c55d3ab23c663532ba02a27a1c358492b6ffd15982027da213b0
+    inter: [4640, 4642]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x33e6d66b334772324ee67f8cd17c45c2a1258cff094e5b008ac23e84e88774e3
+    y:       0x1e0ccce9e304f5cd7532f7d365031c219eaad8840cab26faa04e582701f5db19
+    inter: [9680]
+    - curr: [12024]
+    + next: [9973]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x00000000000000000000000000000001e487e7cb2a4b3d8558b54c5a5ec9bd30
+    y:       0x000000000000000000000000000000026c017dadb446ff18cfcac084f78d505d
+    inter: [5427, 9499]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2cb50c80f83857e8e0d8237358c1471100b4f986dfd60e22bf981c8c8de9170b
+    y:       0x2a7fe24394acbfa8eabf57959438f7967d1e478704064494a270d4cf6023b180
+    inter: [9735]
+    - curr: [12079]
+    + next: [10028]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x358ee54efaa992faa7766d195dcce949d474d7e15cd1b1af15eceb7f4359b471
+    y:       0x0a63a1546e864d5088afbcb78b04366f9a9cf2d5fa5d5a453a2b2535acef298e
+    inter: [3353]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x18b52294089418326bbdfd968076689dce8553503bd1733c51eb931e97fbdf4d
+    y:       0x1a5d84a49228ccaebeec190e27b91ecc17b11e355b24ced4b1664c514fb9235d
+    inter: [3219]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x23894f190644162dd977bfed94f0cd0b76d93274182df08470c692a3fe67c5db
+    y:       0x1a991a8cac3921e9cf728934b67d2d003f88f85749a2ea318643374b40008e5a
+    inter: [3551, 3553]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0627cf550bc11b4bfb3655450b3e7b5fc25b4f819a62c970ede90bd1d8ad57b0
+    y:       0x0627cf550bc11b4bfb3655450b3e7b5fc25b4f819a62c970ede90bd1d8ad57b0
+    inter: [128, 1983, 18506]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x09d57a5d26d9308fe45e2192dbb77633ed6afcfa3fd842308bd11689a4b3cceb
+    y:       0x0a6bb2d9c58528630d4d7ab026089df7e34a1135fd20e632ab3378510f92bb11
+    inter: [9813]
+    - curr: [12157]
+    + next: [10106]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x336293d1250e16ace79c1b9cfdd14e5d80bc7928a947635797fcbc1ebfa512e8
+    y:       0x336293d1250e16ace79c1b9cfdd14e5d80bc7928a947635797fcbc1ebfa512e8
+    inter: [9593, 9886, 10179, 10472, 10765, 11058, 11351, 11644, 11937, 12230, 12523, 12816, 13109, 13402]
+    - curr: []
+    + next: []
+    length:  14
+
+>>> fuzzy head equality:
+    x:       0x0a337137c6f3e0925e27c9205f77f6a503f42aff70d1032218cf7451ece3bd5d
+    y:       0x1b846abd01d6e0fe574576b3b2fedee9225fc697d7134801f532ba80fb774afd
+    inter: [3425, 3427]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0000000000000000000000000000000000000000000000000ae9d515f4e1a26f
+    y:       0x0000000000000000000000000000000000000000000000002aee3fcba2f0c6b7
+    inter: [28, 65]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x0890606863c05a16249e2839064d5fceb96e7b11522e974b437a79aaaf3c9651
+    y:       0x0e28ca077e65b043beb0af8333215487e05118d641564087e6c83a02aff3e2cc
+    inter: [9791]
+    - curr: [12135]
+    + next: [10084]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2b915cae70c8a4c6b0e09ff10e77b8fdf85c064d29f92dc3964785ba6bdd3960
+    y:       0x2f69a6fd6a4eaea723be9975c8c123fc1707da841fab37d94a808080bf356ca2
+    inter: [5253, 5255]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x13debb5048225dc681ee05b36683748584c72d0eee8ad3322fb143d64967cae4
+    y:       0x06ae9a7dbb883a70bae9b4661e3022df87fc4eb8fe72616e899b11938b827c80
+    inter: [9706]
+    - curr: [12050]
+    + next: [9999]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x265696f9531d84f58496171e06f8818a96ce7b4ef0d76e1efa547af16a189b8f
+    y:       0x0171bac60c8944d2b6c5688e6b3e20e982f13606dedeb9bae00509bdc8b26f03
+    inter: [9789]
+    - curr: [12133]
+    + next: [10082]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x296b1d6123d1aae5fd91ed78fd91f97dcb9ba168967728bd5b6e03818b0d542d
+    y:       0x240117f39ff2310b7709733f651532e0e925f81d5adc872d802d965b642d8b24
+    inter: [5261, 5263]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0fed76810d001d0a065924271f4e4b7a4925a91c6e7a03b85bb8200f346ab1fc
+    y:       0x3ba511f7c3c323c8e662574dd08f43eb38042adc13be44173b4d3ef9d2fbb19b
+    inter: [5207, 5209]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x35bea66105feae38b75c829797429e793030d50f0419ac91980ec87828f828cf
+    y:       0x03f4dd973be77f9c445dee0c54baeef5a6163db629f2a13c6362d25ed13e1abc
+    inter: [3570, 3572]
+    - curr: []
+    + next: []
+    length:  6
+
+>>> fuzzy head equality:
+    x:       0x1c9a276deb9843a3bac3d9ace06afb80e8a8d9d347ef7896ff4a62801025bf51
+    y:       0x2806b7d3128a82a32e2faa71f569e94767007438acd865e50e48a980a603fff4
+    inter: [3354]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x2767e1bf24cebef762bb7b05b2af5a3992d36281aa9581c4178b6538054b0732
+    y:       0x1ed9b68e047334e2a7a61294b20130d253afa143459d2bfddee6e3acf724125a
+    inter: [9748]
+    - curr: [12092]
+    + next: [10041]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x2d1f65f12126e4a66fcc521bb8fc506cab09e92e49ae7b830cef93173dbda45d
+    y:       0x1e5fc14b6f810a6144ef82e25986f0933d7a20286421c2c35c2cb93e11bf0e4f
+    inter: [9714]
+    - curr: [12058]
+    + next: [10007]
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x064c560b51aa20e3ee05ec74db3e8de210e13fdcaecbf6fef9cea340b74a527c
+    y:       0x1ec178a1b26c1d720aba829bff83c7159d3256a8a249bc05a4954e46dfac05e1
+    inter: [3929, 3931, 3940]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x0ffcec939593554815b1df7b51a0013ddd42d36932dcdcd56aa8ce7e3b361b7e
+    y:       0x3508bb56db380514f7cba3ef71831cad9145bcf3030602b4445cf81372ee6ecd
+    inter: [5418, 5420]
+    - curr: []
+    + next: []
+    length:  2
+
+>>> fuzzy head equality:
+    x:       0x01770ef4cf3c747f35b732f868363f86603781207b65966f6abd547a007514d6
+    y:       0x242732db566531d2fb0d9fda57dc5a9c45ff9f92354660147264976fb71a33db
+    inter: [4343, 4345]
+    - curr: []
+    + next: []
+    length:  3
+
+>>> fuzzy head equality:
+    x:       0x167766bd57605bfaa7f566f6aa3886e20c270c8f891e61cf229fb134e872b54e
+    y:       0x26b134d9466a61d4c6c70b30a1504f1dda4f63bd5d9727ef865c0c871d142177
+    inter: [4856, 4858]
+    - curr: []
+    + next: []
+    length:  2
+
+total: 8860
+done 15

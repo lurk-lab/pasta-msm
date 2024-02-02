@@ -15,7 +15,10 @@ use pasta_curves::{
     group::ff::{Field, PrimeField},
     pallas,
 };
-use pasta_msm::{self, utils::{collect, compress, CommitmentKey}};
+use pasta_msm::{
+    self,
+    utils::{collect, compress, new_compress, CommitmentKey},
+};
 use rand::thread_rng;
 
 #[cfg(feature = "cuda")]
@@ -100,8 +103,13 @@ fn criterion_benchmark(c: &mut Criterion) {
         // }
 
         for i in 0..32 {
-let witness_i = read_abomonated::<Vec<<pallas::Scalar as PrimeField>::Repr>>(i.to_string()).unwrap();
-let mut witness_i = unsafe { std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_i) };
+            let witness_i = read_abomonated::<
+                Vec<<pallas::Scalar as PrimeField>::Repr>,
+            >(i.to_string())
+            .unwrap();
+            let mut witness_i = unsafe {
+                std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(witness_i)
+            };
 
             let witness_n = witness_i.len();
 
@@ -158,17 +166,23 @@ let mut witness_i = unsafe { std::mem::transmute::<Vec<_>, Vec<pallas::Scalar>>(
             );
 
             group.bench_function(
+                BenchmarkId::new("lurkrs new_compress", &name),
+                |b| {
+                    b.iter(|| {
+                        let _ = new_compress(&points[..witness_n], &witness_i);
+                    })
+                },
+            );
+
+            group.bench_function(
                 BenchmarkId::new("lurkrs with compressed", &name),
                 |b| {
                     b.iter(|| {
                         let map = collect(&witness_i);
-                        let (com_i, com_points) = compress(&points[..witness_n], map);
+                        let (com_i, com_points) =
+                            compress(&points[..witness_n], map);
                         let com_n = com_i.len();
-                        let _ = pasta_msm::pallas(
-                            &com_points,
-                            &com_i,
-                            com_n,
-                        );
+                        let _ = pasta_msm::pallas(&com_points, &com_i, com_n);
                     })
                 },
             );
